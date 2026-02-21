@@ -57,7 +57,7 @@ function buildStacks(repository: DiscoveredRepository): string[] {
 }
 
 function buildTags(repository: DiscoveredRepository): string[] {
-	const tags = [repository.isPrivate ? 'private' : 'public', 'github-sync'];
+	const tags: string[] = [];
 	if (repository.isFork) {
 		tags.push('fork');
 	}

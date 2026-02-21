@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { buildProjectFromRepository, parseBooleanFlag } from '../../src/lib/catalog/discovery';
 
 describe('buildProjectFromRepository', () => {
-	it('uses repository topics as stacks and marks private visibility', () => {
+	it('uses repository topics as stacks and does not emit visibility/sync tags', () => {
 		const project = buildProjectFromRepository({
 			name: 'awesome-tool',
 			nameWithOwner: 'jackwio/awesome-tool',
@@ -18,7 +18,25 @@ describe('buildProjectFromRepository', () => {
 
 		expect(project.repo).toBe('jackwio/awesome-tool');
 		expect(project.stacks).toEqual(['astro', 'cli-tool']);
-		expect(project.tags).toContain('private');
+		expect(project.tags).toEqual([]);
+		expect(project.tags).not.toContain('private');
+		expect(project.tags).not.toContain('public');
+		expect(project.tags).not.toContain('github-sync');
+	});
+
+	it('keeps meaningful repo status tags only', () => {
+		const project = buildProjectFromRepository({
+			name: 'legacy-worker',
+			nameWithOwner: 'jackwio/legacy-worker',
+			description: 'Legacy worker',
+			isPrivate: true,
+			isFork: true,
+			isArchived: true,
+			primaryLanguage: { name: 'Go' },
+			repositoryTopics: { nodes: [] },
+		});
+
+		expect(project.tags).toEqual(['fork', 'archived']);
 	});
 
 	it('falls back to primary language then unknown when topics are empty', () => {

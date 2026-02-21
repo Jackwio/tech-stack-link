@@ -18,4 +18,18 @@ describe('project card content visibility', () => {
 		expect(page).not.toContain('<p class="project-desc">');
 		expect(page).not.toContain('<p class="repo-meta">');
 	});
+
+	it('removes hero stats chips from header', () => {
+		const page = readFileSync(resolve(process.cwd(), 'src/pages/index.astro'), 'utf8');
+
+		expect(page).not.toContain('class="hero-stats"');
+		expect(page).not.toContain('Snapshot Issues');
+	});
+
+	it('filters out hidden tag tokens from card chips and stack filter options', () => {
+		const page = readFileSync(resolve(process.cwd(), 'src/pages/index.astro'), 'utf8');
+
+		expect(page).toContain("const hiddenTagTokens = new Set(['public', 'private', 'github-sync', 'unknown']);");
+		expect(page).toContain('.filter((value) => isVisibleTag(value))');
+	});
 });

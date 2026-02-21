@@ -14,8 +14,6 @@ if (parsedCatalog.success) {
 } else {
 	catalogError = parsedCatalog.error.issues.map((item) => `${item.path.join('.')}: ${item.message}`).join('; ');
 }
-
-const totalIssues = projects.reduce((total, project) => total + project.issues.length, 0);
 ---
 
 <!doctype html>
@@ -29,10 +27,6 @@ const totalIssues = projects.reduce((total, project) => total + project.issues.l
 				<p class="hero-kicker">Project Catalog</p>
 				<h1>{SITE_TITLE}</h1>
 				<p class="hero-copy">{SITE_DESCRIPTION}</p>
-				<div class="hero-stats">
-					<p><span>{projects.length}</span> Projects</p>
-					<p><span>{totalIssues}</span> Snapshot Issues</p>
-				</div>
 			</header>
 
 			<section class="catalog-panel" aria-label="Project catalog">
@@ -72,11 +66,17 @@ const totalIssues = projects.reduce((total, project) => total + project.issues.l
 			const resultNode = document.getElementById('results-meta');
 			const fallbackNode = document.getElementById('catalog-fallback');
 			const dateFormatter = new Intl.DateTimeFormat('en-US', { dateStyle: 'medium' });
+			const hiddenTagTokens = new Set(['public', 'private', 'github-sync', 'unknown']);
 
 			function normalizeToken(value) {
 				return String(value ?? '')
 					.trim()
 					.toLowerCase();
+			}
+
+			function isVisibleTag(value) {
+				const normalized = normalizeToken(value);
+				return Boolean(normalized) && !hiddenTagTokens.has(normalized);
 			}
 
 			function parseFilterState(search) {
@@ -169,11 +169,14 @@ const totalIssues = projects.reduce((total, project) => total + project.issues.l
 
 			function renderCard(project) {
 				const stackTags = project.stacks
+					.filter((value) => isVisibleTag(value))
 					.map((stack) => `<li class="tag-stack">${escapeHtml(stack)}</li>`)
 					.join('');
 				const categoryTags = project.tags
+					.filter((value) => isVisibleTag(value))
 					.map((tag) => `<li class="tag-topic">${escapeHtml(tag)}</li>`)
 					.join('');
+				const tagMarkup = stackTags || categoryTags ? `<ul class="tag-list">${stackTags}${categoryTags}</ul>` : '';
 				const repoHref =
 					typeof project.repo === 'string' && project.repo.includes('/')
 						? `https://github.com/${project.repo}`
@@ -193,7 +196,7 @@ const totalIssues = projects.reduce((total, project) => total + project.issues.l
 								<a href="${escapeHtml(repoHref)}" target="_blank" rel="noreferrer">${escapeHtml(project.name)}</a>
 							</h2>
 						</header>
-						<ul class="tag-list">${stackTags}${categoryTags}</ul>
+						${tagMarkup}
 						${issueContent}
 					</article>
 				`;
@@ -223,7 +226,15 @@ const totalIssues = projects.reduce((total, project) => total + project.issues.l
 				}
 
 				const projects = parsed;
-				const allStacks = [...new Set(projects.flatMap((project) => project.stacks ?? []).map(String))].sort();
+				const allStacks = [
+					...new Set(
+						projects
+							.flatMap((project) => project.stacks ?? [])
+							.map(String)
+							.map((value) => normalizeToken(value))
+							.filter((value) => isVisibleTag(value)),
+					),
+				].sort();
 				const state = parseFilterState(window.location.search);
 				state.selectedStacks = state.selectedStacks.filter((stack) => allStacks.includes(stack));
 				keywordNode.value = state.keyword;
