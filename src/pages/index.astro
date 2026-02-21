@@ -64,9 +64,6 @@ const totalIssues = projects.reduce((total, project) => total + project.issues.l
 
 		<script id="catalog-data" type="application/json" set:html={JSON.stringify(projects)}></script>
 		<script type="module">
-			import { filterProjects } from '../lib/catalog/filter';
-			import { parseFilterState, toSearchParams } from '../lib/catalog/query';
-
 			const dataNode = document.getElementById('catalog-data');
 			const gridNode = document.getElementById('catalog-grid');
 			const stackFiltersNode = document.getElementById('stack-filters');
@@ -75,6 +72,64 @@ const totalIssues = projects.reduce((total, project) => total + project.issues.l
 			const resultNode = document.getElementById('results-meta');
 			const fallbackNode = document.getElementById('catalog-fallback');
 			const dateFormatter = new Intl.DateTimeFormat('en-US', { dateStyle: 'medium' });
+
+			function normalizeToken(value) {
+				return String(value ?? '')
+					.trim()
+					.toLowerCase();
+			}
+
+			function parseFilterState(search) {
+				const raw = search.startsWith('?') ? search.slice(1) : search;
+				const params = new URLSearchParams(raw);
+				const stacksParam = params.get('stacks');
+				const selectedStacks = stacksParam
+					? stacksParam
+							.split(',')
+							.map(normalizeToken)
+							.filter(Boolean)
+					: [];
+
+				return {
+					selectedStacks,
+					keyword: params.get('q')?.trim() ?? '',
+				};
+			}
+
+			function toSearchParams(state) {
+				const params = new URLSearchParams();
+				const stacks = [...new Set(state.selectedStacks.map(normalizeToken).filter(Boolean))].sort();
+				if (stacks.length > 0) {
+					params.set('stacks', stacks.join(','));
+				}
+
+				const keyword = state.keyword.trim();
+				if (keyword) {
+					params.set('q', keyword);
+				}
+
+				return params;
+			}
+
+			function filterProjects(projects, state) {
+				const selectedStacks = state.selectedStacks.map(normalizeToken).filter(Boolean);
+				const keyword = normalizeToken(state.keyword);
+
+				return projects.filter((project) => {
+					const stacks = (project.stacks ?? []).map(normalizeToken);
+					const matchesStacks = selectedStacks.every((stack) => stacks.includes(stack));
+					if (!matchesStacks) {
+						return false;
+					}
+
+					if (!keyword) {
+						return true;
+					}
+
+					const haystack = `${project.name ?? ''} ${project.description ?? ''}`.toLowerCase();
+					return haystack.includes(keyword);
+				});
+			}
 
 			function escapeHtml(value) {
 				return String(value)

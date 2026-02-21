@@ -10,6 +10,6 @@ const isCi = process.env.GITHUB_ACTIONS === 'true';
 // https://astro.build/config
 export default defineConfig({
 	site: process.env.SITE_URL ?? 'https://example.github.io',
-	base: process.env.SITE_BASE ?? (isCi && repository ? `/${repository}` : '/'),
+	base: process.env.SITE_BASE ?? (isCi && repository ? `/${repository}/` : '/'),
 	integrations: [mdx(), sitemap()],
 });
