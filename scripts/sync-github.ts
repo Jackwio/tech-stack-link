@@ -33,16 +33,8 @@ interface RepositoryIssuesPage {
 }
 
 interface OwnerRepositoriesPage {
-	user: {
-		repositories: {
-			nodes: DiscoveredRepository[];
-			pageInfo: {
-				hasNextPage: boolean;
-				endCursor: string | null;
-			};
-		};
-	} | null;
-	organization: {
+	repositoryOwner: {
+		__typename: 'User' | 'Organization';
 		repositories: {
 			nodes: DiscoveredRepository[];
 			pageInfo: {
@@ -66,55 +58,58 @@ const githubApiGraphql = 'https://api.github.com/graphql';
 
 const ownerRepositoriesQuery = `
 query OwnerRepositories($owner: String!, $after: String, $privacy: RepositoryPrivacy) {
-  user(login: $owner) {
-    repositories(first: 100, after: $after, ownerAffiliations: OWNER, orderBy: { field: UPDATED_AT, direction: DESC }, privacy: $privacy) {
-      nodes {
-        name
-        nameWithOwner
-        description
-        isPrivate
-        isFork
-        isArchived
-        primaryLanguage {
+  repositoryOwner(login: $owner) {
+    __typename
+    ... on User {
+      repositories(first: 100, after: $after, ownerAffiliations: OWNER, orderBy: { field: UPDATED_AT, direction: DESC }, privacy: $privacy) {
+        nodes {
           name
-        }
-        repositoryTopics(first: 20) {
-          nodes {
-            topic {
-              name
+          nameWithOwner
+          description
+          isPrivate
+          isFork
+          isArchived
+          primaryLanguage {
+            name
+          }
+          repositoryTopics(first: 20) {
+            nodes {
+              topic {
+                name
+              }
             }
           }
         }
-      }
-      pageInfo {
-        hasNextPage
-        endCursor
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
       }
     }
-  }
-  organization(login: $owner) {
-    repositories(first: 100, after: $after, orderBy: { field: UPDATED_AT, direction: DESC }, privacy: $privacy) {
-      nodes {
-        name
-        nameWithOwner
-        description
-        isPrivate
-        isFork
-        isArchived
-        primaryLanguage {
+    ... on Organization {
+      repositories(first: 100, after: $after, orderBy: { field: UPDATED_AT, direction: DESC }, privacy: $privacy) {
+        nodes {
           name
-        }
-        repositoryTopics(first: 20) {
-          nodes {
-            topic {
-              name
+          nameWithOwner
+          description
+          isPrivate
+          isFork
+          isArchived
+          primaryLanguage {
+            name
+          }
+          repositoryTopics(first: 20) {
+            nodes {
+              topic {
+                name
+              }
             }
           }
         }
-      }
-      pageInfo {
-        hasNextPage
-        endCursor
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
       }
     }
   }
@@ -268,7 +263,7 @@ function resolveSyncSettings(): SyncSettings {
 	}
 
 	return {
-		owner,
+		owner: owner.toLowerCase(),
 		includePrivate: parseBooleanFlag(process.env.SYNC_INCLUDE_PRIVATE, true),
 		includeForks: parseBooleanFlag(process.env.SYNC_INCLUDE_FORKS, false),
 		includeArchived: parseBooleanFlag(process.env.SYNC_INCLUDE_ARCHIVED, false),
@@ -278,11 +273,8 @@ function resolveSyncSettings(): SyncSettings {
 function getRepositoryConnection(
 	page: OwnerRepositoriesPage,
 ): { nodes: DiscoveredRepository[]; pageInfo: { hasNextPage: boolean; endCursor: string | null } } {
-	if (page.user) {
-		return page.user.repositories;
-	}
-	if (page.organization) {
-		return page.organization.repositories;
+	if (page.repositoryOwner) {
+		return page.repositoryOwner.repositories;
 	}
 	throw new Error('SYNC_OWNER not found as user or organization.');
 }
