@@ -1,0 +1,36 @@
+- id: tech-stack-link
+  name: Tech Stack Link
+  description: Aggregate side projects by stack and issue status.
+  repo: sindresorhus/p-limit
+  stacks:
+    - node
+    - typescript
+  tags:
+    - tooling
+    - dashboard
+  links:
+    - label: Docs
+      url: https://example.com/docs
+
+- id: p-map
+  name: p-map
+  description: Map over promises concurrently.
+  repo: sindresorhus/p-map
+  stacks:
+    - node
+    - typescript
+    - promises
+  tags:
+    - utility
+    - oss
+
+- id: p-throttle
+  name: p-throttle
+  description: Rate-limit promise-returning functions.
+  repo: sindresorhus/p-throttle
+  stacks:
+    - node
+    - typescript
+  tags:
+    - utility
+    - oss

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "tech-stack-link",
+    "name": "Tech Stack Link",
+    "description": "Aggregate side projects by stack and issue status.",
+    "repo": "sindresorhus/p-limit",
+    "stacks": [
+      "node",
+      "typescript"
+    ],
+    "tags": [
+      "tooling",
+      "dashboard"
+    ],
+    "links": [
+      {
+        "label": "Docs",
+        "url": "https://example.com/docs"
+      }
+    ],
+    "repoUrl": "https://github.com/sindresorhus/p-limit",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "1970-01-01T00:00:00.000Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "p-map",
+    "name": "p-map",
+    "description": "Map over promises concurrently.",
+    "repo": "sindresorhus/p-map",
+    "stacks": [
+      "node",
+      "typescript",
+      "promises"
+    ],
+    "tags": [
+      "utility",
+      "oss"
+    ],
+    "links": [],
+    "repoUrl": "https://github.com/sindresorhus/p-map",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "1970-01-01T00:00:00.000Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "p-throttle",
+    "name": "p-throttle",
+    "description": "Rate-limit promise-returning functions.",
+    "repo": "sindresorhus/p-throttle",
+    "stacks": [
+      "node",
+      "typescript"
+    ],
+    "tags": [
+      "utility",
+      "oss"
+    ],
+    "links": [],
+    "repoUrl": "https://github.com/sindresorhus/p-throttle",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "1970-01-01T00:00:00.000Z"
+    },
+    "issues": []
+  }
+]

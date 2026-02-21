@@ -1,49 +1,251 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import catalogRaw from '../data/catalog.json';
+import { catalogSchema } from '../lib/catalog/schema';
+import type { CatalogProject } from '../lib/catalog/types';
+
+let projects: CatalogProject[] = [];
+let catalogError = '';
+
+const parsedCatalog = catalogSchema.safeParse(catalogRaw);
+if (parsedCatalog.success) {
+	projects = parsedCatalog.data;
+} else {
+	catalogError = parsedCatalog.error.issues.map((item) => `${item.path.join('.')}: ${item.message}`).join('; ');
+}
+
+const totalIssues = projects.reduce((total, project) => total + project.issues.length, 0);
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="zh-Hant">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+		<main class="page-shell">
+			<header class="hero">
+				<p class="hero-kicker">Project Catalog</p>
+				<h1>{SITE_TITLE}</h1>
+				<p class="hero-copy">{SITE_DESCRIPTION}</p>
+				<div class="hero-stats">
+					<p><span>{projects.length}</span> Projects</p>
+					<p><span>{totalIssues}</span> Snapshot Issues</p>
+				</div>
+			</header>
+
+			<section class="catalog-panel" aria-label="Project catalog">
+				<form id="filters" class="filters" autocomplete="off">
+					<div class="filter-row">
+						<label class="keyword-field" for="keyword">
+							<span>Search</span>
+							<input id="keyword" type="search" placeholder="Project name or description" />
+						</label>
+						<button id="clear-filters" type="button">Clear</button>
+					</div>
+					<div class="stack-filter-group">
+						<p class="stack-label">Tech Stack Tags</p>
+						<div id="stack-filters" class="stack-filters"></div>
+					</div>
+				</form>
+
+				<p id="results-meta" class="results-meta">Loading projects...</p>
+				<div id="catalog-grid" class="catalog-grid" aria-live="polite"></div>
+				<p id="catalog-fallback" class="fallback" hidden>Catalog data unavailable. Please re-run sync.</p>
+			</section>
+
+			{
+				catalogError ? (
+					<p class="server-warning">Catalog schema warning: {catalogError}</p>
+				) : null
+			}
 		</main>
-		<Footer />
+
+		<script id="catalog-data" type="application/json" set:html={JSON.stringify(projects)}></script>
+		<script type="module">
+			import { filterProjects } from '../lib/catalog/filter';
+			import { parseFilterState, toSearchParams } from '../lib/catalog/query';
+
+			const dataNode = document.getElementById('catalog-data');
+			const gridNode = document.getElementById('catalog-grid');
+			const stackFiltersNode = document.getElementById('stack-filters');
+			const keywordNode = document.getElementById('keyword');
+			const clearNode = document.getElementById('clear-filters');
+			const resultNode = document.getElementById('results-meta');
+			const fallbackNode = document.getElementById('catalog-fallback');
+			const dateFormatter = new Intl.DateTimeFormat('en-US', { dateStyle: 'medium' });
+
+			function escapeHtml(value) {
+				return String(value)
+					.replace(/&/g, '&amp;')
+					.replace(/</g, '&lt;')
+					.replace(/>/g, '&gt;')
+					.replace(/"/g, '&quot;')
+					.replace(/'/g, '&#39;');
+			}
+
+			function formatIssueDate(value) {
+				const date = new Date(value);
+				if (Number.isNaN(date.getTime())) {
+					return value;
+				}
+				return dateFormatter.format(date);
+			}
+
+			function renderIssue(issue) {
+				const labels =
+					issue.labels.length > 0
+						? issue.labels.map((label) => `<li>${escapeHtml(label)}</li>`).join('')
+						: '<li>no-label</li>';
+				return `
+					<li class="issue-item">
+						<a href="${escapeHtml(issue.url)}" target="_blank" rel="noreferrer">
+							#${issue.number} ${escapeHtml(issue.title)}
+						</a>
+						<div class="issue-meta">
+							<span class="issue-state issue-state-${issue.state.toLowerCase()}">${issue.state}</span>
+							<span class="issue-date">${formatIssueDate(issue.updatedAt)}</span>
+						</div>
+						<ul class="issue-labels">${labels}</ul>
+					</li>
+				`;
+			}
+
+			function renderCard(project) {
+				const stackTags = project.stacks
+					.map((stack) => `<li class="tag-stack">${escapeHtml(stack)}</li>`)
+					.join('');
+				const categoryTags = project.tags
+					.map((tag) => `<li class="tag-topic">${escapeHtml(tag)}</li>`)
+					.join('');
+				const issueContent =
+					project.issues.length > 0
+						? `<details class="issue-block">
+								<summary>Issues (${project.issues.length})</summary>
+								<ul class="issue-list">${project.issues.map(renderIssue).join('')}</ul>
+							</details>`
+						: '<p class="issue-empty">No issues</p>';
+
+				return `
+					<article class="project-card">
+						<header class="project-head">
+							<h2>${escapeHtml(project.name)}</h2>
+							<a href="${escapeHtml(project.repoUrl)}" target="_blank" rel="noreferrer">Repo</a>
+						</header>
+						<p class="project-desc">${escapeHtml(project.description)}</p>
+						<ul class="tag-list">${stackTags}${categoryTags}</ul>
+						<p class="repo-meta">
+							★ ${project.repoMeta.stars} · Forks ${project.repoMeta.forks} · Updated ${formatIssueDate(project.repoMeta.updatedAt)}
+						</p>
+						${issueContent}
+					</article>
+				`;
+			}
+
+			function showFallback(message) {
+				if (fallbackNode) {
+					fallbackNode.hidden = false;
+					fallbackNode.textContent = message;
+				}
+				if (resultNode) {
+					resultNode.textContent = '';
+				}
+				if (gridNode) {
+					gridNode.innerHTML = '';
+				}
+			}
+
+			try {
+				if (!dataNode || !gridNode || !stackFiltersNode || !keywordNode || !clearNode || !resultNode) {
+					throw new Error('UI elements are missing.');
+				}
+
+				const parsed = JSON.parse(dataNode.textContent ?? '[]');
+				if (!Array.isArray(parsed)) {
+					throw new Error('Catalog data is not an array.');
+				}
+
+				const projects = parsed;
+				const allStacks = [...new Set(projects.flatMap((project) => project.stacks ?? []).map(String))].sort();
+				const state = parseFilterState(window.location.search);
+				state.selectedStacks = state.selectedStacks.filter((stack) => allStacks.includes(stack));
+				keywordNode.value = state.keyword;
+
+				stackFiltersNode.innerHTML = allStacks
+					.map((stack) => {
+						const checked = state.selectedStacks.includes(stack) ? 'checked' : '';
+						return `
+							<label class="stack-pill">
+								<input type="checkbox" value="${escapeHtml(stack)}" ${checked} />
+								<span>${escapeHtml(stack)}</span>
+							</label>
+						`;
+					})
+					.join('');
+
+				function readStateFromControls() {
+					state.selectedStacks = [...stackFiltersNode.querySelectorAll('input[type="checkbox"]:checked')]
+						.map((input) => input.value)
+						.sort();
+					state.keyword = keywordNode.value.trim();
+				}
+
+				function syncControlsFromState() {
+					keywordNode.value = state.keyword;
+					for (const input of stackFiltersNode.querySelectorAll('input[type="checkbox"]')) {
+						input.checked = state.selectedStacks.includes(input.value);
+					}
+				}
+
+				function render(syncUrl = true) {
+					const filtered = filterProjects(projects, state);
+					resultNode.textContent = `${filtered.length} of ${projects.length} projects`;
+
+					if (filtered.length === 0) {
+						gridNode.innerHTML = '<p class="empty-state">No matching projects.</p>';
+					} else {
+						gridNode.innerHTML = filtered.map(renderCard).join('');
+					}
+
+					if (!syncUrl) {
+						return;
+					}
+					const query = toSearchParams(state).toString();
+					const nextUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname;
+					window.history.replaceState({}, '', nextUrl);
+				}
+
+				keywordNode.addEventListener('input', () => {
+					readStateFromControls();
+					render();
+				});
+
+				stackFiltersNode.addEventListener('change', () => {
+					readStateFromControls();
+					render();
+				});
+
+				clearNode.addEventListener('click', () => {
+					state.selectedStacks = [];
+					state.keyword = '';
+					syncControlsFromState();
+					render();
+				});
+
+				window.addEventListener('popstate', () => {
+					const nextState = parseFilterState(window.location.search);
+					state.selectedStacks = nextState.selectedStacks.filter((stack) => allStacks.includes(stack));
+					state.keyword = nextState.keyword;
+					syncControlsFromState();
+					render(false);
+				});
+
+				render();
+			} catch (error) {
+				console.error(error);
+				showFallback('Catalog data unavailable. Please re-run sync.');
+			}
+		</script>
 	</body>
 </html>

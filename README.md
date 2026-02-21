@@ -1,62 +1,50 @@
-# Astro Starter Kit: Blog
+# Tech Stack Link
 
-```sh
-npm create astro@latest -- --template blog
+Tech Stack Link 是一個部署在 GitHub Pages 的靜態網站，用來整理 Side Project 與其 Tech Stack，並快照每個 repo 的 issue 狀態。
+
+## Stack
+
+- Astro + TypeScript
+- YAML (`data/projects.yaml`) 作為手動資料來源
+- GitHub API 同步腳本 (`scripts/sync-github.ts`)
+- 靜態輸出資料 (`src/data/catalog.json`)
+- Vitest（單元/流程測試）
+
+## Data Flow
+
+1. 編輯 `data/projects.yaml`
+2. 執行 `npm run sync`
+3. 產生/更新 `src/data/catalog.json`
+4. `npm run build` 後部署到 GitHub Pages
+
+## Local Setup
+
+```bash
+npm install
+cp .env.example .env # optional
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+`.env` 可設定：
 
-Features:
-
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+```bash
+GITHUB_TOKEN=ghp_xxx
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+`npm run sync` 需要 `GITHUB_TOKEN`（GraphQL cursor 分頁），才能抓取完整 issue 清單並避免 rate limit 問題。
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Commands
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+```bash
+npm run dev       # local preview
+npm run sync      # sync repo + issues snapshot into src/data/catalog.json
+npm run test      # run vitest
+npm run build     # production build
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Deployment
 
-## 🧞 Commands
+本專案提供手動觸發 workflow：`.github/workflows/pages-manual-sync-deploy.yml`
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+- Trigger: `workflow_dispatch`（手動）
+- Secret: `GITHUB_TOKEN`（供 sync script 使用）
+- Result: 同步資料後 build，部署至 GitHub Pages
