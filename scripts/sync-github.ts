@@ -1,7 +1,8 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseCatalogJson, parseProjectsYaml } from '../src/lib/catalog/schema';
+import { buildProjectFromRepository, parseBooleanFlag, type DiscoveredRepository } from '../src/lib/catalog/discovery';
+import { parseCatalogJson } from '../src/lib/catalog/schema';
 import type { CatalogIssue, CatalogProject, ProjectInput } from '../src/lib/catalog/types';
 
 interface GraphQLIssueNode {
@@ -31,6 +32,27 @@ interface RepositoryIssuesPage {
 	} | null;
 }
 
+interface OwnerRepositoriesPage {
+	user: {
+		repositories: {
+			nodes: DiscoveredRepository[];
+			pageInfo: {
+				hasNextPage: boolean;
+				endCursor: string | null;
+			};
+		};
+	} | null;
+	organization: {
+		repositories: {
+			nodes: DiscoveredRepository[];
+			pageInfo: {
+				hasNextPage: boolean;
+				endCursor: string | null;
+			};
+		};
+	} | null;
+}
+
 interface GraphQLResponse<T> {
 	data?: T;
 	errors?: Array<{ message: string }>;
@@ -39,9 +61,65 @@ interface GraphQLResponse<T> {
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
-const projectsPath = path.join(rootDir, 'data', 'projects.yaml');
 const catalogPath = path.join(rootDir, 'src', 'data', 'catalog.json');
 const githubApiGraphql = 'https://api.github.com/graphql';
+
+const ownerRepositoriesQuery = `
+query OwnerRepositories($owner: String!, $after: String, $privacy: RepositoryPrivacy) {
+  user(login: $owner) {
+    repositories(first: 100, after: $after, ownerAffiliations: OWNER, orderBy: { field: UPDATED_AT, direction: DESC }, privacy: $privacy) {
+      nodes {
+        name
+        nameWithOwner
+        description
+        isPrivate
+        isFork
+        isArchived
+        primaryLanguage {
+          name
+        }
+        repositoryTopics(first: 20) {
+          nodes {
+            topic {
+              name
+            }
+          }
+        }
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+  organization(login: $owner) {
+    repositories(first: 100, after: $after, orderBy: { field: UPDATED_AT, direction: DESC }, privacy: $privacy) {
+      nodes {
+        name
+        nameWithOwner
+        description
+        isPrivate
+        isFork
+        isArchived
+        primaryLanguage {
+          name
+        }
+        repositoryTopics(first: 20) {
+          nodes {
+            topic {
+              name
+            }
+          }
+        }
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+}
+`;
 
 const repositoryIssuesQuery = `
 query RepositoryIssues($owner: String!, $name: String!, $after: String) {
@@ -175,9 +253,75 @@ async function fetchRepoSnapshot(project: ProjectInput, token: string): Promise<
 	return { repoUrl, repoMeta, issues };
 }
 
-async function loadProjects(): Promise<ProjectInput[]> {
-	const yaml = await fs.readFile(projectsPath, 'utf8');
-	return parseProjectsYaml(yaml);
+interface SyncSettings {
+	owner: string;
+	includePrivate: boolean;
+	includeForks: boolean;
+	includeArchived: boolean;
+}
+
+function resolveSyncSettings(): SyncSettings {
+	const ownerFromRepo = process.env.GITHUB_REPOSITORY?.split('/')[0];
+	const owner = process.env.SYNC_OWNER?.trim() || ownerFromRepo;
+	if (!owner) {
+		throw new Error('SYNC_OWNER is required (or provide GITHUB_REPOSITORY in CI context).');
+	}
+
+	return {
+		owner,
+		includePrivate: parseBooleanFlag(process.env.SYNC_INCLUDE_PRIVATE, true),
+		includeForks: parseBooleanFlag(process.env.SYNC_INCLUDE_FORKS, false),
+		includeArchived: parseBooleanFlag(process.env.SYNC_INCLUDE_ARCHIVED, false),
+	};
+}
+
+function getRepositoryConnection(
+	page: OwnerRepositoriesPage,
+): { nodes: DiscoveredRepository[]; pageInfo: { hasNextPage: boolean; endCursor: string | null } } {
+	if (page.user) {
+		return page.user.repositories;
+	}
+	if (page.organization) {
+		return page.organization.repositories;
+	}
+	throw new Error('SYNC_OWNER not found as user or organization.');
+}
+
+async function discoverProjects(settings: SyncSettings, token: string): Promise<ProjectInput[]> {
+	let after: string | null = null;
+	const discovered: DiscoveredRepository[] = [];
+
+	do {
+		const { data, remaining } = await fetchGraphQL<OwnerRepositoriesPage>(
+			ownerRepositoriesQuery,
+			{
+				owner: settings.owner,
+				after,
+				privacy: settings.includePrivate ? null : 'PUBLIC',
+			},
+			token,
+		);
+		assertRateLimit(remaining);
+
+		const repositories = getRepositoryConnection(data);
+		discovered.push(...repositories.nodes);
+		after = repositories.pageInfo.hasNextPage ? repositories.pageInfo.endCursor : null;
+	} while (after);
+
+	const filtered = discovered.filter((repo) => {
+		if (!settings.includePrivate && repo.isPrivate) {
+			return false;
+		}
+		if (!settings.includeForks && repo.isFork) {
+			return false;
+		}
+		if (!settings.includeArchived && repo.isArchived) {
+			return false;
+		}
+		return true;
+	});
+
+	return filtered.map(buildProjectFromRepository);
 }
 
 async function loadFallbackCatalog(): Promise<Map<string, CatalogProject>> {
@@ -223,14 +367,16 @@ async function writeCatalog(projects: CatalogProject[]): Promise<void> {
 
 async function main(): Promise<void> {
 	const token = process.env.GITHUB_TOKEN;
-	const projects = await loadProjects();
-	const fallback = await loadFallbackCatalog();
 
 	if (!token) {
-		console.warn('GITHUB_TOKEN is required for sync (GraphQL issue pagination). Keeping existing catalog snapshot.');
+		console.warn('GITHUB_TOKEN is required for sync (repo discovery + issue pagination). Keeping existing catalog snapshot.');
 		process.exitCode = 1;
 		return;
 	}
+
+	const settings = resolveSyncSettings();
+	const projects = await discoverProjects(settings, token);
+	const fallback = await loadFallbackCatalog();
 
 	const nextCatalog: CatalogProject[] = [];
 	const errors: string[] = [];

@@ -5,16 +5,16 @@ Tech Stack Link 是一個部署在 GitHub Pages 的靜態網站，用來整理 S
 ## Stack
 
 - Astro + TypeScript
-- YAML (`data/projects.yaml`) 作為手動資料來源
+- GitHub GraphQL（以 token 自動探索 owner repos）
 - GitHub API 同步腳本 (`scripts/sync-github.ts`)
 - 靜態輸出資料 (`src/data/catalog.json`)
 - Vitest（單元/流程測試）
 
 ## Data Flow
 
-1. 編輯 `data/projects.yaml`
+1. 設定 sync 環境變數（owner、是否包含 private/fork/archive）
 2. 執行 `npm run sync`
-3. 產生/更新 `src/data/catalog.json`
+3. 由 GitHub API 自動探索 repo 並產生/更新 `src/data/catalog.json`
 4. `npm run build` 後部署到 GitHub Pages
 
 ## Local Setup
@@ -28,9 +28,14 @@ cp .env.example .env # optional
 
 ```bash
 GITHUB_TOKEN=ghp_xxx
+SYNC_OWNER=jackwio
+SYNC_INCLUDE_PRIVATE=true
+SYNC_INCLUDE_FORKS=false
+SYNC_INCLUDE_ARCHIVED=false
 ```
 
-`npm run sync` 需要 `GITHUB_TOKEN`（GraphQL cursor 分頁），才能抓取完整 issue 清單並避免 rate limit 問題。
+`npm run sync` 需要 `GITHUB_TOKEN`（GraphQL repo discovery + issues cursor 分頁）。
+若要同步 `private` repo，token 需具備可讀 private repo 權限。
 
 ## Commands
 
@@ -46,5 +51,7 @@ npm run build     # production build
 本專案提供手動觸發 workflow：`.github/workflows/pages-manual-sync-deploy.yml`
 
 - Trigger: `workflow_dispatch`（手動）
-- Secret: `GITHUB_TOKEN`（供 sync script 使用）
+- Secret:
+  - `SYNC_GITHUB_TOKEN`（建議，PAT，可讀 private repo）
+  - 若未設定則退回 `secrets.GITHUB_TOKEN`（通常只能讀本 repo）
 - Result: 同步資料後 build，部署至 GitHub Pages
