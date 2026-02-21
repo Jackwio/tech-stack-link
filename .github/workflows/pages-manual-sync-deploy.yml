@@ -3,7 +3,7 @@ name: Pages Manual Sync Deploy
 on:
   push:
     branches:
-      - production
+      - main
   workflow_dispatch:
 
 permissions:
