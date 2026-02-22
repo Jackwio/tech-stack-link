@@ -30,6 +30,10 @@ Tech Stack Link 是一個部署在 GitHub Pages 的靜態網站，用來整理 S
 - `.github/workflows/pages-manual-sync-deploy.yml`
   - `sync -> test -> build -> deploy`
   - 可使用 `SYNC_GITHUB_TOKEN` 讀取 private repos 後部署到 GitHub Pages
+- `.github/workflows/daily-catalog-sync.yml`
+  - 每日排程同步 `src/data/catalog.json`（`04:00 UTC`，即 `12:00 UTC+8`）
+  - 支援手動觸發（`workflow_dispatch`）
+  - 僅在 `src/data/catalog.json` 有異動時才會自動 commit + push
 
 ## 如何安裝
 
@@ -67,8 +71,9 @@ npm run preview    # 本機預覽 build 結果
 
 ### B. 透過 GitHub Action 自動同步
 1. 在 repo Secrets 新增 `SYNC_GITHUB_TOKEN`（建議 PAT，需可讀 private repos）。
-2. 觸發 workflow：`Pages Manual Sync Deploy`。
-3. workflow 會自動 `sync -> test -> build -> deploy` 到 GitHub Pages。
+2. 觸發 workflow（擇一）：
+   - `Daily Catalog Sync`：每天中午 12:00（UTC+8）自動執行，或手動執行；流程為 `sync -> test`，並在資料有變更時自動提交 `src/data/catalog.json`。
+   - `Pages Manual Sync Deploy`：手動或 push 後執行 `sync -> test -> build -> deploy` 到 GitHub Pages。
 
 ## Tech Stack Link 如何實作
 
