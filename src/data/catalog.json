@@ -1,5 +1,23 @@
 [
   {
+    "id": "jackwio-ai-tool-note",
+    "name": "ai-tool-note",
+    "description": "Repository ai-tool-note",
+    "repo": "Jackwio/ai-tool-note",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/ai-tool-note",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-24T14:53:38Z"
+    },
+    "issues": []
+  },
+  {
     "id": "jackwio-repo-star-tracker",
     "name": "repo-star-tracker",
     "description": "Repository repo-star-tracker",
@@ -13,7 +31,7 @@
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-02-23T04:58:04Z"
+      "updatedAt": "2026-02-24T13:11:36Z"
     },
     "issues": [
       {
@@ -52,7 +70,7 @@
     "repoMeta": {
       "stars": 1,
       "forks": 0,
-      "updatedAt": "2026-02-23T04:41:44Z"
+      "updatedAt": "2026-02-24T04:36:40Z"
     },
     "issues": [
       {
@@ -64,24 +82,6 @@
         "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
       }
     ]
-  },
-  {
-    "id": "jackwio-develop-note",
-    "name": "develop-note",
-    "description": "Repository develop-note",
-    "repo": "Jackwio/develop-note",
-    "stacks": [
-      "unknown"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/develop-note",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-23T02:50:24Z"
-    },
-    "issues": []
   },
   {
     "id": "jackwio-deploy-note",
