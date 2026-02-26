@@ -1,5 +1,41 @@
 [
   {
+    "id": "jackwio-develop-note",
+    "name": "develop-note",
+    "description": "Repository develop-note",
+    "repo": "Jackwio/develop-note",
+    "stacks": [
+      "note"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/develop-note",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-25T15:21:59Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-auto-collect-email",
+    "name": "auto-collect-email",
+    "description": "Repository auto-collect-email",
+    "repo": "Jackwio/auto-collect-email",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/auto-collect-email",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-25T14:59:52Z"
+    },
+    "issues": []
+  },
+  {
     "id": "jackwio-ai-tool-note",
     "name": "ai-tool-note",
     "description": "Repository ai-tool-note",
@@ -13,9 +49,83 @@
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-02-24T14:53:38Z"
+      "updatedAt": "2026-02-25T14:17:22Z"
     },
     "issues": []
+  },
+  {
+    "id": "jackwio-auto-collect-news",
+    "name": "auto-collect-news",
+    "description": "Repository auto-collect-news",
+    "repo": "Jackwio/auto-collect-news",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/auto-collect-news",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-25T13:22:44Z"
+    },
+    "issues": [
+      {
+        "number": 3,
+        "title": "讓 Telegram bot 在群組中發訊息",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-19T15:11:22Z",
+        "url": "https://github.com/Jackwio/auto-collect-news/issues/3"
+      },
+      {
+        "number": 2,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-19T15:10:22Z",
+        "url": "https://github.com/Jackwio/auto-collect-news/issues/2"
+      },
+      {
+        "number": 1,
+        "title": "自動收集新知識",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-19T15:04:22Z",
+        "url": "https://github.com/Jackwio/auto-collect-news/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-tech-stack-link",
+    "name": "tech-stack-link",
+    "description": "Repository tech-stack-link",
+    "repo": "Jackwio/tech-stack-link",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+    "repoMeta": {
+      "stars": 1,
+      "forks": 0,
+      "updatedAt": "2026-02-25T04:37:44Z"
+    },
+    "issues": [
+      {
+        "number": 1,
+        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-25T15:07:24Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+      }
+    ]
   },
   {
     "id": "jackwio-repo-star-tracker",
@@ -53,33 +163,6 @@
         ],
         "updatedAt": "2026-02-23T03:49:16Z",
         "url": "https://github.com/Jackwio/repo-star-tracker/issues/1"
-      }
-    ]
-  },
-  {
-    "id": "jackwio-tech-stack-link",
-    "name": "tech-stack-link",
-    "description": "Repository tech-stack-link",
-    "repo": "Jackwio/tech-stack-link",
-    "stacks": [
-      "typescript"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
-    "repoMeta": {
-      "stars": 1,
-      "forks": 0,
-      "updatedAt": "2026-02-24T04:36:40Z"
-    },
-    "issues": [
-      {
-        "number": 1,
-        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-02-21T14:53:07Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
       }
     ]
   },
@@ -384,53 +467,6 @@
         ],
         "updatedAt": "2026-02-13T14:21:41Z",
         "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/2"
-      }
-    ]
-  },
-  {
-    "id": "jackwio-auto-collect-news",
-    "name": "auto-collect-news",
-    "description": "Repository auto-collect-news",
-    "repo": "Jackwio/auto-collect-news",
-    "stacks": [
-      "typescript"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/auto-collect-news",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-19T15:03:52Z"
-    },
-    "issues": [
-      {
-        "number": 3,
-        "title": "讓 Telegram bot 在群組中發訊息",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-19T15:11:22Z",
-        "url": "https://github.com/Jackwio/auto-collect-news/issues/3"
-      },
-      {
-        "number": 2,
-        "title": "Prompt",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-19T15:10:22Z",
-        "url": "https://github.com/Jackwio/auto-collect-news/issues/2"
-      },
-      {
-        "number": 1,
-        "title": "自動收集新知識",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-02-19T15:04:22Z",
-        "url": "https://github.com/Jackwio/auto-collect-news/issues/1"
       }
     ]
   },
