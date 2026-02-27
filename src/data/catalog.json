@@ -1,5 +1,242 @@
 [
   {
+    "id": "jackwio-track-repo-commit",
+    "name": "track-repo-commit",
+    "description": "Repository track-repo-commit",
+    "repo": "Jackwio/track-repo-commit",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/track-repo-commit",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T04:32:18Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-auto-collect-knowledge",
+    "name": "auto-collect-knowledge",
+    "description": "Repository auto-collect-knowledge",
+    "repo": "Jackwio/auto-collect-knowledge",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/auto-collect-knowledge",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T04:21:32Z"
+    },
+    "issues": [
+      {
+        "number": 2,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T04:18:02Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-deploy-note",
+    "name": "deploy-note",
+    "description": "Repository deploy-note",
+    "repo": "Jackwio/deploy-note",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/deploy-note",
+    "repoMeta": {
+      "stars": 1,
+      "forks": 0,
+      "updatedAt": "2026-02-27T04:11:39Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-lock-box",
+    "name": "lock-box",
+    "description": "Repository lock-box",
+    "repo": "Jackwio/lock-box",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/lock-box",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T04:01:22Z"
+    },
+    "issues": [
+      {
+        "number": 1,
+        "title": "紀錄帳號密碼或 Token",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-27T04:03:16Z",
+        "url": "https://github.com/Jackwio/lock-box/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "執行任何操作都還是要輸入密碼。",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-02-27T04:03:00Z",
+        "url": "https://github.com/Jackwio/lock-box/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-auto-collect-email",
+    "name": "auto-collect-email",
+    "description": "Repository auto-collect-email",
+    "repo": "Jackwio/auto-collect-email",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/auto-collect-email",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-26T19:05:55Z"
+    },
+    "issues": [
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T04:18:40Z",
+        "url": "https://github.com/Jackwio/auto-collect-email/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-repo-star-tracker",
+    "name": "repo-star-tracker",
+    "description": "Repository repo-star-tracker",
+    "repo": "Jackwio/repo-star-tracker",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/repo-star-tracker",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-26T14:47:42Z"
+    },
+    "issues": [
+      {
+        "number": 4,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T04:14:27Z",
+        "url": "https://github.com/Jackwio/repo-star-tracker/issues/4"
+      },
+      {
+        "number": 1,
+        "title": "Discord 相關 ENV Varible 設定",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-26T14:04:18Z",
+        "url": "https://github.com/Jackwio/repo-star-tracker/issues/1"
+      },
+      {
+        "number": 3,
+        "title": "修改 Discord 伺服器頭像",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-26T14:00:13Z",
+        "url": "https://github.com/Jackwio/repo-star-tracker/issues/3"
+      },
+      {
+        "number": 2,
+        "title": "Discord Message 美化",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-23T04:09:36Z",
+        "url": "https://github.com/Jackwio/repo-star-tracker/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-tech-stack-link",
+    "name": "tech-stack-link",
+    "description": "Repository tech-stack-link",
+    "repo": "Jackwio/tech-stack-link",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+    "repoMeta": {
+      "stars": 1,
+      "forks": 0,
+      "updatedAt": "2026-02-26T04:35:45Z"
+    },
+    "issues": [
+      {
+        "number": 3,
+        "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-02-27T04:16:05Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+      },
+      {
+        "number": 1,
+        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-26T19:05:19Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-26T18:32:37Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+      }
+    ]
+  },
+  {
     "id": "jackwio-develop-note",
     "name": "develop-note",
     "description": "Repository develop-note",
@@ -14,24 +251,6 @@
       "stars": 0,
       "forks": 0,
       "updatedAt": "2026-02-25T15:21:59Z"
-    },
-    "issues": []
-  },
-  {
-    "id": "jackwio-auto-collect-email",
-    "name": "auto-collect-email",
-    "description": "Repository auto-collect-email",
-    "repo": "Jackwio/auto-collect-email",
-    "stacks": [
-      "unknown"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/auto-collect-email",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-25T14:59:52Z"
     },
     "issues": []
   },
@@ -71,6 +290,44 @@
     },
     "issues": [
       {
+        "number": 7,
+        "title": "改成發送到 Discord, 且不同使用者對應不同頻道",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-27T03:58:44Z",
+        "url": "https://github.com/Jackwio/auto-collect-news/issues/7"
+      },
+      {
+        "number": 1,
+        "title": "自動收集新知識",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-26T18:59:40Z",
+        "url": "https://github.com/Jackwio/auto-collect-news/issues/1"
+      },
+      {
+        "number": 4,
+        "title": "改串接 PlayWright",
+        "state": "CLOSED",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-26T18:34:53Z",
+        "url": "https://github.com/Jackwio/auto-collect-news/issues/4"
+      },
+      {
+        "number": 5,
+        "title": "改串 Gemini AI",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-26T18:33:38Z",
+        "url": "https://github.com/Jackwio/auto-collect-news/issues/5"
+      },
+      {
         "number": 3,
         "title": "讓 Telegram bot 在群組中發訊息",
         "state": "OPEN",
@@ -89,100 +346,8 @@
         ],
         "updatedAt": "2026-02-19T15:10:22Z",
         "url": "https://github.com/Jackwio/auto-collect-news/issues/2"
-      },
-      {
-        "number": 1,
-        "title": "自動收集新知識",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-02-19T15:04:22Z",
-        "url": "https://github.com/Jackwio/auto-collect-news/issues/1"
       }
     ]
-  },
-  {
-    "id": "jackwio-tech-stack-link",
-    "name": "tech-stack-link",
-    "description": "Repository tech-stack-link",
-    "repo": "Jackwio/tech-stack-link",
-    "stacks": [
-      "typescript"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
-    "repoMeta": {
-      "stars": 1,
-      "forks": 0,
-      "updatedAt": "2026-02-25T04:37:44Z"
-    },
-    "issues": [
-      {
-        "number": 1,
-        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-02-25T15:07:24Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-      }
-    ]
-  },
-  {
-    "id": "jackwio-repo-star-tracker",
-    "name": "repo-star-tracker",
-    "description": "Repository repo-star-tracker",
-    "repo": "Jackwio/repo-star-tracker",
-    "stacks": [
-      "typescript"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/repo-star-tracker",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-24T13:11:36Z"
-    },
-    "issues": [
-      {
-        "number": 2,
-        "title": "Discord Message 美化",
-        "state": "OPEN",
-        "labels": [
-          "enhancement"
-        ],
-        "updatedAt": "2026-02-23T04:09:36Z",
-        "url": "https://github.com/Jackwio/repo-star-tracker/issues/2"
-      },
-      {
-        "number": 1,
-        "title": "Discord 相關 ENV Varible 設定",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-23T03:49:16Z",
-        "url": "https://github.com/Jackwio/repo-star-tracker/issues/1"
-      }
-    ]
-  },
-  {
-    "id": "jackwio-deploy-note",
-    "name": "deploy-note",
-    "description": "Repository deploy-note",
-    "repo": "Jackwio/deploy-note",
-    "stacks": [
-      "unknown"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/deploy-note",
-    "repoMeta": {
-      "stars": 1,
-      "forks": 0,
-      "updatedAt": "2026-02-22T08:14:38Z"
-    },
-    "issues": []
   },
   {
     "id": "jackwio-all-in-one",
