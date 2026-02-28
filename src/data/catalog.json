@@ -1,19 +1,19 @@
 [
   {
-    "id": "jackwio-track-repo-commit",
-    "name": "track-repo-commit",
-    "description": "Repository track-repo-commit",
-    "repo": "Jackwio/track-repo-commit",
+    "id": "jackwio-playsession-builder",
+    "name": "playSession-builder",
+    "description": "Repository playSession-builder",
+    "repo": "Jackwio/playSession-builder",
     "stacks": [
-      "typescript"
+      "javascript"
     ],
     "tags": [],
     "links": [],
-    "repoUrl": "https://github.com/Jackwio/track-repo-commit",
+    "repoUrl": "https://github.com/Jackwio/playSession-builder",
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-02-27T04:32:18Z"
+      "updatedAt": "2026-02-28T04:22:33Z"
     },
     "issues": []
   },
@@ -23,7 +23,8 @@
     "description": "Repository auto-collect-knowledge",
     "repo": "Jackwio/auto-collect-knowledge",
     "stacks": [
-      "typescript"
+      "discord-bot",
+      "playwright"
     ],
     "tags": [],
     "links": [],
@@ -31,9 +32,39 @@
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-02-27T04:21:32Z"
+      "updatedAt": "2026-02-28T04:21:40Z"
     },
     "issues": [
+      {
+        "number": 5,
+        "title": "透過 Playwright 產生 X 登入檔",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-02-27T14:05:48Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/5"
+      },
+      {
+        "number": 4,
+        "title": "Discord ENV 配置",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T11:23:47Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/4"
+      },
+      {
+        "number": 3,
+        "title": "X UserId 獲取",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T11:09:21Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/3"
+      },
       {
         "number": 2,
         "title": "Prompt",
@@ -43,6 +74,35 @@
         ],
         "updatedAt": "2026-02-27T04:18:02Z",
         "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-track-repo-commit",
+    "name": "track-repo-commit",
+    "description": "Repository track-repo-commit",
+    "repo": "Jackwio/track-repo-commit",
+    "stacks": [
+      "discord-bot"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/track-repo-commit",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-28T03:41:32Z"
+    },
+    "issues": [
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T15:35:39Z",
+        "url": "https://github.com/Jackwio/track-repo-commit/issues/1"
       }
     ]
   },
@@ -58,77 +118,130 @@
     "links": [],
     "repoUrl": "https://github.com/Jackwio/deploy-note",
     "repoMeta": {
-      "stars": 1,
+      "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-02-27T04:11:39Z"
+      "updatedAt": "2026-02-27T18:43:19Z"
     },
     "issues": []
   },
   {
-    "id": "jackwio-lock-box",
-    "name": "lock-box",
-    "description": "Repository lock-box",
-    "repo": "Jackwio/lock-box",
+    "id": "jackwio-develop-note",
+    "name": "develop-note",
+    "description": "Repository develop-note",
+    "repo": "Jackwio/develop-note",
     "stacks": [
-      "unknown"
+      "note"
     ],
     "tags": [],
     "links": [],
-    "repoUrl": "https://github.com/Jackwio/lock-box",
+    "repoUrl": "https://github.com/Jackwio/develop-note",
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-02-27T04:01:22Z"
+      "updatedAt": "2026-02-27T18:41:44Z"
     },
-    "issues": [
-      {
-        "number": 1,
-        "title": "紀錄帳號密碼或 Token",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-02-27T04:03:16Z",
-        "url": "https://github.com/Jackwio/lock-box/issues/1"
-      },
-      {
-        "number": 2,
-        "title": "執行任何操作都還是要輸入密碼。",
-        "state": "OPEN",
-        "labels": [
-          "bug"
-        ],
-        "updatedAt": "2026-02-27T04:03:00Z",
-        "url": "https://github.com/Jackwio/lock-box/issues/2"
-      }
-    ]
+    "issues": []
   },
   {
-    "id": "jackwio-auto-collect-email",
-    "name": "auto-collect-email",
-    "description": "Repository auto-collect-email",
-    "repo": "Jackwio/auto-collect-email",
+    "id": "jackwio-all-in-one",
+    "name": "all-in-one",
+    "description": "Repository all-in-one",
+    "repo": "Jackwio/all-in-one",
+    "stacks": [
+      "javascript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/all-in-one",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T15:48:51Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-tech-stack-link",
+    "name": "tech-stack-link",
+    "description": "Repository tech-stack-link",
+    "repo": "Jackwio/tech-stack-link",
     "stacks": [
       "typescript"
     ],
     "tags": [],
     "links": [],
-    "repoUrl": "https://github.com/Jackwio/auto-collect-email",
+    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-02-26T19:05:55Z"
+      "updatedAt": "2026-02-27T13:53:06Z"
     },
     "issues": [
       {
-        "number": 1,
-        "title": "Prompt",
+        "number": 3,
+        "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
         "state": "OPEN",
         "labels": [
-          "documentation"
+          "bug"
         ],
-        "updatedAt": "2026-02-27T04:18:40Z",
-        "url": "https://github.com/Jackwio/auto-collect-email/issues/1"
+        "updatedAt": "2026-02-27T04:16:05Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+      },
+      {
+        "number": 1,
+        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-26T19:05:19Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-26T18:32:37Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
       }
     ]
+  },
+  {
+    "id": "jackwio-ai-note",
+    "name": "ai-note",
+    "description": "Repository ai-note",
+    "repo": "Jackwio/ai-note",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/ai-note",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T13:24:54Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-my-github-pages",
+    "name": "my-github-pages",
+    "description": "Repository my-github-pages",
+    "repo": "Jackwio/my-github-pages",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/my-github-pages",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T13:24:22Z"
+    },
+    "issues": []
   },
   {
     "id": "jackwio-repo-star-tracker",
@@ -136,7 +249,7 @@
     "description": "Repository repo-star-tracker",
     "repo": "Jackwio/repo-star-tracker",
     "stacks": [
-      "typescript"
+      "discord-bot"
     ],
     "tags": [],
     "links": [],
@@ -144,7 +257,7 @@
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-02-26T14:47:42Z"
+      "updatedAt": "2026-02-27T04:45:45Z"
     },
     "issues": [
       {
@@ -190,69 +303,41 @@
     ]
   },
   {
-    "id": "jackwio-tech-stack-link",
-    "name": "tech-stack-link",
-    "description": "Repository tech-stack-link",
-    "repo": "Jackwio/tech-stack-link",
+    "id": "jackwio-lock-box",
+    "name": "lock-box",
+    "description": "Repository lock-box",
+    "repo": "Jackwio/lock-box",
     "stacks": [
-      "typescript"
+      "unknown"
     ],
     "tags": [],
     "links": [],
-    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+    "repoUrl": "https://github.com/Jackwio/lock-box",
     "repoMeta": {
-      "stars": 1,
+      "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-02-26T04:35:45Z"
+      "updatedAt": "2026-02-27T04:01:22Z"
     },
     "issues": [
       {
-        "number": 3,
-        "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+        "number": 1,
+        "title": "紀錄帳號密碼或 Token",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-27T04:03:16Z",
+        "url": "https://github.com/Jackwio/lock-box/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "執行任何操作都還是要輸入密碼。",
         "state": "OPEN",
         "labels": [
           "bug"
         ],
-        "updatedAt": "2026-02-27T04:16:05Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-      },
-      {
-        "number": 1,
-        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-02-26T19:05:19Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-      },
-      {
-        "number": 2,
-        "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-        "state": "OPEN",
-        "labels": [
-          "enhancement"
-        ],
-        "updatedAt": "2026-02-26T18:32:37Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+        "updatedAt": "2026-02-27T04:03:00Z",
+        "url": "https://github.com/Jackwio/lock-box/issues/2"
       }
     ]
-  },
-  {
-    "id": "jackwio-develop-note",
-    "name": "develop-note",
-    "description": "Repository develop-note",
-    "repo": "Jackwio/develop-note",
-    "stacks": [
-      "note"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/develop-note",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-25T15:21:59Z"
-    },
-    "issues": []
   },
   {
     "id": "jackwio-ai-tool-note",
@@ -348,42 +433,6 @@
         "url": "https://github.com/Jackwio/auto-collect-news/issues/2"
       }
     ]
-  },
-  {
-    "id": "jackwio-all-in-one",
-    "name": "all-in-one",
-    "description": "Repository all-in-one",
-    "repo": "Jackwio/all-in-one",
-    "stacks": [
-      "javascript"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/all-in-one",
-    "repoMeta": {
-      "stars": 1,
-      "forks": 0,
-      "updatedAt": "2026-02-22T02:27:29Z"
-    },
-    "issues": []
-  },
-  {
-    "id": "jackwio-ai-note",
-    "name": "ai-note",
-    "description": "Repository ai-note",
-    "repo": "Jackwio/ai-note",
-    "stacks": [
-      "unknown"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/ai-note",
-    "repoMeta": {
-      "stars": 1,
-      "forks": 0,
-      "updatedAt": "2026-02-21T16:55:42Z"
-    },
-    "issues": []
   },
   {
     "id": "jackwio-healthy-remind",
@@ -537,24 +586,6 @@
         "url": "https://github.com/Jackwio/note2markdown/issues/2"
       }
     ]
-  },
-  {
-    "id": "jackwio-my-github-pages",
-    "name": "my-github-pages",
-    "description": "Repository my-github-pages",
-    "repo": "Jackwio/my-github-pages",
-    "stacks": [
-      "unknown"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/my-github-pages",
-    "repoMeta": {
-      "stars": 1,
-      "forks": 0,
-      "updatedAt": "2026-02-20T16:10:53Z"
-    },
-    "issues": []
   },
   {
     "id": "jackwio-nanobanana-in-vscode",
