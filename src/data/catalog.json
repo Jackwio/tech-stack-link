@@ -1,11 +1,126 @@
 [
   {
+    "id": "jackwio-nba-line-bot",
+    "name": "nba-line-bot",
+    "description": "Repository nba-line-bot",
+    "repo": "Jackwio/nba-line-bot",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/nba-line-bot",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T04:28:06Z"
+    },
+    "issues": [
+      {
+        "number": 7,
+        "title": "將功能列表改成像 Telegram bot 的 Reply Keyboard",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-22T02:19:45Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/7"
+      },
+      {
+        "number": 6,
+        "title": "當查看特定比賽的資訊時加入球員上場時間顯示",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-22T02:17:23Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/6"
+      },
+      {
+        "number": 2,
+        "title": "Line Message API 如何使用",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-21T07:21:25Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/2"
+      },
+      {
+        "number": 4,
+        "title": "LINE Messaging API + Webhook 的核心原理是「事件回呼 + 即時回覆」",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-14T16:53:23Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/4"
+      },
+      {
+        "number": 3,
+        "title": "Line Flex Message",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-14T16:35:12Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/3"
+      },
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-14T16:33:57Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-ai-tool-note",
+    "name": "ai-tool-note",
+    "description": "Repository ai-tool-note",
+    "repo": "Jackwio/ai-tool-note",
+    "stacks": [
+      "notes"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/ai-tool-note",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T03:59:05Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-develop-note",
+    "name": "develop-note",
+    "description": "Repository develop-note",
+    "repo": "Jackwio/develop-note",
+    "stacks": [
+      "note"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/develop-note",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T03:52:56Z"
+    },
+    "issues": []
+  },
+  {
     "id": "jackwio-playsession-builder",
     "name": "playSession-builder",
-    "description": "Repository playSession-builder",
+    "description": "Deploy on  Cloudfare Pages",
     "repo": "Jackwio/playSession-builder",
     "stacks": [
-      "javascript"
+      "playwright"
     ],
     "tags": [],
     "links": [],
@@ -13,7 +128,25 @@
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-02-28T04:22:33Z"
+      "updatedAt": "2026-03-01T03:23:33Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-my-skills",
+    "name": "my-skills",
+    "description": "Repository my-skills",
+    "repo": "Jackwio/my-skills",
+    "stacks": [
+      "javascript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/my-skills",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-28T17:47:15Z"
     },
     "issues": []
   },
@@ -32,7 +165,7 @@
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-02-28T04:21:40Z"
+      "updatedAt": "2026-02-28T14:30:42Z"
     },
     "issues": [
       {
@@ -74,6 +207,53 @@
         ],
         "updatedAt": "2026-02-27T04:18:02Z",
         "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-tech-stack-link",
+    "name": "tech-stack-link",
+    "description": "Repository tech-stack-link",
+    "repo": "Jackwio/tech-stack-link",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-28T04:26:18Z"
+    },
+    "issues": [
+      {
+        "number": 3,
+        "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-02-27T04:16:05Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+      },
+      {
+        "number": 1,
+        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-26T19:05:19Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-26T18:32:37Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
       }
     ]
   },
@@ -125,24 +305,6 @@
     "issues": []
   },
   {
-    "id": "jackwio-develop-note",
-    "name": "develop-note",
-    "description": "Repository develop-note",
-    "repo": "Jackwio/develop-note",
-    "stacks": [
-      "note"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/develop-note",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-27T18:41:44Z"
-    },
-    "issues": []
-  },
-  {
     "id": "jackwio-all-in-one",
     "name": "all-in-one",
     "description": "Repository all-in-one",
@@ -159,53 +321,6 @@
       "updatedAt": "2026-02-27T15:48:51Z"
     },
     "issues": []
-  },
-  {
-    "id": "jackwio-tech-stack-link",
-    "name": "tech-stack-link",
-    "description": "Repository tech-stack-link",
-    "repo": "Jackwio/tech-stack-link",
-    "stacks": [
-      "typescript"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-27T13:53:06Z"
-    },
-    "issues": [
-      {
-        "number": 3,
-        "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-        "state": "OPEN",
-        "labels": [
-          "bug"
-        ],
-        "updatedAt": "2026-02-27T04:16:05Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-      },
-      {
-        "number": 1,
-        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-02-26T19:05:19Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-      },
-      {
-        "number": 2,
-        "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-        "state": "OPEN",
-        "labels": [
-          "enhancement"
-        ],
-        "updatedAt": "2026-02-26T18:32:37Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
-      }
-    ]
   },
   {
     "id": "jackwio-ai-note",
@@ -340,24 +455,6 @@
     ]
   },
   {
-    "id": "jackwio-ai-tool-note",
-    "name": "ai-tool-note",
-    "description": "Repository ai-tool-note",
-    "repo": "Jackwio/ai-tool-note",
-    "stacks": [
-      "unknown"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/ai-tool-note",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-25T14:17:22Z"
-    },
-    "issues": []
-  },
-  {
     "id": "jackwio-auto-collect-news",
     "name": "auto-collect-news",
     "description": "Repository auto-collect-news",
@@ -431,124 +528,6 @@
         ],
         "updatedAt": "2026-02-19T15:10:22Z",
         "url": "https://github.com/Jackwio/auto-collect-news/issues/2"
-      }
-    ]
-  },
-  {
-    "id": "jackwio-healthy-remind",
-    "name": "healthy-remind",
-    "description": "Repository healthy-remind",
-    "repo": "Jackwio/healthy-remind",
-    "stacks": [
-      "typescript"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/healthy-remind",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-21T14:47:07Z"
-    },
-    "issues": [
-      {
-        "number": 2,
-        "title": "發通知一定要用 source ID，不是一般 LINE ID",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-14T17:12:16Z",
-        "url": "https://github.com/Jackwio/healthy-remind/issues/2"
-      },
-      {
-        "number": 1,
-        "title": "Prompt",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-14T17:06:38Z",
-        "url": "https://github.com/Jackwio/healthy-remind/issues/1"
-      }
-    ]
-  },
-  {
-    "id": "jackwio-nba-line-bot",
-    "name": "nba-line-bot",
-    "description": "Repository nba-line-bot",
-    "repo": "Jackwio/nba-line-bot",
-    "stacks": [
-      "typescript"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/nba-line-bot",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-21T08:00:47Z"
-    },
-    "issues": [
-      {
-        "number": 7,
-        "title": "將功能列表改成像 Telegram bot 的 Reply Keyboard",
-        "state": "OPEN",
-        "labels": [
-          "enhancement"
-        ],
-        "updatedAt": "2026-02-22T02:19:45Z",
-        "url": "https://github.com/Jackwio/nba-line-bot/issues/7"
-      },
-      {
-        "number": 6,
-        "title": "當查看特定比賽的資訊時加入球員上場時間顯示",
-        "state": "OPEN",
-        "labels": [
-          "enhancement"
-        ],
-        "updatedAt": "2026-02-22T02:17:23Z",
-        "url": "https://github.com/Jackwio/nba-line-bot/issues/6"
-      },
-      {
-        "number": 2,
-        "title": "Line Message API 如何使用",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-21T07:21:25Z",
-        "url": "https://github.com/Jackwio/nba-line-bot/issues/2"
-      },
-      {
-        "number": 4,
-        "title": "LINE Messaging API + Webhook 的核心原理是「事件回呼 + 即時回覆」",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-14T16:53:23Z",
-        "url": "https://github.com/Jackwio/nba-line-bot/issues/4"
-      },
-      {
-        "number": 3,
-        "title": "Line Flex Message",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-14T16:35:12Z",
-        "url": "https://github.com/Jackwio/nba-line-bot/issues/3"
-      },
-      {
-        "number": 1,
-        "title": "Prompt",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-14T16:33:57Z",
-        "url": "https://github.com/Jackwio/nba-line-bot/issues/1"
       }
     ]
   },
