@@ -13,9 +13,17 @@
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-03-01T04:28:06Z"
+      "updatedAt": "2026-03-01T11:34:57Z"
     },
     "issues": [
+      {
+        "number": 8,
+        "title": "Deploy",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:51:47Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/8"
+      },
       {
         "number": 7,
         "title": "將功能列表改成像 Telegram bot 的 Reply Keyboard",
@@ -92,9 +100,148 @@
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-03-01T03:59:05Z"
+      "updatedAt": "2026-03-01T07:54:22Z"
     },
-    "issues": []
+    "issues": [
+      {
+        "number": 1,
+        "title": "Deploy",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-01T07:56:27Z",
+        "url": "https://github.com/Jackwio/ai-tool-note/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-healthy-remind",
+    "name": "healthy-remind",
+    "description": "Repository healthy-remind",
+    "repo": "Jackwio/healthy-remind",
+    "stacks": [
+      "line-bot",
+      "deploy-on-zeabur"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/healthy-remind",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T04:52:26Z"
+    },
+    "issues": [
+      {
+        "number": 3,
+        "title": "Deploy",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:53:18Z",
+        "url": "https://github.com/Jackwio/healthy-remind/issues/3"
+      },
+      {
+        "number": 2,
+        "title": "發通知一定要用 source ID，不是一般 LINE ID",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-14T17:12:16Z",
+        "url": "https://github.com/Jackwio/healthy-remind/issues/2"
+      },
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-14T17:06:38Z",
+        "url": "https://github.com/Jackwio/healthy-remind/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-todo",
+    "name": "TODO",
+    "description": "Repository TODO",
+    "repo": "Jackwio/TODO",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/TODO",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T04:48:01Z"
+    },
+    "issues": [
+      {
+        "number": 1,
+        "title": "Deploy on Cloudfare",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T05:01:25Z",
+        "url": "https://github.com/Jackwio/TODO/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-tech-stack-link",
+    "name": "tech-stack-link",
+    "description": "Repository tech-stack-link",
+    "repo": "Jackwio/tech-stack-link",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T04:38:47Z"
+    },
+    "issues": [
+      {
+        "number": 4,
+        "title": "專案技術整理",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T14:40:27Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
+      },
+      {
+        "number": 3,
+        "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-02-27T04:16:05Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+      },
+      {
+        "number": 1,
+        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-26T19:05:19Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-26T18:32:37Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+      }
+    ]
   },
   {
     "id": "jackwio-develop-note",
@@ -112,7 +259,16 @@
       "forks": 0,
       "updatedAt": "2026-03-01T03:52:56Z"
     },
-    "issues": []
+    "issues": [
+      {
+        "number": 1,
+        "title": "Deploy",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:54:04Z",
+        "url": "https://github.com/Jackwio/develop-note/issues/1"
+      }
+    ]
   },
   {
     "id": "jackwio-playsession-builder",
@@ -130,7 +286,16 @@
       "forks": 0,
       "updatedAt": "2026-03-01T03:23:33Z"
     },
-    "issues": []
+    "issues": [
+      {
+        "number": 2,
+        "title": "Deploy",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:55:32Z",
+        "url": "https://github.com/Jackwio/playSession-builder/issues/2"
+      }
+    ]
   },
   {
     "id": "jackwio-my-skills",
@@ -171,12 +336,28 @@
       {
         "number": 5,
         "title": "透過 Playwright 產生 X 登入檔",
-        "state": "OPEN",
+        "state": "CLOSED",
         "labels": [
           "bug"
         ],
-        "updatedAt": "2026-02-27T14:05:48Z",
+        "updatedAt": "2026-03-01T07:58:05Z",
         "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/5"
+      },
+      {
+        "number": 7,
+        "title": "Deploy",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:50:20Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/7"
+      },
+      {
+        "number": 6,
+        "title": "Deploy on Cloudfare",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:47:27Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/6"
       },
       {
         "number": 4,
@@ -211,53 +392,6 @@
     ]
   },
   {
-    "id": "jackwio-tech-stack-link",
-    "name": "tech-stack-link",
-    "description": "Repository tech-stack-link",
-    "repo": "Jackwio/tech-stack-link",
-    "stacks": [
-      "typescript"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-28T04:26:18Z"
-    },
-    "issues": [
-      {
-        "number": 3,
-        "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-        "state": "OPEN",
-        "labels": [
-          "bug"
-        ],
-        "updatedAt": "2026-02-27T04:16:05Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-      },
-      {
-        "number": 1,
-        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-02-26T19:05:19Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-      },
-      {
-        "number": 2,
-        "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-        "state": "OPEN",
-        "labels": [
-          "enhancement"
-        ],
-        "updatedAt": "2026-02-26T18:32:37Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
-      }
-    ]
-  },
-  {
     "id": "jackwio-track-repo-commit",
     "name": "track-repo-commit",
     "description": "Repository track-repo-commit",
@@ -274,6 +408,22 @@
       "updatedAt": "2026-02-28T03:41:32Z"
     },
     "issues": [
+      {
+        "number": 3,
+        "title": "監控特定 Repo Commit",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-01T10:17:10Z",
+        "url": "https://github.com/Jackwio/track-repo-commit/issues/3"
+      },
+      {
+        "number": 2,
+        "title": "Deploy",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:50:36Z",
+        "url": "https://github.com/Jackwio/track-repo-commit/issues/2"
+      },
       {
         "number": 1,
         "title": "Prompt",
@@ -302,7 +452,16 @@
       "forks": 0,
       "updatedAt": "2026-02-27T18:43:19Z"
     },
-    "issues": []
+    "issues": [
+      {
+        "number": 1,
+        "title": "Deploy",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:53:39Z",
+        "url": "https://github.com/Jackwio/deploy-note/issues/1"
+      }
+    ]
   },
   {
     "id": "jackwio-all-in-one",
@@ -375,6 +534,14 @@
       "updatedAt": "2026-02-27T04:45:45Z"
     },
     "issues": [
+      {
+        "number": 5,
+        "title": "Deploy",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:51:10Z",
+        "url": "https://github.com/Jackwio/repo-star-tracker/issues/5"
+      },
       {
         "number": 4,
         "title": "Prompt",
@@ -548,6 +715,14 @@
       "updatedAt": "2026-02-20T16:46:16Z"
     },
     "issues": [
+      {
+        "number": 4,
+        "title": "vscode extension 發佈到 github releases",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T05:59:36Z",
+        "url": "https://github.com/Jackwio/note2markdown/issues/4"
+      },
       {
         "number": 1,
         "title": "Prompt",
