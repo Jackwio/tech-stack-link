@@ -1,5 +1,50 @@
 [
   {
+    "id": "jackwio-track-repo-commit",
+    "name": "track-repo-commit",
+    "description": "Repository track-repo-commit",
+    "repo": "Jackwio/track-repo-commit",
+    "stacks": [
+      "discord-bot"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/track-repo-commit",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-03T13:59:24Z"
+    },
+    "issues": [
+      {
+        "number": 2,
+        "title": "Deploy",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-03T14:33:36Z",
+        "url": "https://github.com/Jackwio/track-repo-commit/issues/2"
+      },
+      {
+        "number": 3,
+        "title": "監控特定 Repo Commit",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-01T10:17:10Z",
+        "url": "https://github.com/Jackwio/track-repo-commit/issues/3"
+      },
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T15:35:39Z",
+        "url": "https://github.com/Jackwio/track-repo-commit/issues/1"
+      }
+    ]
+  },
+  {
     "id": "jackwio-tech-stack-link",
     "name": "tech-stack-link",
     "description": "Repository tech-stack-link",
@@ -13,7 +58,7 @@
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-03-02T04:35:05Z"
+      "updatedAt": "2026-03-03T04:34:28Z"
     },
     "issues": [
       {
@@ -342,6 +387,14 @@
     },
     "issues": [
       {
+        "number": 7,
+        "title": "Deploy",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-03T14:33:21Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/7"
+      },
+      {
         "number": 5,
         "title": "透過 Playwright 產生 X 登入檔",
         "state": "CLOSED",
@@ -350,14 +403,6 @@
         ],
         "updatedAt": "2026-03-01T07:58:05Z",
         "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/5"
-      },
-      {
-        "number": 7,
-        "title": "Deploy",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-03-01T04:50:20Z",
-        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/7"
       },
       {
         "number": 6,
@@ -396,51 +441,6 @@
         ],
         "updatedAt": "2026-02-27T04:18:02Z",
         "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/2"
-      }
-    ]
-  },
-  {
-    "id": "jackwio-track-repo-commit",
-    "name": "track-repo-commit",
-    "description": "Repository track-repo-commit",
-    "repo": "Jackwio/track-repo-commit",
-    "stacks": [
-      "discord-bot"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/track-repo-commit",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-28T03:41:32Z"
-    },
-    "issues": [
-      {
-        "number": 3,
-        "title": "監控特定 Repo Commit",
-        "state": "CLOSED",
-        "labels": [],
-        "updatedAt": "2026-03-01T10:17:10Z",
-        "url": "https://github.com/Jackwio/track-repo-commit/issues/3"
-      },
-      {
-        "number": 2,
-        "title": "Deploy",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-03-01T04:50:36Z",
-        "url": "https://github.com/Jackwio/track-repo-commit/issues/2"
-      },
-      {
-        "number": 1,
-        "title": "Prompt",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-27T15:35:39Z",
-        "url": "https://github.com/Jackwio/track-repo-commit/issues/1"
       }
     ]
   },
@@ -545,9 +545,9 @@
       {
         "number": 5,
         "title": "Deploy",
-        "state": "OPEN",
+        "state": "CLOSED",
         "labels": [],
-        "updatedAt": "2026-03-01T04:51:10Z",
+        "updatedAt": "2026-03-03T14:33:10Z",
         "url": "https://github.com/Jackwio/repo-star-tracker/issues/5"
       },
       {
@@ -1006,24 +1006,6 @@
     "issues": []
   },
   {
-    "id": "jackwio-sso",
-    "name": "SSO",
-    "description": "Repository SSO",
-    "repo": "Jackwio/SSO",
-    "stacks": [
-      "unknown"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/SSO",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-01-31T12:54:31Z"
-    },
-    "issues": []
-  },
-  {
     "id": "jackwio-copilot-sdk",
     "name": "copilot-sdk",
     "description": "Repository copilot-sdk",
@@ -1078,24 +1060,6 @@
     "issues": []
   },
   {
-    "id": "jackwio-oauth",
-    "name": "OAuth",
-    "description": "Repository OAuth",
-    "repo": "Jackwio/OAuth",
-    "stacks": [
-      "c#"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/OAuth",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-01-19T15:47:07Z"
-    },
-    "issues": []
-  },
-  {
     "id": "jackwio-pdf-to-image",
     "name": "pdf-to-image",
     "description": "Repository pdf-to-image",
@@ -1132,24 +1096,6 @@
     "issues": []
   },
   {
-    "id": "jackwio-follow-open-source-update",
-    "name": "follow-open-source-update",
-    "description": "Repository follow-open-source-update",
-    "repo": "Jackwio/follow-open-source-update",
-    "stacks": [
-      "c#"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/follow-open-source-update",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2025-12-13T06:29:37Z"
-    },
-    "issues": []
-  },
-  {
     "id": "jackwio-download-video-from-youtube",
     "name": "download-video-from-youtube",
     "description": "Repository download-video-from-youtube",
@@ -1177,41 +1123,5 @@
         "url": "https://github.com/Jackwio/download-video-from-youtube/issues/4"
       }
     ]
-  },
-  {
-    "id": "jackwio-projectfrontend",
-    "name": "ProjectFrontEnd",
-    "description": "Repository ProjectFrontEnd",
-    "repo": "Jackwio/ProjectFrontEnd",
-    "stacks": [
-      "dart"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/ProjectFrontEnd",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2024-11-01T15:03:45Z"
-    },
-    "issues": []
-  },
-  {
-    "id": "jackwio-foodsafe",
-    "name": "FoodSafe",
-    "description": "Repository FoodSafe",
-    "repo": "Jackwio/FoodSafe",
-    "stacks": [
-      "java"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/FoodSafe",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2024-09-10T14:29:32Z"
-    },
-    "issues": []
   }
 ]
