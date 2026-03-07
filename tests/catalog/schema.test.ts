@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { parseProjectsYaml } from '../../src/lib/catalog/schema';
+import { parseCatalogJson, parseProjectsYaml } from '../../src/lib/catalog/schema';
 
 describe('parseProjectsYaml', () => {
 	it('parses valid project YAML records', () => {
@@ -33,5 +33,49 @@ describe('parseProjectsYaml', () => {
 `;
 
 		expect(() => parseProjectsYaml(yaml)).toThrow(/repo/i);
+	});
+
+	it('parses homepage snapshot JSON with project, gist, and topic groups', () => {
+		const json = JSON.stringify({
+			projects: [
+				{
+					id: 'alpha',
+					name: 'Alpha Project',
+					description: 'Core service',
+					repo: 'acme/alpha',
+					stacks: ['astro'],
+					topics: ['astro'],
+					tags: ['tooling'],
+					links: [],
+					repoUrl: 'https://github.com/acme/alpha',
+					repoMeta: { stars: 1, forks: 0, updatedAt: '2026-03-07T00:00:00.000Z' },
+					issues: [],
+				},
+			],
+			gistGroups: [
+				{
+					label: 'tooling',
+					items: [{ name: 'alpha-snippet', url: 'https://gist.github.com/acme/1' }],
+				},
+			],
+			topicGroups: [
+				{
+					label: 'astro',
+					items: [
+						{
+							name: 'alpha',
+							url: 'https://github.com/acme/alpha',
+							issues: [{ title: 'astro docs update', url: 'https://github.com/acme/alpha/issues/1' }],
+						},
+					],
+				},
+			],
+			syncedAt: '2026-03-07T00:00:00.000Z',
+		});
+
+		const snapshot = parseCatalogJson(json);
+		expect(snapshot.projects).toHaveLength(1);
+		expect(snapshot.gistGroups[0].items[0].name).toBe('alpha-snippet');
+		expect(snapshot.topicGroups[0].items[0].issues[0].title).toBe('astro docs update');
 	});
 });

@@ -88,6 +88,34 @@ a {
 	box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
 }
 
+.tab-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.6rem;
+	margin-bottom: 1rem;
+}
+
+.tab-button {
+	padding: 0.55rem 0.9rem;
+	border: 1px solid var(--line);
+	border-radius: 999px;
+	background: #fff;
+	color: var(--ink);
+	font: inherit;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.tab-button.is-active {
+	border-color: var(--accent);
+	background: var(--accent-soft);
+	color: #073a38;
+}
+
+.tab-panel[hidden] {
+	display: none;
+}
+
 .filters {
 	display: grid;
 	gap: 0.9rem;
@@ -185,6 +213,10 @@ a {
 	align-items: start;
 }
 
+.compact-grid {
+	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
 .project-card {
 	padding: 0.95rem;
 	border-radius: 0.85rem;
@@ -192,6 +224,40 @@ a {
 	background: #fff;
 	display: grid;
 	gap: 0.8rem;
+}
+
+.compact-card h3 {
+	margin: 0;
+	font-size: 1rem;
+}
+
+.group-stack {
+	display: grid;
+	gap: 1rem;
+}
+
+.group-section {
+	display: grid;
+	gap: 0.8rem;
+}
+
+.group-header h2 {
+	margin: 0;
+	font-size: 1.05rem;
+}
+
+.link-copy {
+	margin: 0;
+	font-size: 0.85rem;
+	word-break: break-all;
+}
+
+.topic-issue-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	gap: 0.35rem;
 }
 
 .project-head {
@@ -371,5 +437,9 @@ a {
 
 	.catalog-panel {
 		padding: 0.9rem;
+	}
+
+	.filter-row {
+		grid-template-columns: 1fr;
 	}
 }

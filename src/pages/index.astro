@@ -3,14 +3,19 @@ import BaseHead from '../components/BaseHead.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import catalogRaw from '../data/catalog.json';
 import { catalogSchema } from '../lib/catalog/schema';
-import type { CatalogProject } from '../lib/catalog/types';
+import type { CatalogSnapshot } from '../lib/catalog/types';
 
-let projects: CatalogProject[] = [];
+let snapshot: CatalogSnapshot = {
+	projects: [],
+	gistGroups: [],
+	topicGroups: [],
+	syncedAt: new Date(0).toISOString(),
+};
 let catalogError = '';
 
 const parsedCatalog = catalogSchema.safeParse(catalogRaw);
 if (parsedCatalog.success) {
-	projects = parsedCatalog.data;
+	snapshot = parsedCatalog.data;
 } else {
 	catalogError = parsedCatalog.error.issues.map((item) => `${item.path.join('.')}: ${item.message}`).join('; ');
 }
@@ -30,23 +35,120 @@ if (parsedCatalog.success) {
 			</header>
 
 			<section class="catalog-panel" aria-label="Project catalog">
-				<form id="filters" class="filters" autocomplete="off">
-					<div class="filter-row">
-						<label class="keyword-field" for="keyword">
-							<span>Search</span>
-							<input id="keyword" type="search" placeholder="Project name or description" />
-						</label>
-						<button id="clear-filters" type="button">Clear</button>
-					</div>
-					<div class="stack-filter-group">
-						<p class="stack-label">Tech Stack Tags</p>
-						<div id="stack-filters" class="stack-filters"></div>
-					</div>
-				</form>
+				<div class="tab-list" role="tablist" aria-label="Catalog sections">
+					<button type="button" class="tab-button is-active" role="tab" data-tab="projects" aria-selected="true">
+						Projects
+					</button>
+					<button type="button" class="tab-button" role="tab" data-tab="gists" aria-selected="false">
+						Gists by Description
+					</button>
+					<button type="button" class="tab-button" role="tab" data-tab="topics" aria-selected="false">
+						Repos by Topic
+					</button>
+				</div>
 
-				<p id="results-meta" class="results-meta">Loading projects...</p>
-				<div id="catalog-grid" class="catalog-grid" aria-live="polite"></div>
-				<p id="catalog-fallback" class="fallback" hidden>Catalog data unavailable. Please re-run sync.</p>
+				<div class="tab-panel is-active" data-panel="projects">
+					<form id="filters" class="filters" autocomplete="off">
+						<div class="filter-row">
+							<label class="keyword-field" for="keyword">
+								<span>Search</span>
+								<input id="keyword" type="search" placeholder="Project name or description" />
+							</label>
+							<button id="clear-filters" type="button">Clear</button>
+						</div>
+						<div class="stack-filter-group">
+							<p class="stack-label">Tech Stack Tags</p>
+							<div id="stack-filters" class="stack-filters"></div>
+						</div>
+					</form>
+
+					<p id="results-meta" class="results-meta">Loading projects...</p>
+					<div id="catalog-grid" class="catalog-grid" aria-live="polite"></div>
+					<p id="catalog-fallback" class="fallback" hidden>Catalog data unavailable. Please re-run sync.</p>
+				</div>
+
+				<div class="tab-panel" data-panel="gists" hidden>
+					<div id="gist-groups" class="group-stack">
+						{
+							snapshot.gistGroups.length > 0 ? (
+								snapshot.gistGroups.map((group) => (
+									<section class="group-section">
+										<header class="group-header">
+											<h2>{group.label}</h2>
+										</header>
+										<div class="catalog-grid compact-grid">
+											{group.items.map((item) => (
+												<article class="project-card compact-card">
+													<h3>
+														<a href={item.url} target="_blank" rel="noreferrer">
+															{item.name}
+														</a>
+													</h3>
+													<p class="link-copy">
+														<a href={item.url} target="_blank" rel="noreferrer">
+															{item.url}
+														</a>
+													</p>
+												</article>
+											))}
+										</div>
+									</section>
+								))
+							) : (
+								<p class="empty-state">No gist groups available.</p>
+							)
+						}
+					</div>
+				</div>
+
+				<div class="tab-panel" data-panel="topics" hidden>
+					<div id="topic-groups" class="group-stack">
+						{
+							snapshot.topicGroups.length > 0 ? (
+								snapshot.topicGroups.map((group) => (
+									<section class="group-section">
+										<header class="group-header">
+											<h2>{group.label}</h2>
+										</header>
+										<div class="catalog-grid compact-grid">
+											{group.items.map((item) => (
+												<article class="project-card compact-card">
+													<h3>
+														<a href={item.url} target="_blank" rel="noreferrer">
+															{item.name}
+														</a>
+													</h3>
+													<p class="link-copy">
+														<a href={item.url} target="_blank" rel="noreferrer">
+															{item.url}
+														</a>
+													</p>
+													{
+														item.issues.length > 0 ? (
+															<ul class="topic-issue-list">
+																{item.issues.map((issue) => (
+																	<li>
+																		<a href={issue.url} target="_blank" rel="noreferrer">
+																			{issue.title}
+																		</a>
+																	</li>
+																))}
+															</ul>
+														) : (
+															<p class="issue-empty">No topic-matched issues</p>
+														)
+													}
+												</article>
+											))}
+										</div>
+									</section>
+								))
+							) : (
+								<p class="empty-state">No topic groups available.</p>
+							)
+						}
+					</div>
+				</div>
 			</section>
 
 			{
@@ -56,7 +158,7 @@ if (parsedCatalog.success) {
 			}
 		</main>
 
-		<script id="catalog-data" type="application/json" set:html={JSON.stringify(projects)}></script>
+		<script id="catalog-data" type="application/json" set:html={JSON.stringify(snapshot)}></script>
 		<script type="module">
 			const dataNode = document.getElementById('catalog-data');
 			const gridNode = document.getElementById('catalog-grid');
@@ -65,6 +167,8 @@ if (parsedCatalog.success) {
 			const clearNode = document.getElementById('clear-filters');
 			const resultNode = document.getElementById('results-meta');
 			const fallbackNode = document.getElementById('catalog-fallback');
+			const tabButtons = [...document.querySelectorAll('[data-tab]')];
+			const tabPanels = [...document.querySelectorAll('[data-panel]')];
 			const dateFormatter = new Intl.DateTimeFormat('en-US', { dateStyle: 'medium' });
 			const hiddenTagTokens = new Set(['public', 'private', 'github-sync', 'unknown']);
 
@@ -215,17 +319,31 @@ if (parsedCatalog.success) {
 				}
 			}
 
+			function switchTab(nextTab) {
+				for (const button of tabButtons) {
+					const isActive = button.dataset.tab === nextTab;
+					button.classList.toggle('is-active', isActive);
+					button.setAttribute('aria-selected', isActive ? 'true' : 'false');
+				}
+
+				for (const panel of tabPanels) {
+					const isActive = panel.dataset.panel === nextTab;
+					panel.classList.toggle('is-active', isActive);
+					panel.hidden = !isActive;
+				}
+			}
+
 			try {
 				if (!dataNode || !gridNode || !stackFiltersNode || !keywordNode || !clearNode || !resultNode) {
 					throw new Error('UI elements are missing.');
 				}
 
-				const parsed = JSON.parse(dataNode.textContent ?? '[]');
-				if (!Array.isArray(parsed)) {
-					throw new Error('Catalog data is not an array.');
+				const parsed = JSON.parse(dataNode.textContent ?? '{}');
+				if (!parsed || !Array.isArray(parsed.projects)) {
+					throw new Error('Catalog data is not a valid snapshot.');
 				}
 
-				const projects = parsed;
+				const projects = parsed.projects;
 				const allStacks = [
 					...new Set(
 						projects
@@ -308,6 +426,13 @@ if (parsedCatalog.success) {
 					render(false);
 				});
 
+				for (const button of tabButtons) {
+					button.addEventListener('click', () => {
+						switchTab(button.dataset.tab);
+					});
+				}
+
+				switchTab('projects');
 				render();
 			} catch (error) {
 				console.error(error);

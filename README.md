@@ -1,14 +1,14 @@
 # Tech Stack Link
 
-Tech Stack Link 是一個部署在 GitHub Pages 的靜態網站，用來整理 Side Project 與其 Tech Stack，並展示每個 repo 的 issue 快照。
+Tech Stack Link 是一個部署在 GitHub Pages 的靜態網站，用來整理 Side Project 與其 Tech Stack，並展示 repo catalog、依 Gist description 分類的片段，以及依 repo topic 分類的 repo/issue 快照。
 
 ## 程式架構
 
 ### 1. 前端展示（Astro）
 - `src/pages/index.astro`
   - 載入 `src/data/catalog.json`
-  - 渲染篩選器（stack 多選 + keyword）
-  - 渲染 project card 與 issue 清單
+  - 渲染三個 Tabs：Projects / Gists by Description / Repos by Topic
+  - 僅在 Projects Tab 啟用 stack 多選與 keyword 篩選
   - URL query state 同步（可分享篩選結果）
 - `src/components/BaseHead.astro`
   - 管理 SEO/meta 與 base-path-safe 資源路徑
@@ -18,8 +18,9 @@ Tech Stack Link 是一個部署在 GitHub Pages 的靜態網站，用來整理 S
 ### 2. 資料同步（GitHub GraphQL）
 - `scripts/sync-github.ts`
   - 透過 `GITHUB_TOKEN` 從 GitHub GraphQL 自動探索 owner 的 repos
+  - 透過 GitHub REST API 同步該 owner 的 gists
   - 依設定決定是否包含 private / fork / archived
-  - 抓取 repo metadata 與完整 issue 分頁
+  - 抓取 repo metadata、完整 issue 分頁，以及 gist description 分類資料
   - 輸出 `src/data/catalog.json`
 - `src/lib/catalog/discovery.ts`
   - 將 GitHub repository 資料映射成專案模型（`ProjectInput`）
@@ -28,8 +29,8 @@ Tech Stack Link 是一個部署在 GitHub Pages 的靜態網站，用來整理 S
 
 ### 3. CI/CD（GitHub Actions）
 - `.github/workflows/pages-manual-sync-deploy.yml`
-  - `sync -> test -> build -> deploy`
-  - 可使用 `SYNC_GITHUB_TOKEN` 讀取 private repos 後部署到 GitHub Pages
+  - `test -> build -> deploy`
+  - 僅允許手動觸發，不會重新同步資料
 - `.github/workflows/daily-catalog-sync.yml`
   - 每日排程同步 `src/data/catalog.json`（`04:00 UTC`，即 `12:00 UTC+8`）
   - 支援手動觸發（`workflow_dispatch`）
@@ -71,9 +72,9 @@ npm run preview    # 本機預覽 build 結果
 
 ### B. 透過 GitHub Action 自動同步
 1. 在 repo Secrets 新增 `SYNC_GITHUB_TOKEN`（建議 PAT，需可讀 private repos）。
-2. 觸發 workflow（擇一）：
+2. 觸發 workflow：
    - `Daily Catalog Sync`：每天中午 12:00（UTC+8）自動執行，或手動執行；流程為 `sync -> test`，並在資料有變更時自動提交 `src/data/catalog.json`。
-   - `Pages Manual Sync Deploy`：手動或 push 後執行 `sync -> test -> build -> deploy` 到 GitHub Pages。
+   - `Pages Manual Sync Deploy`：在 `Daily Catalog Sync` 完成且資料已更新後，手動觸發 `test -> build -> deploy` 到 GitHub Pages。
 
 ## Tech Stack Link 如何實作
 
@@ -85,10 +86,12 @@ npm run preview    # 本機預覽 build 結果
    將 GitHub repository topic / language / visibility 轉成站內專案資料模型。
 3. **Issue 聚合**  
    每個 repo 以 cursor 分頁抓取 issues，輸出標準化欄位（title/state/labels/updatedAt/url）。
-4. **靜態輸出**  
-   將資料寫入 `src/data/catalog.json`，供前端唯一讀取來源。
-5. **前端篩選**  
-   在瀏覽器端做 stack AND 篩選與 keyword 搜尋，並同步到 URL query。
+4. **Gist 與 Topic 分組**  
+   將 gist description 以逗號切分後分組，並依 repo topics 建立 topic group 與 topic-matched issue 清單。
+5. **靜態輸出**  
+   將資料寫入單一 `src/data/catalog.json` snapshot，供前端唯一讀取來源。
+6. **前端篩選**  
+   在瀏覽器端只針對 Projects Tab 做 stack AND 篩選與 keyword 搜尋，並同步到 URL query。
 
 ## 安全與風險提醒
 

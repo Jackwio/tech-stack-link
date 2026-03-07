@@ -1,9 +1,6 @@
 name: Pages Manual Sync Deploy
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 permissions:
@@ -33,15 +30,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Sync catalog snapshot
-        run: npm run sync
-        env:
-          GITHUB_TOKEN: ${{ secrets.SYNC_GITHUB_TOKEN }}
-          SYNC_OWNER: ${{ github.repository_owner }}
-          SYNC_INCLUDE_PRIVATE: "true"
-          SYNC_INCLUDE_FORKS: "false"
-          SYNC_INCLUDE_ARCHIVED: "false"
 
       - name: Run tests
         run: npm run test

@@ -1,9 +1,16 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildProjectFromRepository, parseBooleanFlag, type DiscoveredRepository } from '../src/lib/catalog/discovery';
+import {
+	buildGistGroups,
+	buildProjectFromRepository,
+	buildTopicGroups,
+	parseBooleanFlag,
+	type DiscoveredGist,
+	type DiscoveredRepository,
+} from '../src/lib/catalog/discovery';
 import { parseCatalogJson } from '../src/lib/catalog/schema';
-import type { CatalogIssue, CatalogProject, ProjectInput } from '../src/lib/catalog/types';
+import type { CatalogIssue, CatalogProject, CatalogSnapshot, ProjectInput } from '../src/lib/catalog/types';
 
 interface GraphQLIssueNode {
 	number: number;
@@ -55,6 +62,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 const catalogPath = path.join(rootDir, 'src', 'data', 'catalog.json');
 const githubApiGraphql = 'https://api.github.com/graphql';
+const githubApiRest = 'https://api.github.com';
 
 const ownerRepositoriesQuery = `
 query OwnerRepositories($owner: String!, $after: String, $privacy: RepositoryPrivacy) {
@@ -190,6 +198,26 @@ async function fetchGraphQL<T>(
 	};
 }
 
+async function fetchRest<T>(pathname: string, token: string): Promise<T> {
+	const response = await fetch(`${githubApiRest}${pathname}`, {
+		headers: {
+			Accept: 'application/vnd.github+json',
+			Authorization: `Bearer ${token}`,
+		},
+	});
+
+	if (response.status === 404) {
+		throw new Error(`GitHub REST 404: ${pathname}`);
+	}
+
+	if (!response.ok) {
+		const body = await response.text();
+		throw new Error(`GitHub REST ${response.status}: ${body.slice(0, 200)}`);
+	}
+
+	return (await response.json()) as T;
+}
+
 function assertRateLimit(remaining: number | null): void {
 	if (remaining !== null && Number.isFinite(remaining) && remaining <= 1) {
 		throw new Error('GitHub API rate limit is nearly exhausted. Aborting to avoid partial catalog output.');
@@ -316,13 +344,44 @@ async function discoverProjects(settings: SyncSettings, token: string): Promise<
 	return filtered.map(buildProjectFromRepository);
 }
 
-async function loadFallbackCatalog(): Promise<Map<string, CatalogProject>> {
+async function discoverGists(settings: SyncSettings, token: string): Promise<DiscoveredGist[]> {
+	const gists: DiscoveredGist[] = [];
+
+	for (let page = 1; page <= 10; page += 1) {
+		try {
+			const response = await fetchRest<
+				Array<{ description: string | null; html_url: string; files: Record<string, { filename: string }> }>
+			>(`/users/${settings.owner}/gists?per_page=100&page=${page}`, token);
+			if (response.length === 0) {
+				break;
+			}
+
+			for (const gist of response) {
+				const firstFile = Object.values(gist.files ?? {})[0];
+				gists.push({
+					name: firstFile?.filename || 'Untitled Gist',
+					description: gist.description,
+					url: gist.html_url,
+				});
+			}
+		} catch (error) {
+			const message = error instanceof Error ? error.message : String(error);
+			if (message.includes('404')) {
+				return [];
+			}
+			throw error;
+		}
+	}
+
+	return gists;
+}
+
+async function loadFallbackCatalog(): Promise<CatalogSnapshot | null> {
 	try {
 		const raw = await fs.readFile(catalogPath, 'utf8');
-		const projects = parseCatalogJson(raw);
-		return new Map(projects.map((project) => [project.id, project]));
+		return parseCatalogJson(raw);
 	} catch {
-		return new Map();
+		return null;
 	}
 }
 
@@ -352,8 +411,8 @@ function mergeWithFallback(project: ProjectInput, fallback: CatalogProject | und
 	};
 }
 
-async function writeCatalog(projects: CatalogProject[]): Promise<void> {
-	const content = `${JSON.stringify(projects, null, 2)}\n`;
+async function writeCatalog(snapshot: CatalogSnapshot): Promise<void> {
+	const content = `${JSON.stringify(snapshot, null, 2)}\n`;
 	await fs.writeFile(catalogPath, content, 'utf8');
 }
 
@@ -369,6 +428,7 @@ async function main(): Promise<void> {
 	const settings = resolveSyncSettings();
 	const projects = await discoverProjects(settings, token);
 	const fallback = await loadFallbackCatalog();
+	const fallbackProjects = new Map((fallback?.projects ?? []).map((project) => [project.id, project]));
 
 	const nextCatalog: CatalogProject[] = [];
 	const errors: string[] = [];
@@ -385,11 +445,27 @@ async function main(): Promise<void> {
 		} catch (error) {
 			const message = error instanceof Error ? error.message : String(error);
 			errors.push(`${project.repo}: ${message}`);
-			nextCatalog.push(mergeWithFallback(project, fallback.get(project.id)));
+			nextCatalog.push(mergeWithFallback(project, fallbackProjects.get(project.id)));
 		}
 	}
 
-	await writeCatalog(nextCatalog);
+	let gistGroups = fallback?.gistGroups ?? [];
+	try {
+		const gists = await discoverGists(settings, token);
+		gistGroups = buildGistGroups(gists);
+	} catch (error) {
+		const message = error instanceof Error ? error.message : String(error);
+		errors.push(`gists: ${message}`);
+	}
+
+	const snapshot: CatalogSnapshot = {
+		projects: nextCatalog,
+		gistGroups,
+		topicGroups: buildTopicGroups(nextCatalog),
+		syncedAt: new Date().toISOString(),
+	};
+
+	await writeCatalog(snapshot);
 
 	if (errors.length > 0) {
 		console.warn('Sync completed with warnings:');

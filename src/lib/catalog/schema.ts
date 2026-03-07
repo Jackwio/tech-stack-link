@@ -1,6 +1,6 @@
 import YAML from 'yaml';
 import { z } from 'zod';
-import type { CatalogProject, ProjectInput } from './types';
+import type { CatalogProject, CatalogSnapshot, ProjectInput } from './types';
 
 const repoPattern = /^[^/\s]+\/[^/\s]+$/;
 
@@ -15,6 +15,7 @@ export const projectInputSchema = z.object({
 	description: z.string().min(1),
 	repo: z.string().regex(repoPattern, 'repo must be owner/name format'),
 	stacks: z.array(z.string().min(1)).min(1),
+	topics: z.array(z.string().min(1)).default([]),
 	tags: z.array(z.string().min(1)).default([]),
 	links: z.array(projectLinkSchema).default([]),
 });
@@ -40,7 +41,38 @@ export const catalogProjectSchema = projectInputSchema.extend({
 	issues: z.array(catalogIssueSchema),
 });
 
-export const catalogSchema = z.array(catalogProjectSchema);
+export const gistCardSchema = z.object({
+	name: z.string().min(1),
+	url: z.url(),
+});
+
+export const gistGroupSchema = z.object({
+	label: z.string().min(1),
+	items: z.array(gistCardSchema),
+});
+
+export const topicIssueCardSchema = z.object({
+	title: z.string().min(1),
+	url: z.url(),
+});
+
+export const topicRepoCardSchema = z.object({
+	name: z.string().min(1),
+	url: z.url(),
+	issues: z.array(topicIssueCardSchema),
+});
+
+export const topicGroupSchema = z.object({
+	label: z.string().min(1),
+	items: z.array(topicRepoCardSchema),
+});
+
+export const catalogSchema = z.object({
+	projects: z.array(catalogProjectSchema),
+	gistGroups: z.array(gistGroupSchema),
+	topicGroups: z.array(topicGroupSchema),
+	syncedAt: z.iso.datetime(),
+});
 
 function formatZodError(error: z.ZodError): string {
 	return error.issues
@@ -60,7 +92,7 @@ export function parseProjectsYaml(input: string): ProjectInput[] {
 	return result.data;
 }
 
-export function parseCatalogJson(input: string): CatalogProject[] {
+export function parseCatalogJson(input: string): CatalogSnapshot {
 	const parsed = JSON.parse(input);
 	const result = catalogSchema.safeParse(parsed);
 	if (!result.success) {

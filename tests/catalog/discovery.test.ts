@@ -18,6 +18,7 @@ describe('buildProjectFromRepository', () => {
 
 		expect(project.repo).toBe('jackwio/awesome-tool');
 		expect(project.stacks).toEqual(['astro', 'cli-tool']);
+		expect(project.topics).toEqual(['astro', 'cli-tool']);
 		expect(project.tags).toEqual([]);
 		expect(project.tags).not.toContain('private');
 		expect(project.tags).not.toContain('public');
@@ -37,6 +38,7 @@ describe('buildProjectFromRepository', () => {
 		});
 
 		expect(project.tags).toEqual(['fork', 'archived']);
+		expect(project.topics).toEqual([]);
 	});
 
 	it('falls back to primary language then unknown when topics are empty', () => {
@@ -52,6 +54,7 @@ describe('buildProjectFromRepository', () => {
 		});
 
 		expect(langFallback.stacks).toEqual(['go']);
+		expect(langFallback.topics).toEqual([]);
 
 		const unknownFallback = buildProjectFromRepository({
 			name: 'mystery',
@@ -65,6 +68,7 @@ describe('buildProjectFromRepository', () => {
 		});
 
 		expect(unknownFallback.stacks).toEqual(['unknown']);
+		expect(unknownFallback.topics).toEqual([]);
 	});
 });
 
