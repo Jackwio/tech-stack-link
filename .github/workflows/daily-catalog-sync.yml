@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   sync-catalog:
@@ -60,6 +61,13 @@ jobs:
             -m "同步時間：${sync_time}" \
             -m "觸發來源：${GITHUB_WORKFLOW} #${GITHUB_RUN_NUMBER} (${GITHUB_EVENT_NAME})"
           git push
+
+      - name: Trigger Pages Manual Sync Deploy
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: pages-manual-sync-deploy
 
       - name: No catalog changes
         if: steps.changes.outputs.changed != 'true'

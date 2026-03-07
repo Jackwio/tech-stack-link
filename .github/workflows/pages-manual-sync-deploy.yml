@@ -2,6 +2,9 @@ name: Pages Manual Sync Deploy
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types:
+      - pages-manual-sync-deploy
 
 permissions:
   contents: read

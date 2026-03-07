@@ -1,113 +1,1143 @@
-{
-  "projects": [
-    {
-      "id": "tech-stack-link",
-      "name": "Tech Stack Link",
-      "description": "Aggregate side projects by stack and issue status.",
-      "repo": "sindresorhus/p-limit",
-      "stacks": [
-        "node",
-        "typescript"
-      ],
-      "topics": [
-        "node",
-        "typescript"
-      ],
-      "tags": [
-        "tooling",
-        "dashboard"
-      ],
-      "links": [
-        {
-          "label": "Docs",
-          "url": "https://example.com/docs"
-        }
-      ],
-      "repoUrl": "https://github.com/sindresorhus/p-limit",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "1970-01-01T00:00:00.000Z"
-      },
-      "issues": []
+[
+  {
+    "id": "jackwio-git-vscode-extension",
+    "name": "git-vscode-extension",
+    "description": "Repository git-vscode-extension",
+    "repo": "Jackwio/git-vscode-extension",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/git-vscode-extension",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-07T03:53:44Z"
     },
-    {
-      "id": "p-map",
-      "name": "p-map",
-      "description": "Map over promises concurrently.",
-      "repo": "sindresorhus/p-map",
-      "stacks": [
-        "node",
-        "typescript",
-        "promises"
-      ],
-      "topics": [
-        "node",
-        "typescript",
-        "promises"
-      ],
-      "tags": [
-        "utility",
-        "oss"
-      ],
-      "links": [],
-      "repoUrl": "https://github.com/sindresorhus/p-map",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "1970-01-01T00:00:00.000Z"
-      },
-      "issues": []
+    "issues": [
+      {
+        "number": 1,
+        "title": "Git Extension 增加額外功能",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-07T02:46:51Z",
+        "url": "https://github.com/Jackwio/git-vscode-extension/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-auto-collect-knowledge",
+    "name": "auto-collect-knowledge",
+    "description": "Repository auto-collect-knowledge",
+    "repo": "Jackwio/auto-collect-knowledge",
+    "stacks": [
+      "discord-bot",
+      "playwright"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/auto-collect-knowledge",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-07T02:38:01Z"
     },
-    {
-      "id": "p-throttle",
-      "name": "p-throttle",
-      "description": "Rate-limit promise-returning functions.",
-      "repo": "sindresorhus/p-throttle",
-      "stacks": [
-        "node",
-        "typescript"
-      ],
-      "topics": [
-        "node",
-        "typescript"
-      ],
-      "tags": [
-        "utility",
-        "oss"
-      ],
-      "links": [],
-      "repoUrl": "https://github.com/sindresorhus/p-throttle",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "1970-01-01T00:00:00.000Z"
+    "issues": [
+      {
+        "number": 10,
+        "title": "讓 Telegram bot 在群組中發訊息",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-03-07T01:53:28Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/10"
       },
-      "issues": []
-    }
-  ],
-  "gistGroups": [
-    {
-      "label": "tooling",
-      "items": [
-        {
-          "name": "example.ts",
-          "url": "https://gist.github.com/example/tooling"
-        }
-      ]
-    }
-  ],
-  "topicGroups": [
-    {
-      "label": "typescript",
-      "items": [
-        {
-          "name": "p-limit",
-          "url": "https://github.com/sindresorhus/p-limit",
-          "issues": []
-        }
-      ]
-    }
-  ],
-  "syncedAt": "2026-03-07T00:00:00.000Z"
-}
+      {
+        "number": 9,
+        "title": "重複貼文",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-03-06T11:43:22Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/9"
+      },
+      {
+        "number": 8,
+        "title": "增加一個按鈕，可以幫我該貼文的連結送到 Felo, 並透過 felo 分析",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-03-04T12:31:56Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/8"
+      },
+      {
+        "number": 7,
+        "title": "Deploy",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-03T14:33:21Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/7"
+      },
+      {
+        "number": 5,
+        "title": "透過 Playwright 產生 X 登入檔",
+        "state": "CLOSED",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-03-01T07:58:05Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/5"
+      },
+      {
+        "number": 6,
+        "title": "Deploy on Cloudfare",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:47:27Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/6"
+      },
+      {
+        "number": 4,
+        "title": "Discord ENV 配置",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T11:23:47Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/4"
+      },
+      {
+        "number": 3,
+        "title": "X UserId 獲取",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T11:09:21Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/3"
+      },
+      {
+        "number": 2,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T04:18:02Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-copilot-cli-acp",
+    "name": "copilot-cli-acp",
+    "description": "Repository copilot-cli-acp",
+    "repo": "Jackwio/copilot-cli-acp",
+    "stacks": [
+      "dockerfile"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/copilot-cli-acp",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-06T16:33:43Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-track-repo-commit",
+    "name": "track-repo-commit",
+    "description": "Repository track-repo-commit",
+    "repo": "Jackwio/track-repo-commit",
+    "stacks": [
+      "discord-bot"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/track-repo-commit",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-06T15:50:05Z"
+    },
+    "issues": [
+      {
+        "number": 4,
+        "title": "Repo commit 訊息不能被截斷，可以分多段",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-03-06T11:48:15Z",
+        "url": "https://github.com/Jackwio/track-repo-commit/issues/4"
+      },
+      {
+        "number": 2,
+        "title": "Deploy",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-03T14:33:36Z",
+        "url": "https://github.com/Jackwio/track-repo-commit/issues/2"
+      },
+      {
+        "number": 3,
+        "title": "監控特定 Repo Commit",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-01T10:17:10Z",
+        "url": "https://github.com/Jackwio/track-repo-commit/issues/3"
+      },
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T15:35:39Z",
+        "url": "https://github.com/Jackwio/track-repo-commit/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-tech-stack-link",
+    "name": "tech-stack-link",
+    "description": "Repository tech-stack-link",
+    "repo": "Jackwio/tech-stack-link",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-06T04:33:05Z"
+    },
+    "issues": [
+      {
+        "number": 4,
+        "title": "專案技術整理",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T14:40:27Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
+      },
+      {
+        "number": 3,
+        "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-02-27T04:16:05Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+      },
+      {
+        "number": 1,
+        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-26T19:05:19Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-26T18:32:37Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-nba-line-bot",
+    "name": "nba-line-bot",
+    "description": "Repository nba-line-bot",
+    "repo": "Jackwio/nba-line-bot",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/nba-line-bot",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T11:34:57Z"
+    },
+    "issues": [
+      {
+        "number": 8,
+        "title": "Deploy",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:51:47Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/8"
+      },
+      {
+        "number": 7,
+        "title": "將功能列表改成像 Telegram bot 的 Reply Keyboard",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-22T02:19:45Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/7"
+      },
+      {
+        "number": 6,
+        "title": "當查看特定比賽的資訊時加入球員上場時間顯示",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-22T02:17:23Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/6"
+      },
+      {
+        "number": 2,
+        "title": "Line Message API 如何使用",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-21T07:21:25Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/2"
+      },
+      {
+        "number": 4,
+        "title": "LINE Messaging API + Webhook 的核心原理是「事件回呼 + 即時回覆」",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-14T16:53:23Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/4"
+      },
+      {
+        "number": 3,
+        "title": "Line Flex Message",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-14T16:35:12Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/3"
+      },
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-14T16:33:57Z",
+        "url": "https://github.com/Jackwio/nba-line-bot/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-ai-tool-note",
+    "name": "ai-tool-note",
+    "description": "Repository ai-tool-note",
+    "repo": "Jackwio/ai-tool-note",
+    "stacks": [
+      "notes"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/ai-tool-note",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T07:54:22Z"
+    },
+    "issues": [
+      {
+        "number": 1,
+        "title": "Deploy",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-01T07:56:27Z",
+        "url": "https://github.com/Jackwio/ai-tool-note/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-healthy-remind",
+    "name": "healthy-remind",
+    "description": "Repository healthy-remind",
+    "repo": "Jackwio/healthy-remind",
+    "stacks": [
+      "line-bot",
+      "deploy-on-zeabur"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/healthy-remind",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T04:52:26Z"
+    },
+    "issues": [
+      {
+        "number": 3,
+        "title": "Deploy",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:53:18Z",
+        "url": "https://github.com/Jackwio/healthy-remind/issues/3"
+      },
+      {
+        "number": 2,
+        "title": "發通知一定要用 source ID，不是一般 LINE ID",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-14T17:12:16Z",
+        "url": "https://github.com/Jackwio/healthy-remind/issues/2"
+      },
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-14T17:06:38Z",
+        "url": "https://github.com/Jackwio/healthy-remind/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-todo",
+    "name": "TODO",
+    "description": "Repository TODO",
+    "repo": "Jackwio/TODO",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/TODO",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T04:48:01Z"
+    },
+    "issues": [
+      {
+        "number": 3,
+        "title": "Deploy Copilot CLI and Codex CLI",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-06T16:19:05Z",
+        "url": "https://github.com/Jackwio/TODO/issues/3"
+      },
+      {
+        "number": 2,
+        "title": "E2ETest",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-02T14:44:10Z",
+        "url": "https://github.com/Jackwio/TODO/issues/2"
+      },
+      {
+        "number": 1,
+        "title": "Deploy on Zeabur (遷移至非共享叢集)",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-02T11:25:46Z",
+        "url": "https://github.com/Jackwio/TODO/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-develop-note",
+    "name": "develop-note",
+    "description": "Repository develop-note",
+    "repo": "Jackwio/develop-note",
+    "stacks": [
+      "note"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/develop-note",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T03:52:56Z"
+    },
+    "issues": [
+      {
+        "number": 1,
+        "title": "Deploy",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:54:04Z",
+        "url": "https://github.com/Jackwio/develop-note/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-playsession-builder",
+    "name": "playSession-builder",
+    "description": "Deploy on  Cloudfare Pages",
+    "repo": "Jackwio/playSession-builder",
+    "stacks": [
+      "playwright"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/playSession-builder",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-01T03:23:33Z"
+    },
+    "issues": [
+      {
+        "number": 2,
+        "title": "Deploy",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:55:32Z",
+        "url": "https://github.com/Jackwio/playSession-builder/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-my-skills",
+    "name": "my-skills",
+    "description": "Repository my-skills",
+    "repo": "Jackwio/my-skills",
+    "stacks": [
+      "javascript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/my-skills",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-28T17:47:15Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-deploy-note",
+    "name": "deploy-note",
+    "description": "Repository deploy-note",
+    "repo": "Jackwio/deploy-note",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/deploy-note",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T18:43:19Z"
+    },
+    "issues": [
+      {
+        "number": 1,
+        "title": "Deploy",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T04:53:39Z",
+        "url": "https://github.com/Jackwio/deploy-note/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-all-in-one",
+    "name": "all-in-one",
+    "description": "Repository all-in-one",
+    "repo": "Jackwio/all-in-one",
+    "stacks": [
+      "javascript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/all-in-one",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T15:48:51Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-ai-note",
+    "name": "ai-note",
+    "description": "Repository ai-note",
+    "repo": "Jackwio/ai-note",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/ai-note",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T13:24:54Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-my-github-pages",
+    "name": "my-github-pages",
+    "description": "Repository my-github-pages",
+    "repo": "Jackwio/my-github-pages",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/my-github-pages",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T13:24:22Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-repo-star-tracker",
+    "name": "repo-star-tracker",
+    "description": "Repository repo-star-tracker",
+    "repo": "Jackwio/repo-star-tracker",
+    "stacks": [
+      "discord-bot"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/repo-star-tracker",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T04:45:45Z"
+    },
+    "issues": [
+      {
+        "number": 5,
+        "title": "Deploy",
+        "state": "CLOSED",
+        "labels": [],
+        "updatedAt": "2026-03-03T14:33:10Z",
+        "url": "https://github.com/Jackwio/repo-star-tracker/issues/5"
+      },
+      {
+        "number": 4,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-27T04:14:27Z",
+        "url": "https://github.com/Jackwio/repo-star-tracker/issues/4"
+      },
+      {
+        "number": 1,
+        "title": "Discord 相關 ENV Varible 設定",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-26T14:04:18Z",
+        "url": "https://github.com/Jackwio/repo-star-tracker/issues/1"
+      },
+      {
+        "number": 3,
+        "title": "修改 Discord 伺服器頭像",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-26T14:00:13Z",
+        "url": "https://github.com/Jackwio/repo-star-tracker/issues/3"
+      },
+      {
+        "number": 2,
+        "title": "Discord Message 美化",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-23T04:09:36Z",
+        "url": "https://github.com/Jackwio/repo-star-tracker/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-lock-box",
+    "name": "lock-box",
+    "description": "Repository lock-box",
+    "repo": "Jackwio/lock-box",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/lock-box",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-27T04:01:22Z"
+    },
+    "issues": [
+      {
+        "number": 1,
+        "title": "紀錄帳號密碼或 Token",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-27T04:03:16Z",
+        "url": "https://github.com/Jackwio/lock-box/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "執行任何操作都還是要輸入密碼。",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-02-27T04:03:00Z",
+        "url": "https://github.com/Jackwio/lock-box/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-note2markdown",
+    "name": "note2markdown",
+    "description": "Repository note2markdown",
+    "repo": "Jackwio/note2markdown",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/note2markdown",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-20T16:46:16Z"
+    },
+    "issues": [
+      {
+        "number": 4,
+        "title": "vscode extension 發佈到 github releases",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T05:59:36Z",
+        "url": "https://github.com/Jackwio/note2markdown/issues/4"
+      },
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-23T04:00:21Z",
+        "url": "https://github.com/Jackwio/note2markdown/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "將 Note 筆記轉 Markdown",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-20T15:29:37Z",
+        "url": "https://github.com/Jackwio/note2markdown/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-nanobanana-in-vscode",
+    "name": "nanobanana-in-vscode",
+    "description": "Repository nanobanana-in-vscode",
+    "repo": "Jackwio/nanobanana-in-vscode",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/nanobanana-in-vscode",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-20T15:56:33Z"
+    },
+    "issues": [
+      {
+        "number": 5,
+        "title": "Publish 到 marketplace 可供人下載",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-13T14:47:31Z",
+        "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/5"
+      },
+      {
+        "number": 6,
+        "title": "Gemini Nano Banana Pro Gemeni API",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-13T14:47:17Z",
+        "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/6"
+      },
+      {
+        "number": 4,
+        "title": "在開發的時候除了透過 F5 開啟，還可以像一般下載的 extension 一樣用，透過本機打包 VSIX + 本機安裝",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-13T14:42:10Z",
+        "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/4"
+      },
+      {
+        "number": 3,
+        "title": "官方文件產生 Template 以及基本使用",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-13T14:25:47Z",
+        "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/3"
+      },
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-13T14:21:57Z",
+        "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "Add Current WokrSpace in Dev Host",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-13T14:21:41Z",
+        "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/2"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-lobster",
+    "name": "Lobster",
+    "description": "Repository Lobster",
+    "repo": "Jackwio/Lobster",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/Lobster",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-15T14:07:03Z"
+    },
+    "issues": [
+      {
+        "number": 3,
+        "title": "養龍蝦",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-19T11:53:08Z",
+        "url": "https://github.com/Jackwio/Lobster/issues/3"
+      },
+      {
+        "number": 2,
+        "title": "Telegram Bot Token 取得",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-15T14:52:02Z",
+        "url": "https://github.com/Jackwio/Lobster/issues/2"
+      },
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-15T14:50:59Z",
+        "url": "https://github.com/Jackwio/Lobster/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-markdown-converter",
+    "name": "markdown-converter",
+    "description": "Repository markdown-converter",
+    "repo": "Jackwio/markdown-converter",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/markdown-converter",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-13T09:04:17Z"
+    },
+    "issues": [
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-13T06:05:45Z",
+        "url": "https://github.com/Jackwio/markdown-converter/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-pdf-process",
+    "name": "pdf-process",
+    "description": "Repository pdf-process",
+    "repo": "Jackwio/pdf-process",
+    "stacks": [
+      "python"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/pdf-process",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-13T08:47:14Z"
+    },
+    "issues": [
+      {
+        "number": 1,
+        "title": "Prompt",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-02-13T08:48:05Z",
+        "url": "https://github.com/Jackwio/pdf-process/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-ooad-finallast",
+    "name": "OOAD_FinalLast",
+    "description": "OOAD期末作業",
+    "repo": "Jackwio/OOAD_FinalLast",
+    "stacks": [
+      "java"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/OOAD_FinalLast",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-08T11:55:20Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-mcp-guardian",
+    "name": "mcp-guardian",
+    "description": "Repository mcp-guardian",
+    "repo": "Jackwio/mcp-guardian",
+    "stacks": [
+      "python"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/mcp-guardian",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-02-08T09:22:38Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-transport-telegram-bot",
+    "name": "transport-telegram-bot",
+    "description": "Repository transport-telegram-bot",
+    "repo": "Jackwio/transport-telegram-bot",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/transport-telegram-bot",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-01-31T17:05:58Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-sdd",
+    "name": "SDD",
+    "description": "Repository SDD",
+    "repo": "Jackwio/SDD",
+    "stacks": [
+      "unknown"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/SDD",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-01-31T12:54:44Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-copilot-sdk",
+    "name": "copilot-sdk",
+    "description": "Repository copilot-sdk",
+    "repo": "Jackwio/copilot-sdk",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/copilot-sdk",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-01-31T12:53:29Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-kube-prometheus-stack",
+    "name": "kube-prometheus-stack",
+    "description": "Repository kube-prometheus-stack",
+    "repo": "Jackwio/kube-prometheus-stack",
+    "stacks": [
+      "go-template"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/kube-prometheus-stack",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-01-26T15:06:19Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-oauthtest",
+    "name": "OAuthTest",
+    "description": "Repository OAuthTest",
+    "repo": "Jackwio/OAuthTest",
+    "stacks": [
+      "c#"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/OAuthTest",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-01-25T11:54:59Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-pdf-to-image",
+    "name": "pdf-to-image",
+    "description": "Repository pdf-to-image",
+    "repo": "Jackwio/pdf-to-image",
+    "stacks": [
+      "javascript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/pdf-to-image",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-01-01T07:10:09Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-ai-work-copilot",
+    "name": "ai-work-copilot",
+    "description": "Repository ai-work-copilot",
+    "repo": "Jackwio/ai-work-copilot",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/ai-work-copilot",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2025-12-14T02:08:59Z"
+    },
+    "issues": []
+  },
+  {
+    "id": "jackwio-download-video-from-youtube",
+    "name": "download-video-from-youtube",
+    "description": "Repository download-video-from-youtube",
+    "repo": "Jackwio/download-video-from-youtube",
+    "stacks": [
+      "c#"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/download-video-from-youtube",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2025-12-07T07:22:40Z"
+    },
+    "issues": [
+      {
+        "number": 4,
+        "title": "YouTube Data API v3 解決頻道 Id 解析錯誤",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2025-12-07T07:11:44Z",
+        "url": "https://github.com/Jackwio/download-video-from-youtube/issues/4"
+      }
+    ]
+  }
+]
