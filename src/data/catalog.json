@@ -15,9 +15,19 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-07T08:28:32Z"
+        "updatedAt": "2026-03-07T08:30:39Z"
       },
       "issues": [
+        {
+          "number": 3,
+          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-07T08:33:21Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+        },
         {
           "number": 5,
           "title": "將 Github Gist 分類",
@@ -33,16 +43,6 @@
           "labels": [],
           "updatedAt": "2026-03-01T14:40:27Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
-        },
-        {
-          "number": 3,
-          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-          "state": "OPEN",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-02-27T04:16:05Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
         },
         {
           "number": 1,
@@ -181,6 +181,16 @@
       },
       "issues": [
         {
+          "number": 4,
+          "title": "Discord-bot ENV 配置",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-07T08:32:49Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/4"
+        },
+        {
           "number": 10,
           "title": "讓 Telegram bot 在群組中發訊息",
           "state": "OPEN",
@@ -235,16 +245,6 @@
           "labels": [],
           "updatedAt": "2026-03-01T04:47:27Z",
           "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/6"
-        },
-        {
-          "number": 4,
-          "title": "Discord ENV 配置",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-27T11:23:47Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/4"
         },
         {
           "number": 3,
@@ -1299,7 +1299,12 @@
         {
           "name": "auto-collect-knowledge",
           "url": "https://github.com/Jackwio/auto-collect-knowledge",
-          "issues": []
+          "issues": [
+            {
+              "title": "Discord-bot ENV 配置",
+              "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/4"
+            }
+          ]
         },
         {
           "name": "track-repo-commit",
@@ -1384,5 +1389,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-07T08:30:33.502Z"
+  "syncedAt": "2026-03-07T08:33:36.666Z"
 }
