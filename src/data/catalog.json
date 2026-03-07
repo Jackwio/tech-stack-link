@@ -1,56 +1,28 @@
 [
   {
-    "id": "jackwio-tech-stack-link",
-    "name": "tech-stack-link",
-    "description": "Repository tech-stack-link",
-    "repo": "Jackwio/tech-stack-link",
+    "id": "jackwio-git-vscode-extension",
+    "name": "git-vscode-extension",
+    "description": "Repository git-vscode-extension",
+    "repo": "Jackwio/git-vscode-extension",
     "stacks": [
       "typescript"
     ],
     "tags": [],
     "links": [],
-    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+    "repoUrl": "https://github.com/Jackwio/git-vscode-extension",
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-03-05T04:33:52Z"
+      "updatedAt": "2026-03-07T03:53:44Z"
     },
     "issues": [
       {
-        "number": 4,
-        "title": "專案技術整理",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-03-01T14:40:27Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
-      },
-      {
-        "number": 3,
-        "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-        "state": "OPEN",
-        "labels": [
-          "bug"
-        ],
-        "updatedAt": "2026-02-27T04:16:05Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-      },
-      {
         "number": 1,
-        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+        "title": "Git Extension 增加額外功能",
         "state": "OPEN",
         "labels": [],
-        "updatedAt": "2026-02-26T19:05:19Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-      },
-      {
-        "number": 2,
-        "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-        "state": "OPEN",
-        "labels": [
-          "enhancement"
-        ],
-        "updatedAt": "2026-02-26T18:32:37Z",
-        "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+        "updatedAt": "2026-03-07T02:46:51Z",
+        "url": "https://github.com/Jackwio/git-vscode-extension/issues/1"
       }
     ]
   },
@@ -69,9 +41,29 @@
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-03-04T11:47:35Z"
+      "updatedAt": "2026-03-07T02:38:01Z"
     },
     "issues": [
+      {
+        "number": 10,
+        "title": "讓 Telegram bot 在群組中發訊息",
+        "state": "OPEN",
+        "labels": [
+          "documentation"
+        ],
+        "updatedAt": "2026-03-07T01:53:28Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/10"
+      },
+      {
+        "number": 9,
+        "title": "重複貼文",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-03-06T11:43:22Z",
+        "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/9"
+      },
       {
         "number": 8,
         "title": "增加一個按鈕，可以幫我該貼文的連結送到 Felo, 並透過 felo 分析",
@@ -141,6 +133,24 @@
     ]
   },
   {
+    "id": "jackwio-copilot-cli-acp",
+    "name": "copilot-cli-acp",
+    "description": "Repository copilot-cli-acp",
+    "repo": "Jackwio/copilot-cli-acp",
+    "stacks": [
+      "dockerfile"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/copilot-cli-acp",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-06T16:33:43Z"
+    },
+    "issues": []
+  },
+  {
     "id": "jackwio-track-repo-commit",
     "name": "track-repo-commit",
     "description": "Repository track-repo-commit",
@@ -154,9 +164,19 @@
     "repoMeta": {
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-03-03T13:59:24Z"
+      "updatedAt": "2026-03-06T15:50:05Z"
     },
     "issues": [
+      {
+        "number": 4,
+        "title": "Repo commit 訊息不能被截斷，可以分多段",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-03-06T11:48:15Z",
+        "url": "https://github.com/Jackwio/track-repo-commit/issues/4"
+      },
       {
         "number": 2,
         "title": "Deploy",
@@ -182,6 +202,61 @@
         ],
         "updatedAt": "2026-02-27T15:35:39Z",
         "url": "https://github.com/Jackwio/track-repo-commit/issues/1"
+      }
+    ]
+  },
+  {
+    "id": "jackwio-tech-stack-link",
+    "name": "tech-stack-link",
+    "description": "Repository tech-stack-link",
+    "repo": "Jackwio/tech-stack-link",
+    "stacks": [
+      "typescript"
+    ],
+    "tags": [],
+    "links": [],
+    "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+    "repoMeta": {
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-03-06T04:33:05Z"
+    },
+    "issues": [
+      {
+        "number": 4,
+        "title": "專案技術整理",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-01T14:40:27Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
+      },
+      {
+        "number": 3,
+        "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+        "state": "OPEN",
+        "labels": [
+          "bug"
+        ],
+        "updatedAt": "2026-02-27T04:16:05Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+      },
+      {
+        "number": 1,
+        "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-02-26T19:05:19Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+        "state": "OPEN",
+        "labels": [
+          "enhancement"
+        ],
+        "updatedAt": "2026-02-26T18:32:37Z",
+        "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
       }
     ]
   },
@@ -364,6 +439,14 @@
       "updatedAt": "2026-03-01T04:48:01Z"
     },
     "issues": [
+      {
+        "number": 3,
+        "title": "Deploy Copilot CLI and Codex CLI",
+        "state": "OPEN",
+        "labels": [],
+        "updatedAt": "2026-03-06T16:19:05Z",
+        "url": "https://github.com/Jackwio/TODO/issues/3"
+      },
       {
         "number": 2,
         "title": "E2ETest",
@@ -636,83 +719,6 @@
         ],
         "updatedAt": "2026-02-27T04:03:00Z",
         "url": "https://github.com/Jackwio/lock-box/issues/2"
-      }
-    ]
-  },
-  {
-    "id": "jackwio-auto-collect-news",
-    "name": "auto-collect-news",
-    "description": "Repository auto-collect-news",
-    "repo": "Jackwio/auto-collect-news",
-    "stacks": [
-      "typescript"
-    ],
-    "tags": [],
-    "links": [],
-    "repoUrl": "https://github.com/Jackwio/auto-collect-news",
-    "repoMeta": {
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-02-25T13:22:44Z"
-    },
-    "issues": [
-      {
-        "number": 7,
-        "title": "改成發送到 Discord, 且不同使用者對應不同頻道",
-        "state": "OPEN",
-        "labels": [
-          "enhancement"
-        ],
-        "updatedAt": "2026-02-27T03:58:44Z",
-        "url": "https://github.com/Jackwio/auto-collect-news/issues/7"
-      },
-      {
-        "number": 1,
-        "title": "自動收集新知識",
-        "state": "OPEN",
-        "labels": [],
-        "updatedAt": "2026-02-26T18:59:40Z",
-        "url": "https://github.com/Jackwio/auto-collect-news/issues/1"
-      },
-      {
-        "number": 4,
-        "title": "改串接 PlayWright",
-        "state": "CLOSED",
-        "labels": [
-          "enhancement"
-        ],
-        "updatedAt": "2026-02-26T18:34:53Z",
-        "url": "https://github.com/Jackwio/auto-collect-news/issues/4"
-      },
-      {
-        "number": 5,
-        "title": "改串 Gemini AI",
-        "state": "OPEN",
-        "labels": [
-          "enhancement"
-        ],
-        "updatedAt": "2026-02-26T18:33:38Z",
-        "url": "https://github.com/Jackwio/auto-collect-news/issues/5"
-      },
-      {
-        "number": 3,
-        "title": "讓 Telegram bot 在群組中發訊息",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-19T15:11:22Z",
-        "url": "https://github.com/Jackwio/auto-collect-news/issues/3"
-      },
-      {
-        "number": 2,
-        "title": "Prompt",
-        "state": "OPEN",
-        "labels": [
-          "documentation"
-        ],
-        "updatedAt": "2026-02-19T15:10:22Z",
-        "url": "https://github.com/Jackwio/auto-collect-news/issues/2"
       }
     ]
   },
