@@ -1,6 +1,196 @@
 {
   "projects": [
     {
+      "id": "jackwio-prompt-hub",
+      "name": "prompt-hub",
+      "description": "Repository prompt-hub",
+      "repo": "Jackwio/prompt-hub",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/prompt-hub",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-08T11:24:11Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "Issue 管理工具",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-08T11:36:11Z",
+          "url": "https://github.com/Jackwio/prompt-hub/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Window exe 專案",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-08T11:24:56Z",
+          "url": "https://github.com/Jackwio/prompt-hub/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-build-issue-in-bot",
+      "name": "build-issue-in-bot",
+      "description": "Repository build-issue-in-bot",
+      "repo": "Jackwio/build-issue-in-bot",
+      "stacks": [
+        "telegram-bot"
+      ],
+      "topics": [
+        "telegram-bot"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/build-issue-in-bot",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-08T09:38:45Z"
+      },
+      "issues": [
+        {
+          "number": 5,
+          "title": "與 Telegram bot 聊天狀態需要保留",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-08T09:20:36Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "Reply Keyboard 顯示錯誤",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-08T06:05:51Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/4"
+        },
+        {
+          "number": 3,
+          "title": "Telegram-bot : Inline Keyboard v.s. Reply Keyboard",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-08T03:05:50Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "telegram bot 自動在特定 Repo 建立 Issue",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T12:39:21Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Telegram UserId 獲取",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-07T11:49:33Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-grok-cli",
+      "name": "grok-cli",
+      "description": "Repository grok-cli",
+      "repo": "Jackwio/grok-cli",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/grok-cli",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-08T08:45:06Z"
+      },
+      "issues": [
+        {
+          "number": 4,
+          "title": "Grok Console",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-08T08:49:21Z",
+          "url": "https://github.com/Jackwio/grok-cli/issues/4"
+        },
+        {
+          "number": 3,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-08T08:48:31Z",
+          "url": "https://github.com/Jackwio/grok-cli/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "API Key 無法使用，沒有免費額度",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-08T08:40:50Z",
+          "url": "https://github.com/Jackwio/grok-cli/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Grok CLI",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-08T07:53:18Z",
+          "url": "https://github.com/Jackwio/grok-cli/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-08T06:11:27Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -15,7 +205,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-08T05:38:01Z"
+        "updatedAt": "2026-03-08T05:47:25Z"
       },
       "issues": [
         {
@@ -61,36 +251,6 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
-      "stacks": [
-        "note"
-      ],
-      "topics": [
-        "note"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-08T04:08:16Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
         }
       ]
     },
@@ -207,74 +367,6 @@
           ],
           "updatedAt": "2026-02-14T16:33:57Z",
           "url": "https://github.com/Jackwio/nba-line-bot/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-build-issue-in-bot",
-      "name": "build-issue-in-bot",
-      "description": "Repository build-issue-in-bot",
-      "repo": "Jackwio/build-issue-in-bot",
-      "stacks": [
-        "telegram-bot"
-      ],
-      "topics": [
-        "telegram-bot"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/build-issue-in-bot",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-07T12:34:46Z"
-      },
-      "issues": [
-        {
-          "number": 3,
-          "title": "Telegram-bot : Inline Keyboard v.s. Reply Keyboard",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-03-08T03:05:50Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/3"
-        },
-        {
-          "number": 5,
-          "title": "與 Telegram bot 聊天狀態需要保留",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-07T17:46:29Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/5"
-        },
-        {
-          "number": 2,
-          "title": "telegram bot 自動在特定 Repo 建立 Issue",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T12:39:21Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/2"
-        },
-        {
-          "number": 4,
-          "title": "Reply Keyboard 顯示錯誤",
-          "state": "OPEN",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-07T12:16:51Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/4"
-        },
-        {
-          "number": 1,
-          "title": "Telegram UserId 獲取",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-03-07T11:49:33Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/1"
         }
       ]
     },
@@ -668,6 +760,22 @@
       },
       "issues": [
         {
+          "number": 17,
+          "title": "影片觀看",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-08T06:34:37Z",
+          "url": "https://github.com/Jackwio/TODO/issues/17"
+        },
+        {
+          "number": 2,
+          "title": "E2ETest",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-08T06:30:45Z",
+          "url": "https://github.com/Jackwio/TODO/issues/2"
+        },
+        {
           "number": 16,
           "title": "整理 X 儲存的文章筆記",
           "state": "OPEN",
@@ -738,14 +846,6 @@
           "labels": [],
           "updatedAt": "2026-03-06T16:19:05Z",
           "url": "https://github.com/Jackwio/TODO/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "E2ETest",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-02T14:44:10Z",
-          "url": "https://github.com/Jackwio/TODO/issues/2"
         },
         {
           "number": 1,
@@ -1528,5 +1628,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-08T05:47:19.684Z"
+  "syncedAt": "2026-03-08T11:38:41.159Z"
 }
