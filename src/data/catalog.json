@@ -1,110 +1,235 @@
 {
   "projects": [
     {
-      "id": "jackwio-tech-stack-link",
-      "name": "tech-stack-link",
-      "description": "Repository tech-stack-link",
-      "repo": "Jackwio/tech-stack-link",
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
       "stacks": [
-        "typescript"
+        "note"
       ],
-      "topics": [],
+      "topics": [
+        "note"
+      ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+      "repoUrl": "https://github.com/Jackwio/develop-note",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-07T08:30:39Z"
+        "updatedAt": "2026-03-08T04:08:16Z"
       },
       "issues": [
         {
-          "number": 3,
-          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-07T08:33:21Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-        },
-        {
-          "number": 5,
-          "title": "將 Github Gist 分類",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-07T07:55:34Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
-        },
-        {
-          "number": 4,
-          "title": "專案技術整理",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T14:40:27Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
-        },
-        {
           "number": 1,
-          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+          "title": "Deploy",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-02-26T19:05:19Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-        },
-        {
-          "number": 2,
-          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-02-26T18:32:37Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
         }
       ]
     },
     {
-      "id": "jackwio-note2markdown",
-      "name": "note2markdown",
-      "description": "Repository note2markdown",
-      "repo": "Jackwio/note2markdown",
+      "id": "jackwio-test",
+      "name": "Test",
+      "description": "Repository Test",
+      "repo": "Jackwio/Test",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/Test",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-08T02:51:47Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-github-action-lobster",
+      "name": "github-action-lobster",
+      "description": "Repository github-action-lobster",
+      "repo": "Jackwio/github-action-lobster",
       "stacks": [
         "typescript"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/note2markdown",
+      "repoUrl": "https://github.com/Jackwio/github-action-lobster",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-07T08:09:27Z"
+        "updatedAt": "2026-03-07T16:16:55Z"
       },
       "issues": [
-        {
-          "number": 4,
-          "title": "vscode extension 發佈到 github releases",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:10:37Z",
-          "url": "https://github.com/Jackwio/note2markdown/issues/4"
-        },
         {
           "number": 1,
           "title": "Prompt",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-02-23T04:00:21Z",
-          "url": "https://github.com/Jackwio/note2markdown/issues/1"
+          "updatedAt": "2026-03-07T14:24:12Z",
+          "url": "https://github.com/Jackwio/github-action-lobster/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-nba-line-bot",
+      "name": "nba-line-bot",
+      "description": "Repository nba-line-bot",
+      "repo": "Jackwio/nba-line-bot",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/nba-line-bot",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-07T15:44:12Z"
+      },
+      "issues": [
+        {
+          "number": 6,
+          "title": "當查看特定比賽的資訊時加入球員上場時間顯示",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T15:44:09Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/6"
+        },
+        {
+          "number": 8,
+          "title": "Deploy",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T06:45:11Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/8"
+        },
+        {
+          "number": 7,
+          "title": "將功能列表改成像 Telegram bot 的 Reply Keyboard",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-02-22T02:19:45Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/7"
         },
         {
           "number": 2,
-          "title": "將 Note 筆記轉 Markdown",
+          "title": "Line Message API 如何使用",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-21T07:21:25Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/2"
+        },
+        {
+          "number": 4,
+          "title": "LINE Messaging API + Webhook 的核心原理是「事件回呼 + 即時回覆」",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-14T16:53:23Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/4"
+        },
+        {
+          "number": 3,
+          "title": "Line Flex Message",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-14T16:35:12Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-14T16:33:57Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-build-issue-in-bot",
+      "name": "build-issue-in-bot",
+      "description": "Repository build-issue-in-bot",
+      "repo": "Jackwio/build-issue-in-bot",
+      "stacks": [
+        "telegram-bot"
+      ],
+      "topics": [
+        "telegram-bot"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/build-issue-in-bot",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-07T12:34:46Z"
+      },
+      "issues": [
+        {
+          "number": 3,
+          "title": "Telegram-bot : Inline Keyboard v.s. Reply Keyboard",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-08T03:05:50Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/3"
+        },
+        {
+          "number": 5,
+          "title": "與 Telegram bot 聊天狀態需要保留",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-02-20T15:29:37Z",
-          "url": "https://github.com/Jackwio/note2markdown/issues/2"
+          "updatedAt": "2026-03-07T17:46:29Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/5"
+        },
+        {
+          "number": 2,
+          "title": "telegram bot 自動在特定 Repo 建立 Issue",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T12:39:21Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/2"
+        },
+        {
+          "number": 4,
+          "title": "Reply Keyboard 顯示錯誤",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-07T12:16:51Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/4"
+        },
+        {
+          "number": 1,
+          "title": "Telegram UserId 獲取",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-07T11:49:33Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/1"
         }
       ]
     },
@@ -127,9 +252,19 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-07T07:25:24Z"
+        "updatedAt": "2026-03-07T09:23:53Z"
       },
       "issues": [
+        {
+          "number": 2,
+          "title": "確認 mac os 可以成功執行",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T09:01:40Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/2"
+        },
         {
           "number": 3,
           "title": "Prompt",
@@ -139,22 +274,128 @@
           "url": "https://github.com/Jackwio/git-vscode-extension/issues/3"
         },
         {
-          "number": 2,
-          "title": "確認 mac os 可以成功執行",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-07T05:08:39Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/2"
-        },
-        {
           "number": 1,
           "title": "Git Extension 增加額外功能",
           "state": "OPEN",
           "labels": [],
           "updatedAt": "2026-03-07T05:08:06Z",
           "url": "https://github.com/Jackwio/git-vscode-extension/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-tech-stack-link",
+      "name": "tech-stack-link",
+      "description": "Repository tech-stack-link",
+      "repo": "Jackwio/tech-stack-link",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-07T08:33:43Z"
+      },
+      "issues": [
+        {
+          "number": 4,
+          "title": "專案技術整理",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:47Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
+        },
+        {
+          "number": 5,
+          "title": "將 Github Gist 分類",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:38Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
+        },
+        {
+          "number": 2,
+          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T08:33:29Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-07T08:33:21Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-02-26T19:05:19Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-note2markdown",
+      "name": "note2markdown",
+      "description": "Repository note2markdown",
+      "repo": "Jackwio/note2markdown",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/note2markdown",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-07T08:09:27Z"
+      },
+      "issues": [
+        {
+          "number": 5,
+          "title": "mac os 確認可以執行",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T09:02:01Z",
+          "url": "https://github.com/Jackwio/note2markdown/issues/5"
+        },
+        {
+          "number": 2,
+          "title": "將 Note 筆記轉 Markdown",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T09:01:46Z",
+          "url": "https://github.com/Jackwio/note2markdown/issues/2"
+        },
+        {
+          "number": 4,
+          "title": "vscode extension 發佈到 github releases",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:10:37Z",
+          "url": "https://github.com/Jackwio/note2markdown/issues/4"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-02-23T04:00:21Z",
+          "url": "https://github.com/Jackwio/note2markdown/issues/1"
         }
       ]
     },
@@ -180,6 +421,16 @@
         "updatedAt": "2026-03-07T02:38:01Z"
       },
       "issues": [
+        {
+          "number": 2,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-07T08:41:55Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/2"
+        },
         {
           "number": 4,
           "title": "Discord-bot ENV 配置",
@@ -255,16 +506,6 @@
           ],
           "updatedAt": "2026-02-27T11:09:21Z",
           "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-27T04:18:02Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/2"
         }
       ]
     },
@@ -342,94 +583,6 @@
           ],
           "updatedAt": "2026-02-27T15:35:39Z",
           "url": "https://github.com/Jackwio/track-repo-commit/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-nba-line-bot",
-      "name": "nba-line-bot",
-      "description": "Repository nba-line-bot",
-      "repo": "Jackwio/nba-line-bot",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/nba-line-bot",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-01T11:34:57Z"
-      },
-      "issues": [
-        {
-          "number": 8,
-          "title": "Deploy",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T06:45:11Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/8"
-        },
-        {
-          "number": 7,
-          "title": "將功能列表改成像 Telegram bot 的 Reply Keyboard",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-02-22T02:19:45Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/7"
-        },
-        {
-          "number": 6,
-          "title": "當查看特定比賽的資訊時加入球員上場時間顯示",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-02-22T02:17:23Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/6"
-        },
-        {
-          "number": 2,
-          "title": "Line Message API 如何使用",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-21T07:21:25Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/2"
-        },
-        {
-          "number": 4,
-          "title": "LINE Messaging API + Webhook 的核心原理是「事件回呼 + 即時回覆」",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-14T16:53:23Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/4"
-        },
-        {
-          "number": 3,
-          "title": "Line Flex Message",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-14T16:35:12Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-14T16:33:57Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/1"
         }
       ]
     },
@@ -534,6 +687,70 @@
       },
       "issues": [
         {
+          "number": 16,
+          "title": "整理 X 儲存的文章筆記",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T18:07:22Z",
+          "url": "https://github.com/Jackwio/TODO/issues/16"
+        },
+        {
+          "number": 15,
+          "title": "透過爬蟲或 API 將特定人 blog 文章整理成筆記",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T17:54:14Z",
+          "url": "https://github.com/Jackwio/TODO/issues/15"
+        },
+        {
+          "number": 6,
+          "title": "研究別人專案",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T17:07:52Z",
+          "url": "https://github.com/Jackwio/TODO/issues/6"
+        },
+        {
+          "number": 9,
+          "title": "OpenSpec",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T10:21:52Z",
+          "url": "https://github.com/Jackwio/TODO/issues/9"
+        },
+        {
+          "number": 8,
+          "title": "Spec kit",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T10:21:43Z",
+          "url": "https://github.com/Jackwio/TODO/issues/8"
+        },
+        {
+          "number": 7,
+          "title": "同步上游檔案，並使用 Codex 翻譯",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T10:21:30Z",
+          "url": "https://github.com/Jackwio/TODO/issues/7"
+        },
+        {
+          "number": 5,
+          "title": "透過 Skill creator 走基本流程",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T10:18:26Z",
+          "url": "https://github.com/Jackwio/TODO/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "Skill & awesome-copilot",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T10:17:59Z",
+          "url": "https://github.com/Jackwio/TODO/issues/4"
+        },
+        {
           "number": 3,
           "title": "Deploy Copilot CLI and Codex CLI",
           "state": "OPEN",
@@ -556,36 +773,6 @@
           "labels": [],
           "updatedAt": "2026-03-02T11:25:46Z",
           "url": "https://github.com/Jackwio/TODO/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
-      "stacks": [
-        "note"
-      ],
-      "topics": [
-        "note"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-01T03:52:56Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
         }
       ]
     },
@@ -636,7 +823,16 @@
         "forks": 0,
         "updatedAt": "2026-02-28T17:47:15Z"
       },
-      "issues": []
+      "issues": [
+        {
+          "number": 1,
+          "title": "npm publish package 調整",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T10:19:47Z",
+          "url": "https://github.com/Jackwio/my-skills/issues/1"
+        }
+      ]
     },
     {
       "id": "jackwio-deploy-note",
@@ -814,12 +1010,30 @@
         {
           "number": 3,
           "title": "加入 --help 參數",
-          "state": "OPEN",
+          "state": "CLOSED",
           "labels": [
             "enhancement"
           ],
-          "updatedAt": "2026-03-07T04:42:30Z",
+          "updatedAt": "2026-03-07T09:03:15Z",
           "url": "https://github.com/Jackwio/lock-box/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "執行任何操作都還是要輸入密碼。",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-07T09:03:08Z",
+          "url": "https://github.com/Jackwio/lock-box/issues/2"
+        },
+        {
+          "number": 4,
+          "title": "mac os 是否可以運行",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T09:01:03Z",
+          "url": "https://github.com/Jackwio/lock-box/issues/4"
         },
         {
           "number": 1,
@@ -828,16 +1042,6 @@
           "labels": [],
           "updatedAt": "2026-02-27T04:03:16Z",
           "url": "https://github.com/Jackwio/lock-box/issues/1"
-        },
-        {
-          "number": 2,
-          "title": "執行任何操作都還是要輸入密碼。",
-          "state": "OPEN",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-02-27T04:03:00Z",
-          "url": "https://github.com/Jackwio/lock-box/issues/2"
         }
       ]
     },
@@ -939,6 +1143,14 @@
         "updatedAt": "2026-02-15T14:07:03Z"
       },
       "issues": [
+        {
+          "number": 4,
+          "title": "Github action 龍蝦",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T12:40:43Z",
+          "url": "https://github.com/Jackwio/Lobster/issues/4"
+        },
         {
           "number": 3,
           "title": "養龍蝦",
@@ -1049,25 +1261,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-mcp-guardian",
-      "name": "mcp-guardian",
-      "description": "Repository mcp-guardian",
-      "repo": "Jackwio/mcp-guardian",
-      "stacks": [
-        "python"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/mcp-guardian",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-02-08T09:22:38Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-transport-telegram-bot",
       "name": "transport-telegram-bot",
       "description": "Repository transport-telegram-bot",
@@ -1083,82 +1276,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-01-31T17:05:58Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-sdd",
-      "name": "SDD",
-      "description": "Repository SDD",
-      "repo": "Jackwio/SDD",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/SDD",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-01-31T12:54:44Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-copilot-sdk",
-      "name": "copilot-sdk",
-      "description": "Repository copilot-sdk",
-      "repo": "Jackwio/copilot-sdk",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/copilot-sdk",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-01-31T12:53:29Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-kube-prometheus-stack",
-      "name": "kube-prometheus-stack",
-      "description": "Repository kube-prometheus-stack",
-      "repo": "Jackwio/kube-prometheus-stack",
-      "stacks": [
-        "go-template"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/kube-prometheus-stack",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-01-26T15:06:19Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oauthtest",
-      "name": "OAuthTest",
-      "description": "Repository OAuthTest",
-      "repo": "Jackwio/OAuthTest",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/OAuthTest",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-01-25T11:54:59Z"
       },
       "issues": []
     },
@@ -1379,6 +1496,21 @@
       ]
     },
     {
+      "label": "telegram-bot",
+      "items": [
+        {
+          "name": "build-issue-in-bot",
+          "url": "https://github.com/Jackwio/build-issue-in-bot",
+          "issues": [
+            {
+              "title": "Telegram-bot : Inline Keyboard v.s. Reply Keyboard",
+              "url": "https://github.com/Jackwio/build-issue-in-bot/issues/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "label": "vscode-extension",
       "items": [
         {
@@ -1389,5 +1521,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-07T08:33:36.666Z"
+  "syncedAt": "2026-03-08T04:33:16.396Z"
 }
