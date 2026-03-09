@@ -1,6 +1,52 @@
 {
   "projects": [
     {
+      "id": "jackwio-prompt-hub",
+      "name": "prompt-hub",
+      "description": "Repository prompt-hub",
+      "repo": "Jackwio/prompt-hub",
+      "stacks": [
+        "c#"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/prompt-hub",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-08T23:23:47Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "Issue 管理工具",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-08T13:20:43Z",
+          "url": "https://github.com/Jackwio/prompt-hub/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-08T12:04:48Z",
+          "url": "https://github.com/Jackwio/prompt-hub/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "Window exe 專案",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-08T11:24:56Z",
+          "url": "https://github.com/Jackwio/prompt-hub/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -15,7 +61,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-08T11:38:47Z"
+        "updatedAt": "2026-03-08T11:42:05Z"
       },
       "issues": [
         {
@@ -61,42 +107,6 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-prompt-hub",
-      "name": "prompt-hub",
-      "description": "Repository prompt-hub",
-      "repo": "Jackwio/prompt-hub",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/prompt-hub",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-08T11:24:11Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "Issue 管理工具",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-08T11:36:11Z",
-          "url": "https://github.com/Jackwio/prompt-hub/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Window exe 專案",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-08T11:24:56Z",
-          "url": "https://github.com/Jackwio/prompt-hub/issues/1"
         }
       ]
     },
@@ -1641,5 +1651,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-08T11:41:58.881Z"
+  "syncedAt": "2026-03-09T04:36:31.945Z"
 }
