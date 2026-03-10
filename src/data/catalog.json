@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-08T23:23:47Z"
+        "updatedAt": "2026-03-09T14:24:56Z"
       },
       "issues": [
         {
@@ -47,6 +47,85 @@
       ]
     },
     {
+      "id": "jackwio-git-vscode-extension",
+      "name": "git-vscode-extension",
+      "description": "Repository git-vscode-extension",
+      "repo": "Jackwio/git-vscode-extension",
+      "stacks": [
+        "vscode-extension",
+        "extend-extension"
+      ],
+      "topics": [
+        "vscode-extension",
+        "extend-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/git-vscode-extension",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-09T12:05:36Z"
+      },
+      "issues": [
+        {
+          "number": 4,
+          "title": "git reset --hard HEAD~1 followed by git push origin main --force 將 main 改成動態抓取當前分支",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-09T12:08:42Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/4"
+        },
+        {
+          "number": 2,
+          "title": "確認 mac os 可以成功執行",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T09:01:40Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T05:54:48Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "Git Extension 增加額外功能",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T05:08:06Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-all-in-one",
+      "name": "all-in-one",
+      "description": "Repository all-in-one",
+      "repo": "Jackwio/all-in-one",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/all-in-one",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-09T11:39:06Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -61,7 +140,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-08T11:42:05Z"
+        "updatedAt": "2026-03-09T04:36:38Z"
       },
       "issues": [
         {
@@ -377,56 +456,6 @@
           ],
           "updatedAt": "2026-02-14T16:33:57Z",
           "url": "https://github.com/Jackwio/nba-line-bot/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-git-vscode-extension",
-      "name": "git-vscode-extension",
-      "description": "Repository git-vscode-extension",
-      "repo": "Jackwio/git-vscode-extension",
-      "stacks": [
-        "vscode-extension",
-        "extend-extension"
-      ],
-      "topics": [
-        "vscode-extension",
-        "extend-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/git-vscode-extension",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-07T09:23:53Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "確認 mac os 可以成功執行",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-07T09:01:40Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-07T05:54:48Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "Git Extension 增加額外功能",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-07T05:08:06Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/1"
         }
       ]
     },
@@ -770,6 +799,22 @@
       },
       "issues": [
         {
+          "number": 21,
+          "title": "各種 script 執行 vscode extension",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-09T13:15:20Z",
+          "url": "https://github.com/Jackwio/TODO/issues/21"
+        },
+        {
+          "number": 20,
+          "title": "Script Panel",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-09T10:25:43Z",
+          "url": "https://github.com/Jackwio/TODO/issues/20"
+        },
+        {
           "number": 17,
           "title": "影片觀看",
           "state": "OPEN",
@@ -952,25 +997,6 @@
           "url": "https://github.com/Jackwio/deploy-note/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-all-in-one",
-      "name": "all-in-one",
-      "description": "Repository all-in-one",
-      "repo": "Jackwio/all-in-one",
-      "stacks": [
-        "javascript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/all-in-one",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-02-27T15:48:51Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-ai-note",
@@ -1651,5 +1677,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-09T04:36:31.945Z"
+  "syncedAt": "2026-03-10T04:33:26.968Z"
 }
