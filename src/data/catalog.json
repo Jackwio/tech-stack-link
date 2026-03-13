@@ -6,7 +6,7 @@
       "description": "Repository script-panel",
       "repo": "Jackwio/script-panel",
       "stacks": [
-        "unknown"
+        "typescript"
       ],
       "topics": [],
       "tags": [],
@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-11T14:43:12Z"
+        "updatedAt": "2026-03-12T15:34:50Z"
       },
       "issues": [
         {
@@ -27,36 +27,6 @@
           ],
           "updatedAt": "2026-03-11T15:28:28Z",
           "url": "https://github.com/Jackwio/script-panel/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
-      "stacks": [
-        "note"
-      ],
-      "topics": [
-        "note"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-11T14:07:54Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
         }
       ]
     },
@@ -75,7 +45,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-11T04:34:02Z"
+        "updatedAt": "2026-03-12T04:34:47Z"
       },
       "issues": [
         {
@@ -121,6 +91,36 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-11T14:07:54Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
         }
       ]
     },
@@ -1707,5 +1707,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-12T04:34:41.260Z"
+  "syncedAt": "2026-03-13T04:33:43.692Z"
 }
