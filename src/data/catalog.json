@@ -15,7 +15,104 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-12T15:34:50Z"
+        "updatedAt": "2026-03-14T04:09:15Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-14T03:33:09Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/1"
+        },
+        {
+          "number": 5,
+          "title": "加入 collapse 和 uncollapse 的功能",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-14T03:26:35Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/5"
+        },
+        {
+          "number": 6,
+          "title": "每次執行 script 都開新的 terminal",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-14T03:26:30Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/6"
+        },
+        {
+          "number": 4,
+          "title": "Vscode 下載 extension 後找不到",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-13T17:01:17Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/4"
+        },
+        {
+          "number": 3,
+          "title": "是否可以抓到當前 Vscode Profile???",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-13T16:36:27Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "搜尋輸入框可以顯示在 Sidebar Tree View 的最上面和裡面",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-13T16:34:52Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/2"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-diff-lens",
+      "name": "diff-lens",
+      "description": "Repository diff-lens",
+      "repo": "Jackwio/diff-lens",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/diff-lens",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-14T02:50:09Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-command-pannel",
+      "name": "command-pannel",
+      "description": "Repository command-pannel",
+      "repo": "Jackwio/command-pannel",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/command-pannel",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-13T13:05:13Z"
       },
       "issues": [
         {
@@ -25,8 +122,8 @@
           "labels": [
             "documentation"
           ],
-          "updatedAt": "2026-03-11T15:28:28Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/1"
+          "updatedAt": "2026-03-13T16:18:14Z",
+          "url": "https://github.com/Jackwio/command-pannel/issues/1"
         }
       ]
     },
@@ -45,7 +142,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-12T04:34:47Z"
+        "updatedAt": "2026-03-13T04:33:49Z"
       },
       "issues": [
         {
@@ -200,6 +297,26 @@
         "updatedAt": "2026-03-09T12:05:36Z"
       },
       "issues": [
+        {
+          "number": 6,
+          "title": "ai commit 只把 staged 檔案進行 commit",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-13T17:17:17Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/6"
+        },
+        {
+          "number": 5,
+          "title": "git set hard 會把當前 change 改變 ?",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-13T17:16:51Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/5"
+        },
         {
           "number": 4,
           "title": "git reset --hard HEAD~1 followed by git push origin main --force 將 main 改成動態抓取當前分支",
@@ -1707,5 +1824,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-13T04:33:43.692Z"
+  "syncedAt": "2026-03-14T04:33:06.752Z"
 }
