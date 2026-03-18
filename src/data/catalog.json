@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id": "jackwio-markdown-previewer",
+      "name": "markdown-previewer",
+      "description": "Repository markdown-previewer",
+      "repo": "Jackwio/markdown-previewer",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/markdown-previewer",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-17T13:09:11Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -15,7 +34,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-16T04:53:15Z"
+        "updatedAt": "2026-03-17T04:36:20Z"
       },
       "issues": [
         {
@@ -1896,5 +1915,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-17T04:36:13.989Z"
+  "syncedAt": "2026-03-18T04:40:01.557Z"
 }
