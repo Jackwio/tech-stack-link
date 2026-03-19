@@ -1,23 +1,34 @@
 {
   "projects": [
     {
-      "id": "jackwio-markdown-previewer",
-      "name": "markdown-previewer",
-      "description": "Repository markdown-previewer",
-      "repo": "Jackwio/markdown-previewer",
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
       "stacks": [
-        "javascript"
+        "note"
       ],
-      "topics": [],
+      "topics": [
+        "note"
+      ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/markdown-previewer",
+      "repoUrl": "https://github.com/Jackwio/develop-note",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-17T13:09:11Z"
+        "updatedAt": "2026-03-18T13:37:54Z"
       },
-      "issues": []
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
+        }
+      ]
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -34,7 +45,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-17T04:36:20Z"
+        "updatedAt": "2026-03-18T04:40:07Z"
       },
       "issues": [
         {
@@ -84,34 +95,23 @@
       ]
     },
     {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
+      "id": "jackwio-markdown-previewer",
+      "name": "markdown-previewer",
+      "description": "Repository markdown-previewer",
+      "repo": "Jackwio/markdown-previewer",
       "stacks": [
-        "note"
+        "javascript"
       ],
-      "topics": [
-        "note"
-      ],
+      "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoUrl": "https://github.com/Jackwio/markdown-previewer",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-15T15:01:04Z"
+        "updatedAt": "2026-03-17T13:09:11Z"
       },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
-        }
-      ]
+      "issues": []
     },
     {
       "id": "jackwio-script-panel",
@@ -1915,5 +1915,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-18T04:40:01.557Z"
+  "syncedAt": "2026-03-19T04:39:15.535Z"
 }
