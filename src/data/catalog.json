@@ -1,6 +1,55 @@
 {
   "projects": [
     {
+      "id": "jackwio-my-skill",
+      "name": "my-skill",
+      "description": "Repository my-skill",
+      "repo": "Jackwio/my-skill",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/my-skill",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-22T03:21:42Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-21T15:56:24Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -15,7 +64,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-20T04:34:27Z"
+        "updatedAt": "2026-03-21T04:32:03Z"
       },
       "issues": [
         {
@@ -65,36 +114,6 @@
       ]
     },
     {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
-      "stacks": [
-        "note"
-      ],
-      "topics": [
-        "note"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-19T14:54:35Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-script-panel",
       "name": "script-panel",
       "description": "Repository script-panel",
@@ -114,6 +133,26 @@
         "updatedAt": "2026-03-19T14:48:27Z"
       },
       "issues": [
+        {
+          "number": 12,
+          "title": "讓 Git 暫時忽略掉已經被追蹤（Tracked）的檔案變更",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-21T15:57:14Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/12"
+        },
+        {
+          "number": 11,
+          "title": "透過 Tree 顯示 Repo 結構 (Mac)",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-21T12:03:16Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/11"
+        },
         {
           "number": 10,
           "title": "下載 extension 需要能夠輸入 Auth token",
@@ -575,34 +614,6 @@
           "labels": [],
           "updatedAt": "2026-03-08T07:53:18Z",
           "url": "https://github.com/Jackwio/grok-cli/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-github-action-lobster",
-      "name": "github-action-lobster",
-      "description": "Repository github-action-lobster",
-      "repo": "Jackwio/github-action-lobster",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/github-action-lobster",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-07T16:16:55Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-07T14:24:12Z",
-          "url": "https://github.com/Jackwio/github-action-lobster/issues/1"
         }
       ]
     },
@@ -1915,5 +1926,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-21T04:31:57.539Z"
+  "syncedAt": "2026-03-22T04:38:05.505Z"
 }
