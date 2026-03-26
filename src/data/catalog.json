@@ -1,6 +1,123 @@
 {
   "projects": [
     {
+      "id": "jackwio-willclaw",
+      "name": "WillClaw",
+      "description": "WillLinClaw — managed by GitHubClaw",
+      "repo": "Jackwio/WillClaw",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/WillClaw",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-26T00:33:31Z"
+      },
+      "issues": [
+        {
+          "number": 3,
+          "title": "每日 Trending Repo 分析",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-26T02:06:43Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/3"
+        },
+        {
+          "number": 5,
+          "title": "日本東京旅遊景點查找",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:15:18Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "建立 Custom Skill",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:11:38Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/4"
+        },
+        {
+          "number": 2,
+          "title": "新知識詢問",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T12:58:02Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "WillLinClaw",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-25T12:44:45Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-25T14:01:40Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-my-github-pages",
+      "name": "my-github-pages",
+      "description": "Repository my-github-pages",
+      "repo": "Jackwio/my-github-pages",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/my-github-pages",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-25T13:19:05Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -15,7 +132,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-24T04:37:32Z"
+        "updatedAt": "2026-03-25T04:39:07Z"
       },
       "issues": [
         {
@@ -82,36 +199,6 @@
         "updatedAt": "2026-03-22T03:21:42Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
-      "stacks": [
-        "note"
-      ],
-      "topics": [
-        "note"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-21T15:56:24Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-script-panel",
@@ -1262,25 +1349,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-my-github-pages",
-      "name": "my-github-pages",
-      "description": "Repository my-github-pages",
-      "repo": "Jackwio/my-github-pages",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/my-github-pages",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-02-27T13:24:22Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-repo-star-tracker",
       "name": "repo-star-tracker",
       "description": "Repository repo-star-tracker",
@@ -1926,5 +1994,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-25T04:39:01.613Z"
+  "syncedAt": "2026-03-26T04:47:12.820Z"
 }
