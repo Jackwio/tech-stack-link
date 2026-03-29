@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-27T20:12:42Z"
+        "updatedAt": "2026-03-28T20:09:29Z"
       },
       "issues": [
         {
@@ -25,7 +25,7 @@
           "labels": [
             "chat-session"
           ],
-          "updatedAt": "2026-03-28T02:15:43Z",
+          "updatedAt": "2026-03-29T02:06:58Z",
           "url": "https://github.com/Jackwio/WillClaw/issues/3"
         },
         {
@@ -35,7 +35,7 @@
           "labels": [
             "chat-session"
           ],
-          "updatedAt": "2026-03-27T12:21:44Z",
+          "updatedAt": "2026-03-28T06:55:11Z",
           "url": "https://github.com/Jackwio/WillClaw/issues/2"
         },
         {
@@ -69,36 +69,6 @@
       ]
     },
     {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
-      "stacks": [
-        "note"
-      ],
-      "topics": [
-        "note"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-27T14:51:07Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -113,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-27T04:47:30Z"
+        "updatedAt": "2026-03-28T04:38:09Z"
       },
       "issues": [
         {
@@ -159,6 +129,36 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-03-27T14:51:07Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
         }
       ]
     },
@@ -1142,6 +1142,22 @@
       },
       "issues": [
         {
+          "number": 26,
+          "title": "Zeabur 服務部屬自動化",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-28T13:47:15Z",
+          "url": "https://github.com/Jackwio/TODO/issues/26"
+        },
+        {
+          "number": 7,
+          "title": "同步上游檔案，並使用 Copilot 翻譯",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-28T12:59:53Z",
+          "url": "https://github.com/Jackwio/TODO/issues/7"
+        },
+        {
           "number": 25,
           "title": "透過 Script Pannel",
           "state": "OPEN",
@@ -1244,14 +1260,6 @@
           "labels": [],
           "updatedAt": "2026-03-07T10:21:43Z",
           "url": "https://github.com/Jackwio/TODO/issues/8"
-        },
-        {
-          "number": 7,
-          "title": "同步上游檔案，並使用 Codex 翻譯",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-07T10:21:30Z",
-          "url": "https://github.com/Jackwio/TODO/issues/7"
         },
         {
           "number": 5,
@@ -2002,5 +2010,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-28T04:38:02.576Z"
+  "syncedAt": "2026-03-29T04:50:06.959Z"
 }
