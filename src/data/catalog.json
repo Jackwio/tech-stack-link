@@ -15,17 +15,17 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-30T00:35:33Z"
+        "updatedAt": "2026-03-30T20:16:15Z"
       },
       "issues": [
         {
           "number": 3,
           "title": "每日 Trending Repo 分析",
-          "state": "OPEN",
+          "state": "CLOSED",
           "labels": [
             "chat-session"
           ],
-          "updatedAt": "2026-03-30T02:07:11Z",
+          "updatedAt": "2026-03-31T02:06:57Z",
           "url": "https://github.com/Jackwio/WillClaw/issues/3"
         },
         {
@@ -83,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-29T04:50:13Z"
+        "updatedAt": "2026-03-30T04:57:12Z"
       },
       "issues": [
         {
@@ -2010,5 +2010,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-30T04:57:06.525Z"
+  "syncedAt": "2026-03-31T04:48:48.054Z"
 }
