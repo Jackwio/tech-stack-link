@@ -1,6 +1,108 @@
 {
   "projects": [
     {
+      "id": "jackwio-githubclaw",
+      "name": "GitHubClaw",
+      "description": "Repository GitHubClaw",
+      "repo": "Jackwio/GitHubClaw",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/GitHubClaw",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-02T03:22:48Z"
+      },
+      "issues": [
+        {
+          "number": 12,
+          "title": "Install Custom Skills",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-02T03:41:04Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/12"
+        },
+        {
+          "number": 19,
+          "title": "Artifact Tg 路徑顯示錯誤",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-04-02T03:19:34Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/19"
+        },
+        {
+          "number": 18,
+          "title": "報告送到其他 tg bot，另開一個 workflow",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-02T03:18:55Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/18"
+        },
+        {
+          "number": 4,
+          "title": "Copilot CLI -p 不讀入 issue.md 避免 Argument List Too Long 錯誤",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-02T03:15:24Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/4"
+        },
+        {
+          "number": 7,
+          "title": "GitHub Trending Repo",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-02T03:09:15Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
+        },
+        {
+          "number": 5,
+          "title": "GitHubClaw",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-02T02:35:19Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/5"
+        },
+        {
+          "number": 6,
+          "title": "特定 Workflow 成功或錯誤需要在 Telegram 收到通知",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-01T14:28:00Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/6"
+        },
+        {
+          "number": 3,
+          "title": "Trending Repo 配置調整",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-01T13:19:40Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "Install Skills",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-01T13:17:22Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "基本技能設置與安裝",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-01T13:16:56Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -15,7 +117,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-31T20:16:11Z"
+        "updatedAt": "2026-04-01T20:16:53Z"
       },
       "issues": [
         {
@@ -25,7 +127,7 @@
           "labels": [
             "chat-session"
           ],
-          "updatedAt": "2026-04-01T02:58:48Z",
+          "updatedAt": "2026-04-02T02:08:18Z",
           "url": "https://github.com/Jackwio/WillClaw/issues/3"
         },
         {
@@ -83,7 +185,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-03-31T04:48:54Z"
+        "updatedAt": "2026-04-01T04:57:49Z"
       },
       "issues": [
         {
@@ -2010,5 +2112,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-04-01T04:57:44.006Z"
+  "syncedAt": "2026-04-02T04:44:43.393Z"
 }
