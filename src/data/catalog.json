@@ -15,34 +15,52 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-02T03:22:48Z"
+        "updatedAt": "2026-04-03T00:39:30Z"
       },
       "issues": [
         {
-          "number": 12,
-          "title": "Install Custom Skills",
+          "number": 7,
+          "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-02T03:41:04Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/12"
+          "updatedAt": "2026-04-03T02:44:04Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
-          "number": 19,
-          "title": "Artifact Tg 路徑顯示錯誤",
+          "number": 35,
+          "title": "學習新知識",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-02T15:29:35Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/35"
+        },
+        {
+          "number": 33,
+          "title": "Telegram bot send msg to channel or group",
           "state": "OPEN",
           "labels": [
-            "bug"
+            "documentation"
           ],
-          "updatedAt": "2026-04-02T03:19:34Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/19"
+          "updatedAt": "2026-04-02T15:03:57Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/33"
         },
         {
           "number": 18,
           "title": "報告送到其他 tg bot，另開一個 workflow",
-          "state": "OPEN",
+          "state": "CLOSED",
           "labels": [],
-          "updatedAt": "2026-04-02T03:18:55Z",
+          "updatedAt": "2026-04-02T10:44:04Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/18"
+        },
+        {
+          "number": 19,
+          "title": "Artifact Tg 路徑顯示錯誤",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-04-02T10:12:59Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/19"
         },
         {
           "number": 4,
@@ -51,14 +69,6 @@
           "labels": [],
           "updatedAt": "2026-04-02T03:15:24Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/4"
-        },
-        {
-          "number": 7,
-          "title": "GitHub Trending Repo",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-02T03:09:15Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
           "number": 5,
@@ -85,14 +95,6 @@
           "url": "https://github.com/Jackwio/GitHubClaw/issues/3"
         },
         {
-          "number": 2,
-          "title": "Install Skills",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-01T13:17:22Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/2"
-        },
-        {
           "number": 1,
           "title": "基本技能設置與安裝",
           "state": "OPEN",
@@ -117,7 +119,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-01T20:16:53Z"
+        "updatedAt": "2026-04-02T20:13:19Z"
       },
       "issues": [
         {
@@ -127,7 +129,7 @@
           "labels": [
             "chat-session"
           ],
-          "updatedAt": "2026-04-02T02:08:18Z",
+          "updatedAt": "2026-04-03T02:13:44Z",
           "url": "https://github.com/Jackwio/WillClaw/issues/3"
         },
         {
@@ -171,6 +173,36 @@
       ]
     },
     {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-02T15:27:41Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -185,7 +217,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-01T04:57:49Z"
+        "updatedAt": "2026-04-02T04:44:50Z"
       },
       "issues": [
         {
@@ -231,36 +263,6 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
-      "stacks": [
-        "note"
-      ],
-      "topics": [
-        "note"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-27T14:51:07Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
         }
       ]
     },
@@ -2112,5 +2114,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-04-02T04:44:43.393Z"
+  "syncedAt": "2026-04-03T04:46:03.163Z"
 }
