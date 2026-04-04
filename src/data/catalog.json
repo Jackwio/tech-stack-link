@@ -1,6 +1,84 @@
 {
   "projects": [
     {
+      "id": "jackwio-build-issue-in-bot",
+      "name": "build-issue-in-bot",
+      "description": "Repository build-issue-in-bot",
+      "repo": "Jackwio/build-issue-in-bot",
+      "stacks": [
+        "telegram-bot"
+      ],
+      "topics": [
+        "telegram-bot"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/build-issue-in-bot",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-04T04:10:24Z"
+      },
+      "issues": [
+        {
+          "number": 9,
+          "title": "把 Long Polling 改成 WebHook",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-04-03T08:36:47Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/9"
+        },
+        {
+          "number": 5,
+          "title": "與 Telegram bot 聊天狀態需要保留",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-08T09:20:36Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "Reply Keyboard 顯示錯誤",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-08T06:05:51Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/4"
+        },
+        {
+          "number": 3,
+          "title": "Telegram-bot : Inline Keyboard v.s. Reply Keyboard",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-08T03:05:50Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "telegram bot 自動在特定 Repo 建立 Issue",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T12:39:21Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Telegram UserId 獲取",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-07T11:49:33Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-githubclaw",
       "name": "GitHubClaw",
       "description": "Repository GitHubClaw",
@@ -15,7 +93,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-03T00:39:30Z"
+        "updatedAt": "2026-04-04T02:55:35Z"
       },
       "issues": [
         {
@@ -23,8 +101,24 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-03T02:44:04Z",
+          "updatedAt": "2026-04-04T02:46:04Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
+        },
+        {
+          "number": 37,
+          "title": "學習英文單子",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-03T14:40:32Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/37"
+        },
+        {
+          "number": 36,
+          "title": "日本旅遊",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-03T09:12:42Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/36"
         },
         {
           "number": 35,
@@ -119,7 +213,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-02T20:13:19Z"
+        "updatedAt": "2026-04-03T20:11:56Z"
       },
       "issues": [
         {
@@ -173,34 +267,163 @@
       ]
     },
     {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
+      "id": "jackwio-healthy-remind",
+      "name": "healthy-remind",
+      "description": "Repository healthy-remind",
+      "repo": "Jackwio/healthy-remind",
       "stacks": [
-        "note"
+        "line-bot",
+        "deploy-on-zeabur"
       ],
       "topics": [
-        "note"
+        "line-bot",
+        "deploy-on-zeabur"
       ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoUrl": "https://github.com/Jackwio/healthy-remind",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-02T15:27:41Z"
+        "updatedAt": "2026-04-03T07:35:45Z"
       },
       "issues": [
         {
-          "number": 1,
+          "number": 3,
           "title": "Deploy",
-          "state": "OPEN",
+          "state": "CLOSED",
           "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
+          "updatedAt": "2026-03-07T06:45:18Z",
+          "url": "https://github.com/Jackwio/healthy-remind/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "發通知一定要用 source ID，不是一般 LINE ID",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-14T17:12:16Z",
+          "url": "https://github.com/Jackwio/healthy-remind/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-14T17:06:38Z",
+          "url": "https://github.com/Jackwio/healthy-remind/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-nba-line-bot",
+      "name": "nba-line-bot",
+      "description": "Repository nba-line-bot",
+      "repo": "Jackwio/nba-line-bot",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/nba-line-bot",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-03T06:58:07Z"
+      },
+      "issues": [
+        {
+          "number": 6,
+          "title": "當查看特定比賽的資訊時加入球員上場時間顯示",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T15:44:09Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/6"
+        },
+        {
+          "number": 8,
+          "title": "Deploy",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T06:45:11Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/8"
+        },
+        {
+          "number": 7,
+          "title": "將功能列表改成像 Telegram bot 的 Reply Keyboard",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-02-22T02:19:45Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/7"
+        },
+        {
+          "number": 2,
+          "title": "Line Message API 如何使用",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-21T07:21:25Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/2"
+        },
+        {
+          "number": 4,
+          "title": "LINE Messaging API + Webhook 的核心原理是「事件回呼 + 即時回覆」",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-14T16:53:23Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/4"
+        },
+        {
+          "number": 3,
+          "title": "Line Flex Message",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-14T16:35:12Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-14T16:33:57Z",
+          "url": "https://github.com/Jackwio/nba-line-bot/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-my-deploy",
+      "name": "my-deploy",
+      "description": "Repository my-deploy",
+      "repo": "Jackwio/my-deploy",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/my-deploy",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-03T06:40:43Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -217,7 +440,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-02T04:44:50Z"
+        "updatedAt": "2026-04-03T04:46:11Z"
       },
       "issues": [
         {
@@ -263,6 +486,36 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-02T15:27:41Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
         }
       ]
     },
@@ -685,74 +938,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-build-issue-in-bot",
-      "name": "build-issue-in-bot",
-      "description": "Repository build-issue-in-bot",
-      "repo": "Jackwio/build-issue-in-bot",
-      "stacks": [
-        "telegram-bot"
-      ],
-      "topics": [
-        "telegram-bot"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/build-issue-in-bot",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-08T09:38:45Z"
-      },
-      "issues": [
-        {
-          "number": 5,
-          "title": "與 Telegram bot 聊天狀態需要保留",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-08T09:20:36Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/5"
-        },
-        {
-          "number": 4,
-          "title": "Reply Keyboard 顯示錯誤",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-08T06:05:51Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/4"
-        },
-        {
-          "number": 3,
-          "title": "Telegram-bot : Inline Keyboard v.s. Reply Keyboard",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-03-08T03:05:50Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "telegram bot 自動在特定 Repo 建立 Issue",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T12:39:21Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Telegram UserId 獲取",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-03-07T11:49:33Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-grok-cli",
       "name": "grok-cli",
       "description": "Repository grok-cli",
@@ -805,94 +990,6 @@
           "labels": [],
           "updatedAt": "2026-03-08T07:53:18Z",
           "url": "https://github.com/Jackwio/grok-cli/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-nba-line-bot",
-      "name": "nba-line-bot",
-      "description": "Repository nba-line-bot",
-      "repo": "Jackwio/nba-line-bot",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/nba-line-bot",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-07T15:44:12Z"
-      },
-      "issues": [
-        {
-          "number": 6,
-          "title": "當查看特定比賽的資訊時加入球員上場時間顯示",
-          "state": "CLOSED",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-07T15:44:09Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/6"
-        },
-        {
-          "number": 8,
-          "title": "Deploy",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T06:45:11Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/8"
-        },
-        {
-          "number": 7,
-          "title": "將功能列表改成像 Telegram bot 的 Reply Keyboard",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-02-22T02:19:45Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/7"
-        },
-        {
-          "number": 2,
-          "title": "Line Message API 如何使用",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-21T07:21:25Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/2"
-        },
-        {
-          "number": 4,
-          "title": "LINE Messaging API + Webhook 的核心原理是「事件回呼 + 即時回覆」",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-14T16:53:23Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/4"
-        },
-        {
-          "number": 3,
-          "title": "Line Flex Message",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-14T16:35:12Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-14T16:33:57Z",
-          "url": "https://github.com/Jackwio/nba-line-bot/issues/1"
         }
       ]
     },
@@ -1176,58 +1273,6 @@
       ]
     },
     {
-      "id": "jackwio-healthy-remind",
-      "name": "healthy-remind",
-      "description": "Repository healthy-remind",
-      "repo": "Jackwio/healthy-remind",
-      "stacks": [
-        "line-bot",
-        "deploy-on-zeabur"
-      ],
-      "topics": [
-        "line-bot",
-        "deploy-on-zeabur"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/healthy-remind",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-01T04:52:26Z"
-      },
-      "issues": [
-        {
-          "number": 3,
-          "title": "Deploy",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T06:45:18Z",
-          "url": "https://github.com/Jackwio/healthy-remind/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "發通知一定要用 source ID，不是一般 LINE ID",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-14T17:12:16Z",
-          "url": "https://github.com/Jackwio/healthy-remind/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-14T17:06:38Z",
-          "url": "https://github.com/Jackwio/healthy-remind/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-todo",
       "name": "TODO",
       "description": "Repository TODO",
@@ -1245,6 +1290,14 @@
         "updatedAt": "2026-03-01T04:48:01Z"
       },
       "issues": [
+        {
+          "number": 27,
+          "title": "Cloudfare action 部屬",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-03T07:06:23Z",
+          "url": "https://github.com/Jackwio/TODO/issues/27"
+        },
         {
           "number": 26,
           "title": "Zeabur 服務部屬自動化",
@@ -2114,5 +2167,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-04-03T04:46:03.163Z"
+  "syncedAt": "2026-04-04T04:36:03.453Z"
 }
