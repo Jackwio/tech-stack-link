@@ -1,80 +1,51 @@
 {
   "projects": [
     {
-      "id": "jackwio-build-issue-in-bot",
-      "name": "build-issue-in-bot",
-      "description": "Repository build-issue-in-bot",
-      "repo": "Jackwio/build-issue-in-bot",
+      "id": "jackwio-analyze-page",
+      "name": "analyze-page",
+      "description": "Repository analyze-page",
+      "repo": "Jackwio/analyze-page",
       "stacks": [
-        "telegram-bot"
+        "javascript"
       ],
-      "topics": [
-        "telegram-bot"
-      ],
+      "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/build-issue-in-bot",
+      "repoUrl": "https://github.com/Jackwio/analyze-page",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-04T04:10:24Z"
+        "updatedAt": "2026-04-05T02:32:36Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-05T02:29:26Z"
       },
       "issues": [
         {
-          "number": 9,
-          "title": "把 Long Polling 改成 WebHook",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-04-03T08:36:47Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/9"
-        },
-        {
-          "number": 5,
-          "title": "與 Telegram bot 聊天狀態需要保留",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-08T09:20:36Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/5"
-        },
-        {
-          "number": 4,
-          "title": "Reply Keyboard 顯示錯誤",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-08T06:05:51Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/4"
-        },
-        {
-          "number": 3,
-          "title": "Telegram-bot : Inline Keyboard v.s. Reply Keyboard",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-03-08T03:05:50Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "telegram bot 自動在特定 Repo 建立 Issue",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T12:39:21Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/2"
-        },
-        {
           "number": 1,
-          "title": "Telegram UserId 獲取",
+          "title": "Skills 建立 Prompt",
           "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-03-07T11:49:33Z",
-          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/1"
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
     },
@@ -93,7 +64,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-04T02:55:35Z"
+        "updatedAt": "2026-04-05T00:41:55Z"
       },
       "issues": [
         {
@@ -101,7 +72,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-04T02:46:04Z",
+          "updatedAt": "2026-04-05T02:39:22Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -213,7 +184,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-03T20:11:56Z"
+        "updatedAt": "2026-04-04T20:08:47Z"
       },
       "issues": [
         {
@@ -263,6 +234,287 @@
           "labels": [],
           "updatedAt": "2026-03-25T12:44:45Z",
           "url": "https://github.com/Jackwio/WillClaw/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-auto-collect-knowledge",
+      "name": "auto-collect-knowledge",
+      "description": "Repository auto-collect-knowledge",
+      "repo": "Jackwio/auto-collect-knowledge",
+      "stacks": [
+        "discord-bot",
+        "playwright"
+      ],
+      "topics": [
+        "discord-bot",
+        "playwright"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/auto-collect-knowledge",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-04T16:31:05Z"
+      },
+      "issues": [
+        {
+          "number": 12,
+          "title": "優化效能",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-15T13:24:31Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/12"
+        },
+        {
+          "number": 2,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-07T08:41:55Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/2"
+        },
+        {
+          "number": 4,
+          "title": "Discord-bot ENV 配置",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-07T08:32:49Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/4"
+        },
+        {
+          "number": 10,
+          "title": "讓 Telegram bot 在群組中發訊息",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-07T01:53:28Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/10"
+        },
+        {
+          "number": 9,
+          "title": "重複貼文",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-06T11:43:22Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/9"
+        },
+        {
+          "number": 8,
+          "title": "增加一個按鈕，可以幫我該貼文的連結送到 Felo, 並透過 felo 分析",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-04T12:31:56Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/8"
+        },
+        {
+          "number": 7,
+          "title": "Deploy",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-03T14:33:21Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/7"
+        },
+        {
+          "number": 5,
+          "title": "透過 Playwright 產生 X 登入檔",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-01T07:58:05Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/5"
+        },
+        {
+          "number": 6,
+          "title": "Deploy on Cloudfare",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:47:27Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/6"
+        },
+        {
+          "number": 3,
+          "title": "X UserId 獲取",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-27T11:09:21Z",
+          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/3"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-nba-bot",
+      "name": "nba-bot",
+      "description": "Repository nba-bot",
+      "repo": "Jackwio/nba-bot",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/nba-bot",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-04T08:48:18Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-tech-stack-link",
+      "name": "tech-stack-link",
+      "description": "Repository tech-stack-link",
+      "repo": "Jackwio/tech-stack-link",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-04T04:36:09Z"
+      },
+      "issues": [
+        {
+          "number": 4,
+          "title": "專案技術整理",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:47Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
+        },
+        {
+          "number": 5,
+          "title": "將 Github Gist 分類",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:38Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
+        },
+        {
+          "number": 2,
+          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T08:33:29Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-07T08:33:21Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-02-26T19:05:19Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-build-issue-in-bot",
+      "name": "build-issue-in-bot",
+      "description": "Repository build-issue-in-bot",
+      "repo": "Jackwio/build-issue-in-bot",
+      "stacks": [
+        "telegram-bot"
+      ],
+      "topics": [
+        "telegram-bot"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/build-issue-in-bot",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-04T04:10:24Z"
+      },
+      "issues": [
+        {
+          "number": 9,
+          "title": "把 Long Polling 改成 WebHook",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-04-03T08:36:47Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/9"
+        },
+        {
+          "number": 5,
+          "title": "與 Telegram bot 聊天狀態需要保留",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-08T09:20:36Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "Reply Keyboard 顯示錯誤",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-08T06:05:51Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/4"
+        },
+        {
+          "number": 3,
+          "title": "Telegram-bot : Inline Keyboard v.s. Reply Keyboard",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-08T03:05:50Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "telegram bot 自動在特定 Repo 建立 Issue",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T12:39:21Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Telegram UserId 獲取",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-03-07T11:49:33Z",
+          "url": "https://github.com/Jackwio/build-issue-in-bot/issues/1"
         }
       ]
     },
@@ -424,70 +676,6 @@
         "updatedAt": "2026-04-03T06:40:43Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-tech-stack-link",
-      "name": "tech-stack-link",
-      "description": "Repository tech-stack-link",
-      "repo": "Jackwio/tech-stack-link",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-03T04:46:11Z"
-      },
-      "issues": [
-        {
-          "number": 4,
-          "title": "專案技術整理",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:47Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
-        },
-        {
-          "number": 5,
-          "title": "將 Github Gist 分類",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:38Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
-        },
-        {
-          "number": 2,
-          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-          "state": "CLOSED",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-07T08:33:29Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-07T08:33:21Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-02-26T19:05:19Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-develop-note",
@@ -1042,126 +1230,6 @@
           "labels": [],
           "updatedAt": "2026-02-23T04:00:21Z",
           "url": "https://github.com/Jackwio/note2markdown/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-auto-collect-knowledge",
-      "name": "auto-collect-knowledge",
-      "description": "Repository auto-collect-knowledge",
-      "repo": "Jackwio/auto-collect-knowledge",
-      "stacks": [
-        "discord-bot",
-        "playwright"
-      ],
-      "topics": [
-        "discord-bot",
-        "playwright"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/auto-collect-knowledge",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-07T02:38:01Z"
-      },
-      "issues": [
-        {
-          "number": 12,
-          "title": "優化效能",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-15T13:24:31Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/12"
-        },
-        {
-          "number": 2,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-03-07T08:41:55Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/2"
-        },
-        {
-          "number": 4,
-          "title": "Discord-bot ENV 配置",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-03-07T08:32:49Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/4"
-        },
-        {
-          "number": 10,
-          "title": "讓 Telegram bot 在群組中發訊息",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-03-07T01:53:28Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/10"
-        },
-        {
-          "number": 9,
-          "title": "重複貼文",
-          "state": "OPEN",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-06T11:43:22Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/9"
-        },
-        {
-          "number": 8,
-          "title": "增加一個按鈕，可以幫我該貼文的連結送到 Felo, 並透過 felo 分析",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-04T12:31:56Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/8"
-        },
-        {
-          "number": 7,
-          "title": "Deploy",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-03T14:33:21Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/7"
-        },
-        {
-          "number": 5,
-          "title": "透過 Playwright 產生 X 登入檔",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-01T07:58:05Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/5"
-        },
-        {
-          "number": 6,
-          "title": "Deploy on Cloudfare",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:47:27Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/6"
-        },
-        {
-          "number": 3,
-          "title": "X UserId 獲取",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-27T11:09:21Z",
-          "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/3"
         }
       ]
     },
@@ -2137,6 +2205,21 @@
       ]
     },
     {
+      "label": "skills",
+      "items": [
+        {
+          "name": "oh-my-skills",
+          "url": "https://github.com/Jackwio/oh-my-skills",
+          "issues": [
+            {
+              "title": "Skills 建立 Prompt",
+              "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "label": "telegram-bot",
       "items": [
         {
@@ -2167,5 +2250,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-04-04T04:36:03.453Z"
+  "syncedAt": "2026-04-05T04:50:10.388Z"
 }
