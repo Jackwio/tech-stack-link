@@ -1,25 +1,6 @@
 {
   "projects": [
     {
-      "id": "jackwio-analyze-page",
-      "name": "analyze-page",
-      "description": "Repository analyze-page",
-      "repo": "Jackwio/analyze-page",
-      "stacks": [
-        "javascript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/analyze-page",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-05T02:32:36Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-oh-my-skills",
       "name": "oh-my-skills",
       "description": "Repository oh-my-skills",
@@ -36,7 +17,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-05T02:29:26Z"
+        "updatedAt": "2026-04-06T01:51:27Z"
       },
       "issues": [
         {
@@ -55,7 +36,7 @@
       "description": "Repository GitHubClaw",
       "repo": "Jackwio/GitHubClaw",
       "stacks": [
-        "unknown"
+        "typescript"
       ],
       "topics": [],
       "tags": [],
@@ -64,7 +45,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-05T00:41:55Z"
+        "updatedAt": "2026-04-06T00:41:34Z"
       },
       "issues": [
         {
@@ -72,8 +53,24 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-05T02:39:22Z",
+          "updatedAt": "2026-04-06T02:33:35Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
+        },
+        {
+          "number": 38,
+          "title": "文章或影片摘要",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T14:23:06Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/38"
+        },
+        {
+          "number": 35,
+          "title": "學習新知識",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T12:51:42Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/35"
         },
         {
           "number": 37,
@@ -90,14 +87,6 @@
           "labels": [],
           "updatedAt": "2026-04-03T09:12:42Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/36"
-        },
-        {
-          "number": 35,
-          "title": "學習新知識",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-02T15:29:35Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/35"
         },
         {
           "number": 33,
@@ -184,7 +173,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-04T20:08:47Z"
+        "updatedAt": "2026-04-05T20:09:21Z"
       },
       "issues": [
         {
@@ -236,6 +225,119 @@
           "url": "https://github.com/Jackwio/WillClaw/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-05T15:59:57Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-tech-stack-link",
+      "name": "tech-stack-link",
+      "description": "Repository tech-stack-link",
+      "repo": "Jackwio/tech-stack-link",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-05T04:50:18Z"
+      },
+      "issues": [
+        {
+          "number": 4,
+          "title": "專案技術整理",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:47Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
+        },
+        {
+          "number": 5,
+          "title": "將 Github Gist 分類",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:38Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
+        },
+        {
+          "number": 2,
+          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T08:33:29Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-07T08:33:21Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-02-26T19:05:19Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-analyze-page",
+      "name": "analyze-page",
+      "description": "Repository analyze-page",
+      "repo": "Jackwio/analyze-page",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/analyze-page",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-05T02:32:36Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-auto-collect-knowledge",
@@ -354,89 +456,6 @@
           ],
           "updatedAt": "2026-02-27T11:09:21Z",
           "url": "https://github.com/Jackwio/auto-collect-knowledge/issues/3"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-nba-bot",
-      "name": "nba-bot",
-      "description": "Repository nba-bot",
-      "repo": "Jackwio/nba-bot",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/nba-bot",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-04T08:48:18Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-tech-stack-link",
-      "name": "tech-stack-link",
-      "description": "Repository tech-stack-link",
-      "repo": "Jackwio/tech-stack-link",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-04T04:36:09Z"
-      },
-      "issues": [
-        {
-          "number": 4,
-          "title": "專案技術整理",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:47Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
-        },
-        {
-          "number": 5,
-          "title": "將 Github Gist 分類",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:38Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
-        },
-        {
-          "number": 2,
-          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-          "state": "CLOSED",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-07T08:33:29Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-07T08:33:21Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-02-26T19:05:19Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
     },
@@ -659,55 +678,6 @@
       ]
     },
     {
-      "id": "jackwio-my-deploy",
-      "name": "my-deploy",
-      "description": "Repository my-deploy",
-      "repo": "Jackwio/my-deploy",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/my-deploy",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-03T06:40:43Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
-      "stacks": [
-        "note"
-      ],
-      "topics": [
-        "note"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-02T15:27:41Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-my-github-pages",
       "name": "my-github-pages",
       "description": "Repository my-github-pages",
@@ -723,25 +693,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-03-25T13:19:05Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-my-skill",
-      "name": "my-skill",
-      "description": "Repository my-skill",
-      "repo": "Jackwio/my-skill",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/my-skill",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-22T03:21:42Z"
       },
       "issues": []
     },
@@ -1021,34 +972,6 @@
           "labels": [],
           "updatedAt": "2026-03-14T06:09:41Z",
           "url": "https://github.com/Jackwio/diff-lens/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-my-skills",
-      "name": "my-skills",
-      "description": "Repository my-skills",
-      "repo": "Jackwio/my-skills",
-      "stacks": [
-        "javascript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-14T06:12:00Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "npm publish package 調整",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-07T10:19:47Z",
-          "url": "https://github.com/Jackwio/my-skills/issues/1"
         }
       ]
     },
@@ -1569,25 +1492,6 @@
           "url": "https://github.com/Jackwio/deploy-note/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-ai-note",
-      "name": "ai-note",
-      "description": "Repository ai-note",
-      "repo": "Jackwio/ai-note",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/ai-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-02-27T13:24:54Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-repo-star-tracker",
@@ -2250,5 +2154,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-04-05T04:50:10.388Z"
+  "syncedAt": "2026-04-06T04:56:46.390Z"
 }
