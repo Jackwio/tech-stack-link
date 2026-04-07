@@ -1,32 +1,70 @@
 {
   "projects": [
     {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
+      "id": "jackwio-willclaw",
+      "name": "WillClaw",
+      "description": "WillLinClaw — managed by GitHubClaw",
+      "repo": "Jackwio/WillClaw",
       "stacks": [
-        "skills"
+        "javascript"
       ],
-      "topics": [
-        "skills"
-      ],
+      "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoUrl": "https://github.com/Jackwio/WillClaw",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-06T01:51:27Z"
+        "updatedAt": "2026-04-06T20:15:34Z"
       },
       "issues": [
         {
+          "number": 3,
+          "title": "每日 Trending Repo 分析",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-04-03T02:13:44Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "新知識詢問",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-29T09:01:21Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/2"
+        },
+        {
+          "number": 5,
+          "title": "日本東京旅遊景點查找",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:15:18Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "建立 Custom Skill",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:11:38Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/4"
+        },
+        {
           "number": 1,
-          "title": "Skills 建立 Prompt",
+          "title": "WillLinClaw",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+          "updatedAt": "2026-03-25T12:44:45Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/1"
         }
       ]
     },
@@ -45,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-06T00:41:34Z"
+        "updatedAt": "2026-04-06T13:07:14Z"
       },
       "issues": [
         {
@@ -53,24 +91,32 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-06T02:33:35Z",
+          "updatedAt": "2026-04-07T02:39:53Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
-          "number": 38,
+          "number": 40,
           "title": "文章或影片摘要",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-05T14:23:06Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/38"
+          "updatedAt": "2026-04-06T13:09:55Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/40"
         },
         {
           "number": 35,
           "title": "學習新知識",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-05T12:51:42Z",
+          "updatedAt": "2026-04-06T11:55:18Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/35"
+        },
+        {
+          "number": 39,
+          "title": "生圖",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-06T07:35:31Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/39"
         },
         {
           "number": 37,
@@ -159,100 +205,30 @@
       ]
     },
     {
-      "id": "jackwio-willclaw",
-      "name": "WillClaw",
-      "description": "WillLinClaw — managed by GitHubClaw",
-      "repo": "Jackwio/WillClaw",
+      "id": "jackwio-analyze-page",
+      "name": "analyze-page",
+      "description": "Repository analyze-page",
+      "repo": "Jackwio/analyze-page",
       "stacks": [
-        "javascript"
+        "typescript"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/WillClaw",
+      "repoUrl": "https://github.com/Jackwio/analyze-page",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-05T20:09:21Z"
+        "updatedAt": "2026-04-06T08:38:12Z"
       },
       "issues": [
-        {
-          "number": 3,
-          "title": "每日 Trending Repo 分析",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-04-03T02:13:44Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/3"
-        },
         {
           "number": 2,
-          "title": "新知識詢問",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-29T09:01:21Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/2"
-        },
-        {
-          "number": 5,
-          "title": "日本東京旅遊景點查找",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-25T13:15:18Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/5"
-        },
-        {
-          "number": 4,
-          "title": "建立 Custom Skill",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-25T13:11:38Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/4"
-        },
-        {
-          "number": 1,
-          "title": "WillLinClaw",
+          "title": "將 Chrome extension 發佈到 GitHub Release",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-03-25T12:44:45Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
-      "stacks": [
-        "note"
-      ],
-      "topics": [
-        "note"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-05T15:59:57Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
+          "updatedAt": "2026-04-06T08:41:27Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/2"
         }
       ]
     },
@@ -271,7 +247,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-05T04:50:18Z"
+        "updatedAt": "2026-04-06T04:56:56Z"
       },
       "issues": [
         {
@@ -321,23 +297,64 @@
       ]
     },
     {
-      "id": "jackwio-analyze-page",
-      "name": "analyze-page",
-      "description": "Repository analyze-page",
-      "repo": "Jackwio/analyze-page",
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
       "stacks": [
-        "javascript"
+        "skills"
       ],
-      "topics": [],
+      "topics": [
+        "skills"
+      ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/analyze-page",
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-05T02:32:36Z"
+        "updatedAt": "2026-04-06T01:51:27Z"
       },
-      "issues": []
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-05T15:59:57Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
+        }
+      ]
     },
     {
       "id": "jackwio-auto-collect-knowledge",
@@ -1282,20 +1299,20 @@
       },
       "issues": [
         {
+          "number": 26,
+          "title": "Playwright 透過 CDP 對 Zeabur 服務部屬自動化",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-06T14:32:08Z",
+          "url": "https://github.com/Jackwio/TODO/issues/26"
+        },
+        {
           "number": 27,
           "title": "Cloudfare action 部屬",
           "state": "OPEN",
           "labels": [],
           "updatedAt": "2026-04-03T07:06:23Z",
           "url": "https://github.com/Jackwio/TODO/issues/27"
-        },
-        {
-          "number": 26,
-          "title": "Zeabur 服務部屬自動化",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-28T13:47:15Z",
-          "url": "https://github.com/Jackwio/TODO/issues/26"
         },
         {
           "number": 7,
@@ -2154,5 +2171,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-04-06T04:56:46.390Z"
+  "syncedAt": "2026-04-07T04:47:59.493Z"
 }
