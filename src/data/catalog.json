@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-08T00:40:45Z"
+        "updatedAt": "2026-04-09T00:34:11Z"
       },
       "issues": [
         {
@@ -23,7 +23,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-08T02:39:13Z",
+          "updatedAt": "2026-04-09T02:39:06Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -31,7 +31,7 @@
           "title": "學習新知識",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-07T12:45:55Z",
+          "updatedAt": "2026-04-08T12:43:09Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/35"
         },
         {
@@ -151,7 +151,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-07T20:15:24Z"
+        "updatedAt": "2026-04-08T20:16:05Z"
       },
       "issues": [
         {
@@ -205,25 +205,6 @@
       ]
     },
     {
-      "id": "jackwio-my-blog",
-      "name": "my-blog",
-      "description": "Repository my-blog",
-      "repo": "Jackwio/my-blog",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/my-blog",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-07T14:36:00Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -238,7 +219,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-07T04:48:08Z"
+        "updatedAt": "2026-04-08T04:50:20Z"
       },
       "issues": [
         {
@@ -286,6 +267,25 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-my-blog",
+      "name": "my-blog",
+      "description": "Repository my-blog",
+      "repo": "Jackwio/my-blog",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/my-blog",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-07T14:36:00Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-analyze-page",
@@ -2190,5 +2190,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-04-08T04:50:14.454Z"
+  "syncedAt": "2026-04-09T04:47:25.605Z"
 }
