@@ -1,23 +1,148 @@
 {
   "projects": [
     {
-      "id": "jackwio-image-resizer",
-      "name": "image-resizer",
-      "description": "Repository image-resizer",
-      "repo": "Jackwio/image-resizer",
+      "id": "jackwio-githubclaw",
+      "name": "GitHubClaw",
+      "description": "Repository GitHubClaw",
+      "repo": "Jackwio/GitHubClaw",
       "stacks": [
-        "unknown"
+        "typescript"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/image-resizer",
+      "repoUrl": "https://github.com/Jackwio/GitHubClaw",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-12T02:26:20Z"
+        "updatedAt": "2026-04-13T00:44:28Z"
       },
-      "issues": []
+      "issues": [
+        {
+          "number": 7,
+          "title": "GitHub Trending Repo",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-12T14:42:08Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
+        },
+        {
+          "number": 35,
+          "title": "學習新知識",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-11T14:22:42Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/35"
+        },
+        {
+          "number": 41,
+          "title": "其他優化配置",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-10T14:08:36Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/41"
+        },
+        {
+          "number": 40,
+          "title": "文章或影片摘要",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-06T13:09:55Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/40"
+        },
+        {
+          "number": 39,
+          "title": "生圖",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-06T07:35:31Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/39"
+        },
+        {
+          "number": 37,
+          "title": "學習英文單子",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-03T14:40:32Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/37"
+        },
+        {
+          "number": 36,
+          "title": "日本旅遊",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-03T09:12:42Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/36"
+        },
+        {
+          "number": 33,
+          "title": "Telegram bot send msg to channel or group",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-04-02T15:03:57Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/33"
+        },
+        {
+          "number": 18,
+          "title": "報告送到其他 tg bot，另開一個 workflow",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-02T10:44:04Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/18"
+        },
+        {
+          "number": 19,
+          "title": "Artifact Tg 路徑顯示錯誤",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-04-02T10:12:59Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/19"
+        },
+        {
+          "number": 4,
+          "title": "Copilot CLI -p 不讀入 issue.md 避免 Argument List Too Long 錯誤",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-02T03:15:24Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/4"
+        },
+        {
+          "number": 5,
+          "title": "GitHubClaw",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-02T02:35:19Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/5"
+        },
+        {
+          "number": 6,
+          "title": "特定 Workflow 成功或錯誤需要在 Telegram 收到通知",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-01T14:28:00Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/6"
+        },
+        {
+          "number": 3,
+          "title": "Trending Repo 配置調整",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-01T13:19:40Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "基本技能設置與安裝",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-01T13:16:56Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/1"
+        }
+      ]
     },
     {
       "id": "jackwio-willclaw",
@@ -34,7 +159,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-11T20:09:38Z"
+        "updatedAt": "2026-04-12T20:11:31Z"
       },
       "issues": [
         {
@@ -88,34 +213,23 @@
       ]
     },
     {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
+      "id": "jackwio-image-resizer",
+      "name": "image-resizer",
+      "description": "Repository image-resizer",
+      "repo": "Jackwio/image-resizer",
       "stacks": [
-        "note"
+        "python"
       ],
-      "topics": [
-        "note"
-      ],
+      "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoUrl": "https://github.com/Jackwio/image-resizer",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-11T15:27:41Z"
+        "updatedAt": "2026-04-12T10:27:18Z"
       },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
-        }
-      ]
+      "issues": []
     },
     {
       "id": "jackwio-script-panel",
@@ -134,9 +248,17 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-11T07:42:32Z"
+        "updatedAt": "2026-04-12T10:13:46Z"
       },
       "issues": [
+        {
+          "number": 14,
+          "title": "初始化專案範本指令",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-12T14:13:06Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/14"
+        },
         {
           "number": 13,
           "title": "技能安裝指令",
@@ -262,23 +384,34 @@
       ]
     },
     {
-      "id": "jackwio-oh-my-prompt",
-      "name": "oh-my-prompt",
-      "description": "Repository oh-my-prompt",
-      "repo": "Jackwio/oh-my-prompt",
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
       "stacks": [
-        "unknown"
+        "note"
       ],
-      "topics": [],
+      "topics": [
+        "note"
+      ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
+      "repoUrl": "https://github.com/Jackwio/develop-note",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-11T04:56:14Z"
+        "updatedAt": "2026-04-12T09:59:13Z"
       },
-      "issues": []
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
+        }
+      ]
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -295,7 +428,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-11T04:39:27Z"
+        "updatedAt": "2026-04-12T04:57:25Z"
       },
       "issues": [
         {
@@ -345,148 +478,23 @@
       ]
     },
     {
-      "id": "jackwio-githubclaw",
-      "name": "GitHubClaw",
-      "description": "Repository GitHubClaw",
-      "repo": "Jackwio/GitHubClaw",
+      "id": "jackwio-oh-my-prompt",
+      "name": "oh-my-prompt",
+      "description": "Repository oh-my-prompt",
+      "repo": "Jackwio/oh-my-prompt",
       "stacks": [
-        "typescript"
+        "unknown"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/GitHubClaw",
+      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-11T00:38:22Z"
+        "updatedAt": "2026-04-11T04:56:14Z"
       },
-      "issues": [
-        {
-          "number": 7,
-          "title": "GitHub Trending Repo",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-11T14:35:43Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
-        },
-        {
-          "number": 35,
-          "title": "學習新知識",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-11T14:22:42Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/35"
-        },
-        {
-          "number": 41,
-          "title": "其他優化配置",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-10T14:08:36Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/41"
-        },
-        {
-          "number": 40,
-          "title": "文章或影片摘要",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-06T13:09:55Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/40"
-        },
-        {
-          "number": 39,
-          "title": "生圖",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-06T07:35:31Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/39"
-        },
-        {
-          "number": 37,
-          "title": "學習英文單子",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-03T14:40:32Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/37"
-        },
-        {
-          "number": 36,
-          "title": "日本旅遊",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-03T09:12:42Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/36"
-        },
-        {
-          "number": 33,
-          "title": "Telegram bot send msg to channel or group",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-04-02T15:03:57Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/33"
-        },
-        {
-          "number": 18,
-          "title": "報告送到其他 tg bot，另開一個 workflow",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-02T10:44:04Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/18"
-        },
-        {
-          "number": 19,
-          "title": "Artifact Tg 路徑顯示錯誤",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-04-02T10:12:59Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/19"
-        },
-        {
-          "number": 4,
-          "title": "Copilot CLI -p 不讀入 issue.md 避免 Argument List Too Long 錯誤",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-02T03:15:24Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/4"
-        },
-        {
-          "number": 5,
-          "title": "GitHubClaw",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-02T02:35:19Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/5"
-        },
-        {
-          "number": 6,
-          "title": "特定 Workflow 成功或錯誤需要在 Telegram 收到通知",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-01T14:28:00Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/6"
-        },
-        {
-          "number": 3,
-          "title": "Trending Repo 配置調整",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-01T13:19:40Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "基本技能設置與安裝",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-01T13:16:56Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/1"
-        }
-      ]
+      "issues": []
     },
     {
       "id": "jackwio-my-blog",
@@ -2292,5 +2300,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-04-12T04:57:16.730Z"
+  "syncedAt": "2026-04-13T05:03:32.360Z"
 }
