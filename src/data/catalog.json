@@ -1,46 +1,6 @@
 {
   "projects": [
     {
-      "id": "jackwio-will-git",
-      "name": "will-git",
-      "description": "Repository will-git",
-      "repo": "Jackwio/will-git",
-      "stacks": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "topics": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/will-git",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-26T02:20:41Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "指定模型參數",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-21T13:40:20Z",
-          "url": "https://github.com/Jackwio/will-git/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T17:47:35Z",
-          "url": "https://github.com/Jackwio/will-git/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -55,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-25T20:14:43Z"
+        "updatedAt": "2026-04-26T20:14:59Z"
       },
       "issues": [
         {
@@ -109,36 +69,6 @@
       ]
     },
     {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-25T16:12:19Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-todo-list",
       "name": "todo-list",
       "description": "Repository todo-list",
@@ -153,26 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-25T10:01:01Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-prompt",
-      "name": "oh-my-prompt",
-      "description": "Repository oh-my-prompt",
-      "repo": "Jackwio/oh-my-prompt",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-25T07:09:04Z"
+        "updatedAt": "2026-04-26T11:52:37Z"
       },
       "issues": []
     },
@@ -191,7 +102,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-25T04:49:38Z"
+        "updatedAt": "2026-04-26T05:02:53Z"
       },
       "issues": [
         {
@@ -241,6 +152,95 @@
       ]
     },
     {
+      "id": "jackwio-will-git",
+      "name": "will-git",
+      "description": "Repository will-git",
+      "repo": "Jackwio/will-git",
+      "stacks": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "topics": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/will-git",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-26T02:20:41Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "指定模型參數",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-21T13:40:20Z",
+          "url": "https://github.com/Jackwio/will-git/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-18T17:47:35Z",
+          "url": "https://github.com/Jackwio/will-git/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-25T16:12:19Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-oh-my-prompt",
+      "name": "oh-my-prompt",
+      "description": "Repository oh-my-prompt",
+      "repo": "Jackwio/oh-my-prompt",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-25T07:09:04Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-githubclaw",
       "name": "GitHubClaw",
       "description": "Repository GitHubClaw",
@@ -263,7 +263,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-25T14:32:05Z",
+          "updatedAt": "2026-04-26T14:32:11Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2462,5 +2462,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-04-26T05:02:46.204Z"
+  "syncedAt": "2026-04-27T05:05:18.721Z"
 }
