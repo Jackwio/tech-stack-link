@@ -1,284 +1,61 @@
 {
   "projects": [
     {
-      "id": "jackwio-analyze-page",
-      "name": "analyze-page",
-      "description": "Repository analyze-page",
-      "repo": "Jackwio/analyze-page",
-      "stacks": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "topics": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/analyze-page",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-02T03:44:20Z"
-      },
-      "issues": [
-        {
-          "number": 3,
-          "title": "支援選取文字進行針對性提問",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-10T14:18:57Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "將 Chrome extension 發佈到 GitHub Release",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-06T08:41:27Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/2"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-willclaw",
-      "name": "WillClaw",
-      "description": "WillLinClaw — managed by GitHubClaw",
-      "repo": "Jackwio/WillClaw",
+      "id": "jackwio-all-in-one",
+      "name": "all-in-one",
+      "description": "Repository all-in-one",
+      "repo": "Jackwio/all-in-one",
       "stacks": [
         "javascript"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/WillClaw",
+      "repoUrl": "https://github.com/Jackwio/all-in-one",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-01T20:21:13Z"
-      },
-      "issues": [
-        {
-          "number": 3,
-          "title": "每日 Trending Repo 分析",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-04-03T02:13:44Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "新知識詢問",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-29T09:01:21Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/2"
-        },
-        {
-          "number": 5,
-          "title": "日本東京旅遊景點查找",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-25T13:15:18Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/5"
-        },
-        {
-          "number": 4,
-          "title": "建立 Custom Skill",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-25T13:11:38Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/4"
-        },
-        {
-          "number": 1,
-          "title": "WillLinClaw",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-25T12:44:45Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-will-git",
-      "name": "will-git",
-      "description": "Repository will-git",
-      "repo": "Jackwio/will-git",
-      "stacks": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "topics": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/will-git",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-01T08:38:08Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "指定模型參數",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-21T13:40:20Z",
-          "url": "https://github.com/Jackwio/will-git/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T17:47:35Z",
-          "url": "https://github.com/Jackwio/will-git/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-oh-my-terraform",
-      "name": "oh-my-terraform",
-      "description": "Repository oh-my-terraform",
-      "repo": "Jackwio/oh-my-terraform",
-      "stacks": [
-        "hcl"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-terraform",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-01T02:39:56Z"
+        "updatedAt": "2026-05-03T04:06:04Z"
       },
       "issues": []
     },
     {
-      "id": "jackwio-tech-stack-link",
-      "name": "tech-stack-link",
-      "description": "Repository tech-stack-link",
-      "repo": "Jackwio/tech-stack-link",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-30T05:07:37Z"
-      },
-      "issues": [
-        {
-          "number": 4,
-          "title": "專案技術整理",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:47Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
-        },
-        {
-          "number": 5,
-          "title": "將 Github Gist 分類",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:38Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
-        },
-        {
-          "number": 2,
-          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-          "state": "CLOSED",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-07T08:33:29Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-07T08:33:21Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-02-26T19:05:19Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-todo-list",
-      "name": "todo-list",
-      "description": "Repository todo-list",
-      "repo": "Jackwio/todo-list",
+      "id": "jackwio-swagger2openapi",
+      "name": "swagger2openapi",
+      "description": "Managed by Terraform",
+      "repo": "Jackwio/swagger2openapi",
       "stacks": [
         "javascript"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/todo-list",
+      "repoUrl": "https://github.com/Jackwio/swagger2openapi",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-26T11:52:37Z"
+        "updatedAt": "2026-05-03T03:56:33Z"
       },
       "issues": []
     },
     {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
+      "id": "jackwio-oh-my-tampermonkey",
+      "name": "oh-my-tampermonkey",
+      "description": "Repository oh-my-tampermonkey",
+      "repo": "Jackwio/oh-my-tampermonkey",
       "stacks": [
-        "skills"
+        "javascript"
       ],
-      "topics": [
-        "skills"
-      ],
+      "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoUrl": "https://github.com/Jackwio/oh-my-tampermonkey",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-25T16:12:19Z"
+        "updatedAt": "2026-05-03T03:23:03Z"
       },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
+      "issues": []
     },
     {
       "id": "jackwio-oh-my-prompt",
@@ -295,7 +72,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-25T07:09:04Z"
+        "updatedAt": "2026-05-03T03:03:56Z"
       },
       "issues": []
     },
@@ -314,7 +91,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-04-21T00:44:42Z"
+        "updatedAt": "2026-05-03T00:52:10Z"
       },
       "issues": [
         {
@@ -322,7 +99,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-05-01T14:32:31Z",
+          "updatedAt": "2026-05-02T14:32:28Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -456,6 +233,286 @@
           "labels": [],
           "updatedAt": "2026-04-01T13:16:56Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-willclaw",
+      "name": "WillClaw",
+      "description": "WillLinClaw — managed by GitHubClaw",
+      "repo": "Jackwio/WillClaw",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/WillClaw",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-02T20:14:44Z"
+      },
+      "issues": [
+        {
+          "number": 3,
+          "title": "每日 Trending Repo 分析",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-04-03T02:13:44Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "新知識詢問",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-29T09:01:21Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/2"
+        },
+        {
+          "number": 5,
+          "title": "日本東京旅遊景點查找",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:15:18Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "建立 Custom Skill",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:11:38Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/4"
+        },
+        {
+          "number": 1,
+          "title": "WillLinClaw",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-25T12:44:45Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-oh-my-terraform",
+      "name": "oh-my-terraform",
+      "description": "Repository oh-my-terraform",
+      "repo": "Jackwio/oh-my-terraform",
+      "stacks": [
+        "hcl"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-terraform",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-02T14:43:46Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-analyze-page",
+      "name": "analyze-page",
+      "description": "Repository analyze-page",
+      "repo": "Jackwio/analyze-page",
+      "stacks": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "topics": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/analyze-page",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-02T05:31:48Z"
+      },
+      "issues": [
+        {
+          "number": 3,
+          "title": "支援選取文字進行針對性提問",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-10T14:18:57Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "將 Chrome extension 發佈到 GitHub Release",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-06T08:41:27Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/2"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-tech-stack-link",
+      "name": "tech-stack-link",
+      "description": "Repository tech-stack-link",
+      "repo": "Jackwio/tech-stack-link",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-02T05:02:45Z"
+      },
+      "issues": [
+        {
+          "number": 4,
+          "title": "專案技術整理",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:47Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
+        },
+        {
+          "number": 5,
+          "title": "將 Github Gist 分類",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:38Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
+        },
+        {
+          "number": 2,
+          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T08:33:29Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-07T08:33:21Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-02-26T19:05:19Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-will-git",
+      "name": "will-git",
+      "description": "Repository will-git",
+      "repo": "Jackwio/will-git",
+      "stacks": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "topics": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/will-git",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-01T08:38:08Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "指定模型參數",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-21T13:40:20Z",
+          "url": "https://github.com/Jackwio/will-git/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-18T17:47:35Z",
+          "url": "https://github.com/Jackwio/will-git/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-todo-list",
+      "name": "todo-list",
+      "description": "Repository todo-list",
+      "repo": "Jackwio/todo-list",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/todo-list",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-26T11:52:37Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-04-25T16:12:19Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
     },
@@ -1271,25 +1328,6 @@
           "url": "https://github.com/Jackwio/prompt-hub/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-all-in-one",
-      "name": "all-in-one",
-      "description": "Repository all-in-one",
-      "repo": "Jackwio/all-in-one",
-      "stacks": [
-        "javascript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/all-in-one",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-09T11:39:06Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-grok-cli",
@@ -2493,5 +2531,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-05-02T05:02:38.086Z"
+  "syncedAt": "2026-05-03T05:08:23.372Z"
 }
