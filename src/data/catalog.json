@@ -1,80 +1,152 @@
 {
   "projects": [
     {
-      "id": "jackwio-all-in-one",
-      "name": "all-in-one",
-      "description": "Repository all-in-one",
-      "repo": "Jackwio/all-in-one",
+      "id": "jackwio-willclaw",
+      "name": "WillClaw",
+      "description": "WillLinClaw — managed by GitHubClaw",
+      "repo": "Jackwio/WillClaw",
       "stacks": [
         "javascript"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/all-in-one",
+      "repoUrl": "https://github.com/Jackwio/WillClaw",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-03T04:06:04Z"
+        "updatedAt": "2026-05-03T20:15:47Z"
       },
-      "issues": []
+      "issues": [
+        {
+          "number": 3,
+          "title": "每日 Trending Repo 分析",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-04-03T02:13:44Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "新知識詢問",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-29T09:01:21Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/2"
+        },
+        {
+          "number": 5,
+          "title": "日本東京旅遊景點查找",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:15:18Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "建立 Custom Skill",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:11:38Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/4"
+        },
+        {
+          "number": 1,
+          "title": "WillLinClaw",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-25T12:44:45Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/1"
+        }
+      ]
     },
     {
-      "id": "jackwio-swagger2openapi",
-      "name": "swagger2openapi",
-      "description": "Managed by Terraform",
-      "repo": "Jackwio/swagger2openapi",
+      "id": "jackwio-nanobanana-in-vscode",
+      "name": "nanobanana-in-vscode",
+      "description": "Repository nanobanana-in-vscode",
+      "repo": "Jackwio/nanobanana-in-vscode",
       "stacks": [
-        "javascript"
+        "typescript"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/swagger2openapi",
+      "repoUrl": "https://github.com/Jackwio/nanobanana-in-vscode",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-03T03:56:33Z"
+        "updatedAt": "2026-05-03T13:52:31Z"
       },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-tampermonkey",
-      "name": "oh-my-tampermonkey",
-      "description": "Repository oh-my-tampermonkey",
-      "repo": "Jackwio/oh-my-tampermonkey",
-      "stacks": [
-        "javascript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-tampermonkey",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-03T03:23:03Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-prompt",
-      "name": "oh-my-prompt",
-      "description": "Repository oh-my-prompt",
-      "repo": "Jackwio/oh-my-prompt",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-03T03:03:56Z"
-      },
-      "issues": []
+      "issues": [
+        {
+          "number": 5,
+          "title": "Publish 到 marketplace 可供人下載",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-13T14:47:31Z",
+          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/5"
+        },
+        {
+          "number": 6,
+          "title": "Gemini Nano Banana Pro Gemeni API",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-13T14:47:17Z",
+          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/6"
+        },
+        {
+          "number": 4,
+          "title": "在開發的時候除了透過 F5 開啟，還可以像一般下載的 extension 一樣用，透過本機打包 VSIX + 本機安裝",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-13T14:42:10Z",
+          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/4"
+        },
+        {
+          "number": 3,
+          "title": "官方文件產生 Template 以及基本使用",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-13T14:25:47Z",
+          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-13T14:21:57Z",
+          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/1"
+        },
+        {
+          "number": 2,
+          "title": "Add Current WokrSpace in Dev Host",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-13T14:21:41Z",
+          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/2"
+        }
+      ]
     },
     {
       "id": "jackwio-githubclaw",
@@ -91,7 +163,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-03T00:52:10Z"
+        "updatedAt": "2026-05-03T13:46:49Z"
       },
       "issues": [
         {
@@ -99,7 +171,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-05-02T14:32:28Z",
+          "updatedAt": "2026-05-03T14:31:18Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -237,72 +309,23 @@
       ]
     },
     {
-      "id": "jackwio-willclaw",
-      "name": "WillClaw",
-      "description": "WillLinClaw — managed by GitHubClaw",
-      "repo": "Jackwio/WillClaw",
+      "id": "jackwio-jackwio",
+      "name": "jackwio",
+      "description": "Repository jackwio",
+      "repo": "Jackwio/jackwio",
       "stacks": [
-        "javascript"
+        "unknown"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/WillClaw",
+      "repoUrl": "https://github.com/Jackwio/jackwio",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-02T20:14:44Z"
+        "updatedAt": "2026-05-03T13:45:57Z"
       },
-      "issues": [
-        {
-          "number": 3,
-          "title": "每日 Trending Repo 分析",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-04-03T02:13:44Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "新知識詢問",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-29T09:01:21Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/2"
-        },
-        {
-          "number": 5,
-          "title": "日本東京旅遊景點查找",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-25T13:15:18Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/5"
-        },
-        {
-          "number": 4,
-          "title": "建立 Custom Skill",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-25T13:11:38Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/4"
-        },
-        {
-          "number": 1,
-          "title": "WillLinClaw",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-25T12:44:45Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/1"
-        }
-      ]
+      "issues": []
     },
     {
       "id": "jackwio-oh-my-terraform",
@@ -319,49 +342,9 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-02T14:43:46Z"
+        "updatedAt": "2026-05-03T06:32:21Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-analyze-page",
-      "name": "analyze-page",
-      "description": "Repository analyze-page",
-      "repo": "Jackwio/analyze-page",
-      "stacks": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "topics": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/analyze-page",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-02T05:31:48Z"
-      },
-      "issues": [
-        {
-          "number": 3,
-          "title": "支援選取文字進行針對性提問",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-10T14:18:57Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "將 Chrome extension 發佈到 GitHub Release",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-06T08:41:27Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/2"
-        }
-      ]
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -378,7 +361,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-02T05:02:45Z"
+        "updatedAt": "2026-05-03T05:08:30Z"
       },
       "issues": [
         {
@@ -424,6 +407,122 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-all-in-one",
+      "name": "all-in-one",
+      "description": "Repository all-in-one",
+      "repo": "Jackwio/all-in-one",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/all-in-one",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-03T04:06:04Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-swagger2openapi",
+      "name": "swagger2openapi",
+      "description": "Managed by Terraform",
+      "repo": "Jackwio/swagger2openapi",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/swagger2openapi",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-03T03:56:33Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-tampermonkey",
+      "name": "oh-my-tampermonkey",
+      "description": "Repository oh-my-tampermonkey",
+      "repo": "Jackwio/oh-my-tampermonkey",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-tampermonkey",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-03T03:23:03Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-prompt",
+      "name": "oh-my-prompt",
+      "description": "Repository oh-my-prompt",
+      "repo": "Jackwio/oh-my-prompt",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-03T03:03:56Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-analyze-page",
+      "name": "analyze-page",
+      "description": "Repository analyze-page",
+      "repo": "Jackwio/analyze-page",
+      "stacks": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "topics": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/analyze-page",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-02T05:31:48Z"
+      },
+      "issues": [
+        {
+          "number": 3,
+          "title": "支援選取文字進行針對性提問",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-10T14:18:57Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "將 Chrome extension 發佈到 GitHub Release",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-06T08:41:27Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/2"
         }
       ]
     },
@@ -594,34 +693,6 @@
         "updatedAt": "2026-04-18T09:25:54Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-raindrop-data-auto-sync",
-      "name": "raindrop-data-auto-sync",
-      "description": "Repository raindrop-data-auto-sync",
-      "repo": "Jackwio/raindrop-data-auto-sync",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/raindrop-data-auto-sync",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-18T07:33:20Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "RainDrop 相關研究報告",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T07:35:06Z",
-          "url": "https://github.com/Jackwio/raindrop-data-auto-sync/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-script-panel",
@@ -1114,25 +1185,6 @@
       ]
     },
     {
-      "id": "jackwio-my-github-pages",
-      "name": "my-github-pages",
-      "description": "Repository my-github-pages",
-      "repo": "Jackwio/my-github-pages",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/my-github-pages",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-25T13:19:05Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-markdown-previewer",
       "name": "markdown-previewer",
       "description": "Repository markdown-previewer",
@@ -1436,25 +1488,6 @@
           "url": "https://github.com/Jackwio/note2markdown/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-copilot-cli-acp",
-      "name": "copilot-cli-acp",
-      "description": "Repository copilot-cli-acp",
-      "repo": "Jackwio/copilot-cli-acp",
-      "stacks": [
-        "dockerfile"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/copilot-cli-acp",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-06T16:33:43Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-track-repo-commit",
@@ -1957,86 +1990,6 @@
       ]
     },
     {
-      "id": "jackwio-nanobanana-in-vscode",
-      "name": "nanobanana-in-vscode",
-      "description": "Repository nanobanana-in-vscode",
-      "repo": "Jackwio/nanobanana-in-vscode",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/nanobanana-in-vscode",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-02-20T15:56:33Z"
-      },
-      "issues": [
-        {
-          "number": 5,
-          "title": "Publish 到 marketplace 可供人下載",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-13T14:47:31Z",
-          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/5"
-        },
-        {
-          "number": 6,
-          "title": "Gemini Nano Banana Pro Gemeni API",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-13T14:47:17Z",
-          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/6"
-        },
-        {
-          "number": 4,
-          "title": "在開發的時候除了透過 F5 開啟，還可以像一般下載的 extension 一樣用，透過本機打包 VSIX + 本機安裝",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-13T14:42:10Z",
-          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/4"
-        },
-        {
-          "number": 3,
-          "title": "官方文件產生 Template 以及基本使用",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-13T14:25:47Z",
-          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-13T14:21:57Z",
-          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/1"
-        },
-        {
-          "number": 2,
-          "title": "Add Current WokrSpace in Dev Host",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-13T14:21:41Z",
-          "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/2"
-        }
-      ]
-    },
-    {
       "id": "jackwio-lobster",
       "name": "Lobster",
       "description": "Repository Lobster",
@@ -2206,25 +2159,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-01-01T07:10:09Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-ai-work-copilot",
-      "name": "ai-work-copilot",
-      "description": "Repository ai-work-copilot",
-      "repo": "Jackwio/ai-work-copilot",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/ai-work-copilot",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2025-12-14T02:08:59Z"
       },
       "issues": []
     },
@@ -2531,5 +2465,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-05-03T05:08:23.372Z"
+  "syncedAt": "2026-05-04T05:09:05.263Z"
 }
