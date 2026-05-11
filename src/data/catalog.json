@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-09T20:17:13Z"
+        "updatedAt": "2026-05-10T20:18:43Z"
       },
       "issues": [
         {
@@ -69,6 +69,342 @@
       ]
     },
     {
+      "id": "jackwio-dev-tool",
+      "name": "dev-tool",
+      "description": "Repository dev-tool",
+      "repo": "Jackwio/dev-tool",
+      "stacks": [
+        "swift"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/dev-tool",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-10T13:43:35Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "小工具新增",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-05-10T09:01:14Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "“XXX” is damaged and can’t be opened",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-05-10T08:57:35Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-05-10T08:15:17Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-todo-list",
+      "name": "todo-list",
+      "description": "Repository todo-list",
+      "repo": "Jackwio/todo-list",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/todo-list",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-10T13:12:16Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-tampermonkey",
+      "name": "oh-my-tampermonkey",
+      "description": "Repository oh-my-tampermonkey",
+      "repo": "Jackwio/oh-my-tampermonkey",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-tampermonkey",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-10T12:34:22Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-will-git",
+      "name": "will-git",
+      "description": "Repository will-git",
+      "repo": "Jackwio/will-git",
+      "stacks": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "topics": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/will-git",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-10T12:01:03Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "指定模型參數",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-21T13:40:20Z",
+          "url": "https://github.com/Jackwio/will-git/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-18T17:47:35Z",
+          "url": "https://github.com/Jackwio/will-git/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-script-panel",
+      "name": "script-panel",
+      "description": "Repository script-panel",
+      "repo": "Jackwio/script-panel",
+      "stacks": [
+        "vscode-extension"
+      ],
+      "topics": [
+        "vscode-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/script-panel",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-10T11:54:19Z"
+      },
+      "issues": [
+        {
+          "number": 14,
+          "title": "初始化專案範本指令",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-12T14:13:06Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/14"
+        },
+        {
+          "number": 13,
+          "title": "技能安裝指令",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-10T13:45:33Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/13"
+        },
+        {
+          "number": 12,
+          "title": "讓 Git 暫時忽略掉已經被追蹤（Tracked）的檔案變更",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-21T15:57:14Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/12"
+        },
+        {
+          "number": 11,
+          "title": "透過 Tree 顯示 Repo 結構 (Mac)",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-21T12:03:16Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/11"
+        },
+        {
+          "number": 10,
+          "title": "下載 extension 需要能夠輸入 Auth token",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-14T12:16:03Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/10"
+        },
+        {
+          "number": 9,
+          "title": "Script -Panel",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-14T05:54:33Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/9"
+        },
+        {
+          "number": 8,
+          "title": "增加 Extension 可以自動 update version 功能",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-14T04:39:27Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/8"
+        },
+        {
+          "number": 7,
+          "title": "版本顯示問題",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-14T04:37:43Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/7"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-14T03:33:09Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/1"
+        },
+        {
+          "number": 5,
+          "title": "加入 collapse 和 uncollapse 的功能",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-14T03:26:35Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/5"
+        },
+        {
+          "number": 6,
+          "title": "每次執行 script 都開新的 terminal",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-14T03:26:30Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/6"
+        },
+        {
+          "number": 4,
+          "title": "Vscode 下載 extension 後找不到",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-13T17:01:17Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/4"
+        },
+        {
+          "number": 3,
+          "title": "是否可以抓到當前 Vscode Profile???",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-13T16:36:27Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "搜尋輸入框可以顯示在 Sidebar Tree View 的最上面和裡面",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-13T16:34:52Z",
+          "url": "https://github.com/Jackwio/script-panel/issues/2"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-10T08:59:14Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-10T05:47:00Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -83,7 +419,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-09T05:05:01Z"
+        "updatedAt": "2026-05-10T05:13:03Z"
       },
       "issues": [
         {
@@ -235,8 +571,16 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-05-09T14:31:42Z",
+          "updatedAt": "2026-05-10T14:32:13Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
+        },
+        {
+          "number": 35,
+          "title": "學習新知識",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-05-10T14:16:52Z",
+          "url": "https://github.com/Jackwio/GitHubClaw/issues/35"
         },
         {
           "number": 43,
@@ -253,14 +597,6 @@
           "labels": [],
           "updatedAt": "2026-04-19T03:00:58Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/42"
-        },
-        {
-          "number": 35,
-          "title": "學習新知識",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T07:13:47Z",
-          "url": "https://github.com/Jackwio/GitHubClaw/issues/35"
         },
         {
           "number": 5,
@@ -449,25 +785,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-oh-my-tampermonkey",
-      "name": "oh-my-tampermonkey",
-      "description": "Repository oh-my-tampermonkey",
-      "repo": "Jackwio/oh-my-tampermonkey",
-      "stacks": [
-        "javascript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-tampermonkey",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-03T03:23:03Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-oh-my-prompt",
       "name": "oh-my-prompt",
       "description": "Repository oh-my-prompt",
@@ -527,125 +844,6 @@
       ]
     },
     {
-      "id": "jackwio-will-git",
-      "name": "will-git",
-      "description": "Repository will-git",
-      "repo": "Jackwio/will-git",
-      "stacks": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "topics": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/will-git",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-01T08:38:08Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "指定模型參數",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-21T13:40:20Z",
-          "url": "https://github.com/Jackwio/will-git/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T17:47:35Z",
-          "url": "https://github.com/Jackwio/will-git/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-todo-list",
-      "name": "todo-list",
-      "description": "Repository todo-list",
-      "repo": "Jackwio/todo-list",
-      "stacks": [
-        "javascript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/todo-list",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-26T11:52:37Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-25T16:12:19Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
-      "stacks": [
-        "note"
-      ],
-      "topics": [
-        "note"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-19T03:44:25Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-image-resizer",
       "name": "image-resizer",
       "description": "Repository image-resizer",
@@ -693,158 +891,6 @@
         "updatedAt": "2026-04-18T09:25:54Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-script-panel",
-      "name": "script-panel",
-      "description": "Repository script-panel",
-      "repo": "Jackwio/script-panel",
-      "stacks": [
-        "vscode-extension"
-      ],
-      "topics": [
-        "vscode-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/script-panel",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-04-12T10:13:46Z"
-      },
-      "issues": [
-        {
-          "number": 14,
-          "title": "初始化專案範本指令",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-12T14:13:06Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/14"
-        },
-        {
-          "number": 13,
-          "title": "技能安裝指令",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-10T13:45:33Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/13"
-        },
-        {
-          "number": 12,
-          "title": "讓 Git 暫時忽略掉已經被追蹤（Tracked）的檔案變更",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-21T15:57:14Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/12"
-        },
-        {
-          "number": 11,
-          "title": "透過 Tree 顯示 Repo 結構 (Mac)",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-21T12:03:16Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/11"
-        },
-        {
-          "number": 10,
-          "title": "下載 extension 需要能夠輸入 Auth token",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-14T12:16:03Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/10"
-        },
-        {
-          "number": 9,
-          "title": "Script -Panel",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-14T05:54:33Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/9"
-        },
-        {
-          "number": 8,
-          "title": "增加 Extension 可以自動 update version 功能",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-14T04:39:27Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/8"
-        },
-        {
-          "number": 7,
-          "title": "版本顯示問題",
-          "state": "OPEN",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-14T04:37:43Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/7"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-14T03:33:09Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/1"
-        },
-        {
-          "number": 5,
-          "title": "加入 collapse 和 uncollapse 的功能",
-          "state": "CLOSED",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-14T03:26:35Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/5"
-        },
-        {
-          "number": 6,
-          "title": "每次執行 script 都開新的 terminal",
-          "state": "CLOSED",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-14T03:26:30Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/6"
-        },
-        {
-          "number": 4,
-          "title": "Vscode 下載 extension 後找不到",
-          "state": "OPEN",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-13T17:01:17Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/4"
-        },
-        {
-          "number": 3,
-          "title": "是否可以抓到當前 Vscode Profile???",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-13T16:36:27Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "搜尋輸入框可以顯示在 Sidebar Tree View 的最上面和裡面",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-13T16:34:52Z",
-          "url": "https://github.com/Jackwio/script-panel/issues/2"
-        }
-      ]
     },
     {
       "id": "jackwio-auto-collect-knowledge",
@@ -2313,13 +2359,13 @@
       "label": "copilot-sdk",
       "items": [
         {
-          "name": "analyze-page",
-          "url": "https://github.com/Jackwio/analyze-page",
+          "name": "will-git",
+          "url": "https://github.com/Jackwio/will-git",
           "issues": []
         },
         {
-          "name": "will-git",
-          "url": "https://github.com/Jackwio/will-git",
+          "name": "analyze-page",
+          "url": "https://github.com/Jackwio/analyze-page",
           "issues": []
         }
       ]
@@ -2465,5 +2511,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-05-10T05:12:56.353Z"
+  "syncedAt": "2026-05-11T05:19:19.833Z"
 }
