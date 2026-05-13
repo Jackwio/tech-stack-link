@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-11T20:37:31Z"
+        "updatedAt": "2026-05-12T20:35:34Z"
       },
       "issues": [
         {
@@ -69,42 +69,44 @@
       ]
     },
     {
-      "id": "jackwio-dev-tool-rust",
-      "name": "dev-tool-rust",
-      "description": "Repository dev-tool-rust",
-      "repo": "Jackwio/dev-tool-rust",
+      "id": "jackwio-analyze-page",
+      "name": "analyze-page",
+      "description": "Repository analyze-page",
+      "repo": "Jackwio/analyze-page",
       "stacks": [
-        "rust"
+        "copilot-sdk",
+        "chrome-extension"
       ],
-      "topics": [],
+      "topics": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/dev-tool-rust",
+      "repoUrl": "https://github.com/Jackwio/analyze-page",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-11T14:43:38Z"
+        "updatedAt": "2026-05-12T14:37:03Z"
       },
-      "issues": []
-    },
-    {
-      "id": "jackwio-dev-tool-dotnet",
-      "name": "dev-tool-dotnet",
-      "description": "Repository dev-tool-dotnet",
-      "repo": "Jackwio/dev-tool-dotnet",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/dev-tool-dotnet",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-11T14:19:14Z"
-      },
-      "issues": []
+      "issues": [
+        {
+          "number": 3,
+          "title": "支援選取文字進行針對性提問",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-10T14:18:57Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "將 Chrome extension 發佈到 GitHub Release",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-06T08:41:27Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/2"
+        }
+      ]
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -121,7 +123,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-11T05:19:26Z"
+        "updatedAt": "2026-05-12T05:13:49Z"
       },
       "issues": [
         {
@@ -169,6 +171,44 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-dev-tool-rust",
+      "name": "dev-tool-rust",
+      "description": "Repository dev-tool-rust",
+      "repo": "Jackwio/dev-tool-rust",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/dev-tool-rust",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-11T14:43:38Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-dev-tool-dotnet",
+      "name": "dev-tool-dotnet",
+      "description": "Repository dev-tool-dotnet",
+      "repo": "Jackwio/dev-tool-dotnet",
+      "stacks": [
+        "c#"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/dev-tool-dotnet",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-11T14:19:14Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-dev-tool",
@@ -609,7 +649,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-05-11T14:39:09Z",
+          "updatedAt": "2026-05-12T14:32:53Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -840,46 +880,6 @@
         "updatedAt": "2026-05-03T03:03:56Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-analyze-page",
-      "name": "analyze-page",
-      "description": "Repository analyze-page",
-      "repo": "Jackwio/analyze-page",
-      "stacks": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "topics": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/analyze-page",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-02T05:31:48Z"
-      },
-      "issues": [
-        {
-          "number": 3,
-          "title": "支援選取文字進行針對性提問",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-10T14:18:57Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "將 Chrome extension 發佈到 GitHub Release",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-06T08:41:27Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/2"
-        }
-      ]
     },
     {
       "id": "jackwio-image-resizer",
@@ -2397,13 +2397,13 @@
       "label": "copilot-sdk",
       "items": [
         {
-          "name": "will-git",
-          "url": "https://github.com/Jackwio/will-git",
+          "name": "analyze-page",
+          "url": "https://github.com/Jackwio/analyze-page",
           "issues": []
         },
         {
-          "name": "analyze-page",
-          "url": "https://github.com/Jackwio/analyze-page",
+          "name": "will-git",
+          "url": "https://github.com/Jackwio/will-git",
           "issues": []
         }
       ]
@@ -2549,5 +2549,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-05-12T05:13:42.166Z"
+  "syncedAt": "2026-05-13T05:17:37.967Z"
 }
