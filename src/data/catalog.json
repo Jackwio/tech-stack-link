@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-12T20:35:34Z"
+        "updatedAt": "2026-05-13T20:37:23Z"
       },
       "issues": [
         {
@@ -69,46 +69,6 @@
       ]
     },
     {
-      "id": "jackwio-analyze-page",
-      "name": "analyze-page",
-      "description": "Repository analyze-page",
-      "repo": "Jackwio/analyze-page",
-      "stacks": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "topics": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/analyze-page",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-12T14:37:03Z"
-      },
-      "issues": [
-        {
-          "number": 3,
-          "title": "支援選取文字進行針對性提問",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-10T14:18:57Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "將 Chrome extension 發佈到 GitHub Release",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-06T08:41:27Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/2"
-        }
-      ]
-    },
-    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -123,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-12T05:13:49Z"
+        "updatedAt": "2026-05-13T05:17:44Z"
       },
       "issues": [
         {
@@ -169,6 +129,46 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-analyze-page",
+      "name": "analyze-page",
+      "description": "Repository analyze-page",
+      "repo": "Jackwio/analyze-page",
+      "stacks": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "topics": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/analyze-page",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-12T14:37:03Z"
+      },
+      "issues": [
+        {
+          "number": 3,
+          "title": "支援選取文字進行針對性提問",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-10T14:18:57Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "將 Chrome extension 發佈到 GitHub Release",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-06T08:41:27Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/2"
         }
       ]
     },
@@ -649,7 +649,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-05-12T14:32:53Z",
+          "updatedAt": "2026-05-13T14:38:30Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2549,5 +2549,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-05-13T05:17:37.967Z"
+  "syncedAt": "2026-05-14T05:17:26.469Z"
 }
