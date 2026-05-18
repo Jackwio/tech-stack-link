@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-16T20:18:29Z"
+        "updatedAt": "2026-05-17T20:19:54Z"
       },
       "issues": [
         {
@@ -69,21 +69,21 @@
       ]
     },
     {
-      "id": "jackwio-translate-agent",
-      "name": "translate-agent",
-      "description": "Repository translate-agent",
-      "repo": "Jackwio/translate-agent",
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
       "stacks": [
-        "swift"
+        "unknown"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent",
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-16T15:44:12Z"
+        "updatedAt": "2026-05-17T06:19:34Z"
       },
       "issues": []
     },
@@ -102,7 +102,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-16T05:05:48Z"
+        "updatedAt": "2026-05-17T05:17:15Z"
       },
       "issues": [
         {
@@ -150,6 +150,25 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-translate-agent",
+      "name": "translate-agent",
+      "description": "Repository translate-agent",
+      "repo": "Jackwio/translate-agent",
+      "stacks": [
+        "swift"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-16T15:44:12Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-gmail-info-collector",
@@ -687,7 +706,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-05-16T14:37:24Z",
+          "updatedAt": "2026-05-17T14:31:27Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2587,5 +2606,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-05-17T05:17:08.619Z"
+  "syncedAt": "2026-05-18T05:23:07.172Z"
 }
