@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-17T20:19:54Z"
+        "updatedAt": "2026-05-18T20:35:01Z"
       },
       "issues": [
         {
@@ -69,25 +69,6 @@
       ]
     },
     {
-      "id": "jackwio-awesome-mbp",
-      "name": "awesome-MBP",
-      "description": "Repository awesome-MBP",
-      "repo": "Jackwio/awesome-MBP",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-17T06:19:34Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -102,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-17T05:17:15Z"
+        "updatedAt": "2026-05-18T05:23:14Z"
       },
       "issues": [
         {
@@ -150,6 +131,25 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-17T06:19:34Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-translate-agent",
@@ -706,7 +706,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-05-17T14:31:27Z",
+          "updatedAt": "2026-05-18T14:37:29Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2606,5 +2606,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-05-18T05:23:07.172Z"
+  "syncedAt": "2026-05-19T05:20:41.556Z"
 }
