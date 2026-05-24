@@ -1,21 +1,21 @@
 {
   "projects": [
     {
-      "id": "jackwio-smart-receipt",
-      "name": "smart-receipt",
-      "description": "Repository smart-receipt",
-      "repo": "Jackwio/smart-receipt",
+      "id": "jackwio-dev-tool-dotnet",
+      "name": "dev-tool-dotnet",
+      "description": "Repository dev-tool-dotnet",
+      "repo": "Jackwio/dev-tool-dotnet",
       "stacks": [
-        "makefile"
+        "c#"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/smart-receipt",
+      "repoUrl": "https://github.com/Jackwio/dev-tool-dotnet",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-23T04:42:14Z"
+        "updatedAt": "2026-05-24T04:04:09Z"
       },
       "issues": []
     },
@@ -34,45 +34,26 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-23T04:17:21Z"
+        "updatedAt": "2026-05-24T03:55:42Z"
       },
       "issues": []
     },
     {
-      "id": "jackwio-translate-agent",
-      "name": "translate-agent",
-      "description": "Repository translate-agent",
-      "repo": "Jackwio/translate-agent",
+      "id": "jackwio-dev-tool-rust",
+      "name": "dev-tool-rust",
+      "description": "Repository dev-tool-rust",
+      "repo": "Jackwio/dev-tool-rust",
       "stacks": [
-        "swift"
+        "rust"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent",
+      "repoUrl": "https://github.com/Jackwio/dev-tool-rust",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-23T03:54:26Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-zerotype",
-      "name": "ZeroType",
-      "description": "Repository ZeroType",
-      "repo": "Jackwio/ZeroType",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/ZeroType",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-23T03:53:25Z"
+        "updatedAt": "2026-05-24T03:32:51Z"
       },
       "issues": []
     },
@@ -93,7 +74,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-23T03:40:05Z"
+        "updatedAt": "2026-05-24T03:30:22Z"
       },
       "issues": [
         {
@@ -121,7 +102,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-22T20:35:30Z"
+        "updatedAt": "2026-05-23T20:20:28Z"
       },
       "issues": [
         {
@@ -175,6 +156,92 @@
       ]
     },
     {
+      "id": "jackwio-will-git",
+      "name": "will-git",
+      "description": "Repository will-git",
+      "repo": "Jackwio/will-git",
+      "stacks": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "topics": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/will-git",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-23T16:53:23Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "指定模型參數",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-21T13:40:20Z",
+          "url": "https://github.com/Jackwio/will-git/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-18T17:47:35Z",
+          "url": "https://github.com/Jackwio/will-git/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-dev-tool",
+      "name": "dev-tool",
+      "description": "Repository dev-tool",
+      "repo": "Jackwio/dev-tool",
+      "stacks": [
+        "swift"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/dev-tool",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-23T07:59:39Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "小工具新增",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-05-10T09:01:14Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "“XXX” is damaged and can’t be opened",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-05-10T08:57:35Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-05-10T08:15:17Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -189,7 +256,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-22T05:21:30Z"
+        "updatedAt": "2026-05-23T05:15:10Z"
       },
       "issues": [
         {
@@ -239,6 +306,63 @@
       ]
     },
     {
+      "id": "jackwio-smart-receipt",
+      "name": "smart-receipt",
+      "description": "Repository smart-receipt",
+      "repo": "Jackwio/smart-receipt",
+      "stacks": [
+        "makefile"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/smart-receipt",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-23T04:42:14Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-translate-agent",
+      "name": "translate-agent",
+      "description": "Repository translate-agent",
+      "repo": "Jackwio/translate-agent",
+      "stacks": [
+        "swift"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-23T03:54:26Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-zerotype",
+      "name": "ZeroType",
+      "description": "Repository ZeroType",
+      "repo": "Jackwio/ZeroType",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/ZeroType",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-23T03:53:25Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-githubclaw",
       "name": "GitHubClaw",
       "description": "Repository GitHubClaw",
@@ -261,7 +385,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-05-22T14:31:21Z",
+          "updatedAt": "2026-05-23T14:36:40Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -507,90 +631,6 @@
       ]
     },
     {
-      "id": "jackwio-dev-tool-rust",
-      "name": "dev-tool-rust",
-      "description": "Repository dev-tool-rust",
-      "repo": "Jackwio/dev-tool-rust",
-      "stacks": [
-        "rust"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/dev-tool-rust",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-11T14:43:38Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-dev-tool-dotnet",
-      "name": "dev-tool-dotnet",
-      "description": "Repository dev-tool-dotnet",
-      "repo": "Jackwio/dev-tool-dotnet",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/dev-tool-dotnet",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-11T14:19:14Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-dev-tool",
-      "name": "dev-tool",
-      "description": "Repository dev-tool",
-      "repo": "Jackwio/dev-tool",
-      "stacks": [
-        "swift"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/dev-tool",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-10T13:43:35Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "小工具新增",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-05-10T09:01:14Z",
-          "url": "https://github.com/Jackwio/dev-tool/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "“XXX” is damaged and can’t be opened",
-          "state": "OPEN",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-05-10T08:57:35Z",
-          "url": "https://github.com/Jackwio/dev-tool/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-05-10T08:15:17Z",
-          "url": "https://github.com/Jackwio/dev-tool/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-todo-list",
       "name": "todo-list",
       "description": "Repository todo-list",
@@ -627,46 +667,6 @@
         "updatedAt": "2026-05-10T12:34:22Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-will-git",
-      "name": "will-git",
-      "description": "Repository will-git",
-      "repo": "Jackwio/will-git",
-      "stacks": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "topics": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/will-git",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-10T12:01:03Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "指定模型參數",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-21T13:40:20Z",
-          "url": "https://github.com/Jackwio/will-git/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T17:47:35Z",
-          "url": "https://github.com/Jackwio/will-git/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-script-panel",
@@ -2511,13 +2511,13 @@
       "label": "copilot-sdk",
       "items": [
         {
-          "name": "analyze-page",
-          "url": "https://github.com/Jackwio/analyze-page",
+          "name": "will-git",
+          "url": "https://github.com/Jackwio/will-git",
           "issues": []
         },
         {
-          "name": "will-git",
-          "url": "https://github.com/Jackwio/will-git",
+          "name": "analyze-page",
+          "url": "https://github.com/Jackwio/analyze-page",
           "issues": []
         }
       ]
@@ -2663,5 +2663,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-05-23T05:15:03.420Z"
+  "syncedAt": "2026-05-24T05:20:09.259Z"
 }
