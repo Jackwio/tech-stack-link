@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-26T20:43:36Z"
+        "updatedAt": "2026-05-27T20:46:08Z"
       },
       "issues": [
         {
@@ -69,40 +69,86 @@
       ]
     },
     {
-      "id": "jackwio-translate-agent-rust",
-      "name": "translate-agent-rust",
-      "description": "Repository translate-agent-rust",
-      "repo": "Jackwio/translate-agent-rust",
+      "id": "jackwio-dev-tool",
+      "name": "dev-tool",
+      "description": "Repository dev-tool",
+      "repo": "Jackwio/dev-tool",
       "stacks": [
-        "rust"
+        "swift"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-rust",
+      "repoUrl": "https://github.com/Jackwio/dev-tool",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-26T15:00:08Z"
+        "updatedAt": "2026-05-27T14:42:25Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "小工具新增",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-05-10T09:01:14Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "“XXX” is damaged and can’t be opened",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-05-10T08:57:35Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-05-10T08:15:17Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-gmail-info-collector",
+      "name": "gmail-info-collector",
+      "description": "Repository gmail-info-collector",
+      "repo": "Jackwio/gmail-info-collector",
+      "stacks": [
+        "swift"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/gmail-info-collector",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-27T14:04:14Z"
       },
       "issues": []
     },
     {
-      "id": "jackwio-translate-agent-dotnet",
-      "name": "translate-agent-dotnet",
-      "description": "Repository translate-agent-dotnet",
-      "repo": "Jackwio/translate-agent-dotnet",
+      "id": "jackwio-translate-agent",
+      "name": "translate-agent",
+      "description": "Repository translate-agent",
+      "repo": "Jackwio/translate-agent",
       "stacks": [
-        "c#"
+        "swift"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-dotnet",
+      "repoUrl": "https://github.com/Jackwio/translate-agent",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-26T13:54:30Z"
+        "updatedAt": "2026-05-27T13:54:24Z"
       },
       "issues": []
     },
@@ -121,7 +167,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-26T05:20:52Z"
+        "updatedAt": "2026-05-27T05:29:32Z"
       },
       "issues": [
         {
@@ -169,6 +215,44 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-translate-agent-rust",
+      "name": "translate-agent-rust",
+      "description": "Repository translate-agent-rust",
+      "repo": "Jackwio/translate-agent-rust",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent-rust",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-26T15:00:08Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-translate-agent-dotnet",
+      "name": "translate-agent-dotnet",
+      "description": "Repository translate-agent-dotnet",
+      "repo": "Jackwio/translate-agent-dotnet",
+      "stacks": [
+        "c#"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent-dotnet",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-26T13:54:30Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-oh-my-skills",
@@ -237,71 +321,6 @@
         "updatedAt": "2026-05-25T14:02:24Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-translate-agent",
-      "name": "translate-agent",
-      "description": "Repository translate-agent",
-      "repo": "Jackwio/translate-agent",
-      "stacks": [
-        "swift"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-25T13:53:30Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-dev-tool",
-      "name": "dev-tool",
-      "description": "Repository dev-tool",
-      "repo": "Jackwio/dev-tool",
-      "stacks": [
-        "swift"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/dev-tool",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-24T14:36:15Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "小工具新增",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-05-10T09:01:14Z",
-          "url": "https://github.com/Jackwio/dev-tool/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "“XXX” is damaged and can’t be opened",
-          "state": "OPEN",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-05-10T08:57:35Z",
-          "url": "https://github.com/Jackwio/dev-tool/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-05-10T08:15:17Z",
-          "url": "https://github.com/Jackwio/dev-tool/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-develop-note",
@@ -453,7 +472,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-05-26T14:31:24Z",
+          "updatedAt": "2026-05-27T14:31:22Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -589,25 +608,6 @@
           "url": "https://github.com/Jackwio/GitHubClaw/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-gmail-info-collector",
-      "name": "gmail-info-collector",
-      "description": "Repository gmail-info-collector",
-      "repo": "Jackwio/gmail-info-collector",
-      "stacks": [
-        "swift"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/gmail-info-collector",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-15T17:26:58Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-analyze-page",
@@ -2682,5 +2682,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-05-27T05:29:25.605Z"
+  "syncedAt": "2026-05-28T05:24:55.374Z"
 }
