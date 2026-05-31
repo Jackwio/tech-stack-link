@@ -1,21 +1,65 @@
 {
   "projects": [
     {
-      "id": "jackwio-dev-tool-rust",
-      "name": "dev-tool-rust",
-      "description": "Repository dev-tool-rust",
-      "repo": "Jackwio/dev-tool-rust",
+      "id": "jackwio-translate-agent-dotnet",
+      "name": "translate-agent-dotnet",
+      "description": "Repository translate-agent-dotnet",
+      "repo": "Jackwio/translate-agent-dotnet",
       "stacks": [
-        "rust"
+        "window-system-tray"
       ],
-      "topics": [],
+      "topics": [
+        "window-system-tray"
+      ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/dev-tool-rust",
+      "repoUrl": "https://github.com/Jackwio/translate-agent-dotnet",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-30T04:55:00Z"
+        "updatedAt": "2026-05-31T04:12:29Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-dev-tool-dotnet",
+      "name": "dev-tool-dotnet",
+      "description": "Repository dev-tool-dotnet",
+      "repo": "Jackwio/dev-tool-dotnet",
+      "stacks": [
+        "window-exe"
+      ],
+      "topics": [
+        "window-exe"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/dev-tool-dotnet",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-31T04:11:56Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-translate-agent",
+      "name": "translate-agent",
+      "description": "Repository translate-agent",
+      "repo": "Jackwio/translate-agent",
+      "stacks": [
+        "macos-menubar"
+      ],
+      "topics": [
+        "macos-menubar"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-31T04:11:38Z"
       },
       "issues": []
     },
@@ -25,48 +69,89 @@
       "description": "Repository translate-agent-rust",
       "repo": "Jackwio/translate-agent-rust",
       "stacks": [
-        "rust"
+        "window-system-tray"
       ],
-      "topics": [],
+      "topics": [
+        "window-system-tray"
+      ],
       "tags": [],
       "links": [],
       "repoUrl": "https://github.com/Jackwio/translate-agent-rust",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-30T04:04:34Z"
+        "updatedAt": "2026-05-31T04:11:17Z"
       },
       "issues": []
     },
     {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
+      "id": "jackwio-dev-tool",
+      "name": "dev-tool",
+      "description": "Repository dev-tool",
+      "repo": "Jackwio/dev-tool",
       "stacks": [
-        "skills"
+        "macos-app"
       ],
       "topics": [
-        "skills"
+        "macos-app"
       ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoUrl": "https://github.com/Jackwio/dev-tool",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-30T03:04:49Z"
+        "updatedAt": "2026-05-31T04:10:40Z"
       },
       "issues": [
         {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
+          "number": 2,
+          "title": "小工具新增",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+          "updatedAt": "2026-05-10T09:01:14Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "“XXX” is damaged and can’t be opened",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-05-10T08:57:35Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-05-10T08:15:17Z",
+          "url": "https://github.com/Jackwio/dev-tool/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-dev-tool-rust",
+      "name": "dev-tool-rust",
+      "description": "Repository dev-tool-rust",
+      "repo": "Jackwio/dev-tool-rust",
+      "stacks": [
+        "window-exe"
+      ],
+      "topics": [
+        "window-exe"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/dev-tool-rust",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-31T04:10:15Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-willclaw",
@@ -83,7 +168,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-29T20:50:46Z"
+        "updatedAt": "2026-05-30T20:25:05Z"
       },
       "issues": [
         {
@@ -137,109 +222,23 @@
       ]
     },
     {
-      "id": "jackwio-translate-agent",
-      "name": "translate-agent",
-      "description": "Repository translate-agent",
-      "repo": "Jackwio/translate-agent",
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
       "stacks": [
-        "swift"
+        "unknown"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent",
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-29T17:34:41Z"
+        "updatedAt": "2026-05-30T16:45:23Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-will-git",
-      "name": "will-git",
-      "description": "Repository will-git",
-      "repo": "Jackwio/will-git",
-      "stacks": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "topics": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/will-git",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-29T16:39:28Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "指定模型參數",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-21T13:40:20Z",
-          "url": "https://github.com/Jackwio/will-git/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T17:47:35Z",
-          "url": "https://github.com/Jackwio/will-git/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-dev-tool",
-      "name": "dev-tool",
-      "description": "Repository dev-tool",
-      "repo": "Jackwio/dev-tool",
-      "stacks": [
-        "swift"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/dev-tool",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-29T15:42:17Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "小工具新增",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-05-10T09:01:14Z",
-          "url": "https://github.com/Jackwio/dev-tool/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "“XXX” is damaged and can’t be opened",
-          "state": "OPEN",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-05-10T08:57:35Z",
-          "url": "https://github.com/Jackwio/dev-tool/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-05-10T08:15:17Z",
-          "url": "https://github.com/Jackwio/dev-tool/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -256,7 +255,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-29T05:27:07Z"
+        "updatedAt": "2026-05-30T05:17:26Z"
       },
       "issues": [
         {
@@ -306,6 +305,76 @@
       ]
     },
     {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-30T03:04:49Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-will-git",
+      "name": "will-git",
+      "description": "Repository will-git",
+      "repo": "Jackwio/will-git",
+      "stacks": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "topics": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/will-git",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-05-29T16:39:28Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "指定模型參數",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-21T13:40:20Z",
+          "url": "https://github.com/Jackwio/will-git/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-18T17:47:35Z",
+          "url": "https://github.com/Jackwio/will-git/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-gmail-info-collector",
       "name": "gmail-info-collector",
       "description": "Repository gmail-info-collector",
@@ -321,44 +390,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-05-27T14:04:14Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-translate-agent-dotnet",
-      "name": "translate-agent-dotnet",
-      "description": "Repository translate-agent-dotnet",
-      "repo": "Jackwio/translate-agent-dotnet",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-dotnet",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-26T13:54:30Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-dev-tool-dotnet",
-      "name": "dev-tool-dotnet",
-      "description": "Repository dev-tool-dotnet",
-      "repo": "Jackwio/dev-tool-dotnet",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/dev-tool-dotnet",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-25T14:40:14Z"
       },
       "issues": []
     },
@@ -391,25 +422,6 @@
           "url": "https://github.com/Jackwio/develop-note/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-awesome-mbp",
-      "name": "awesome-MBP",
-      "description": "Repository awesome-MBP",
-      "repo": "Jackwio/awesome-MBP",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-24T08:49:19Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-smart-receipt",
@@ -472,7 +484,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-05-29T14:31:39Z",
+          "updatedAt": "2026-05-30T14:37:14Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2597,6 +2609,26 @@
       ]
     },
     {
+      "label": "macos-app",
+      "items": [
+        {
+          "name": "dev-tool",
+          "url": "https://github.com/Jackwio/dev-tool",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "label": "macos-menubar",
+      "items": [
+        {
+          "name": "translate-agent",
+          "url": "https://github.com/Jackwio/translate-agent",
+          "issues": []
+        }
+      ]
+    },
+    {
       "label": "note",
       "items": [
         {
@@ -2680,7 +2712,37 @@
           "issues": []
         }
       ]
+    },
+    {
+      "label": "window-exe",
+      "items": [
+        {
+          "name": "dev-tool-dotnet",
+          "url": "https://github.com/Jackwio/dev-tool-dotnet",
+          "issues": []
+        },
+        {
+          "name": "dev-tool-rust",
+          "url": "https://github.com/Jackwio/dev-tool-rust",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "label": "window-system-tray",
+      "items": [
+        {
+          "name": "translate-agent-dotnet",
+          "url": "https://github.com/Jackwio/translate-agent-dotnet",
+          "issues": []
+        },
+        {
+          "name": "translate-agent-rust",
+          "url": "https://github.com/Jackwio/translate-agent-rust",
+          "issues": []
+        }
+      ]
     }
   ],
-  "syncedAt": "2026-05-30T05:17:18.691Z"
+  "syncedAt": "2026-05-31T05:31:08.835Z"
 }
