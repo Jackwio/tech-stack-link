@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-31T20:27:20Z"
+        "updatedAt": "2026-06-01T21:13:42Z"
       },
       "issues": [
         {
@@ -69,6 +69,27 @@
       ]
     },
     {
+      "id": "jackwio-translate-agent-rust",
+      "name": "translate-agent-rust",
+      "description": "Repository translate-agent-rust",
+      "repo": "Jackwio/translate-agent-rust",
+      "stacks": [
+        "window-system-tray"
+      ],
+      "topics": [
+        "window-system-tray"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent-rust",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-01T14:59:11Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -83,7 +104,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-05-31T05:31:15Z"
+        "updatedAt": "2026-06-01T05:37:37Z"
       },
       "issues": [
         {
@@ -192,27 +213,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-05-31T04:11:38Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-translate-agent-rust",
-      "name": "translate-agent-rust",
-      "description": "Repository translate-agent-rust",
-      "repo": "Jackwio/translate-agent-rust",
-      "stacks": [
-        "window-system-tray"
-      ],
-      "topics": [
-        "window-system-tray"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-rust",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-31T04:11:17Z"
       },
       "issues": []
     },
@@ -484,7 +484,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-05-31T14:31:13Z",
+          "updatedAt": "2026-06-01T14:37:24Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2732,17 +2732,17 @@
       "label": "window-system-tray",
       "items": [
         {
-          "name": "translate-agent-dotnet",
-          "url": "https://github.com/Jackwio/translate-agent-dotnet",
+          "name": "translate-agent-rust",
+          "url": "https://github.com/Jackwio/translate-agent-rust",
           "issues": []
         },
         {
-          "name": "translate-agent-rust",
-          "url": "https://github.com/Jackwio/translate-agent-rust",
+          "name": "translate-agent-dotnet",
+          "url": "https://github.com/Jackwio/translate-agent-dotnet",
           "issues": []
         }
       ]
     }
   ],
-  "syncedAt": "2026-06-01T05:37:30.815Z"
+  "syncedAt": "2026-06-02T05:34:12.106Z"
 }
