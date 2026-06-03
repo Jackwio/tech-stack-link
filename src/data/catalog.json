@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-01T21:13:42Z"
+        "updatedAt": "2026-06-02T21:06:59Z"
       },
       "issues": [
         {
@@ -69,27 +69,6 @@
       ]
     },
     {
-      "id": "jackwio-translate-agent-rust",
-      "name": "translate-agent-rust",
-      "description": "Repository translate-agent-rust",
-      "repo": "Jackwio/translate-agent-rust",
-      "stacks": [
-        "window-system-tray"
-      ],
-      "topics": [
-        "window-system-tray"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-rust",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-01T14:59:11Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -104,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-01T05:37:37Z"
+        "updatedAt": "2026-06-02T05:34:19Z"
       },
       "issues": [
         {
@@ -152,6 +131,27 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-translate-agent-rust",
+      "name": "translate-agent-rust",
+      "description": "Repository translate-agent-rust",
+      "repo": "Jackwio/translate-agent-rust",
+      "stacks": [
+        "window-system-tray"
+      ],
+      "topics": [
+        "window-system-tray"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent-rust",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-01T14:59:11Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-translate-agent-dotnet",
@@ -484,7 +484,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-06-01T14:37:24Z",
+          "updatedAt": "2026-06-02T14:31:36Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2744,5 +2744,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-06-02T05:34:12.106Z"
+  "syncedAt": "2026-06-03T05:38:31.073Z"
 }
