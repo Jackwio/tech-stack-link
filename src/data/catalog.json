@@ -1,25 +1,6 @@
 {
   "projects": [
     {
-      "id": "jackwio-awesome-mbp",
-      "name": "awesome-MBP",
-      "description": "Repository awesome-MBP",
-      "repo": "Jackwio/awesome-MBP",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-07T02:08:16Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -34,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-06T20:28:24Z"
+        "updatedAt": "2026-06-07T20:29:36Z"
       },
       "issues": [
         {
@@ -88,25 +69,6 @@
       ]
     },
     {
-      "id": "jackwio-copilot-cc",
-      "name": "copilot-cc",
-      "description": "Repository copilot-cc",
-      "repo": "Jackwio/copilot-cc",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/copilot-cc",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-06T07:05:16Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-analyze-page",
       "name": "analyze-page",
       "description": "Repository analyze-page",
@@ -125,7 +87,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-06T05:35:36Z"
+        "updatedAt": "2026-06-07T15:00:31Z"
       },
       "issues": [
         {
@@ -147,6 +109,57 @@
       ]
     },
     {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-07T13:23:56Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-translate-agent",
+      "name": "translate-agent",
+      "description": "Repository translate-agent",
+      "repo": "Jackwio/translate-agent",
+      "stacks": [
+        "macos-menubar"
+      ],
+      "topics": [
+        "macos-menubar"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-07T12:14:12Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -161,7 +174,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-06T05:17:57Z"
+        "updatedAt": "2026-06-07T05:32:31Z"
       },
       "issues": [
         {
@@ -211,6 +224,44 @@
       ]
     },
     {
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-07T02:08:16Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-copilot-cc",
+      "name": "copilot-cc",
+      "description": "Repository copilot-cc",
+      "repo": "Jackwio/copilot-cc",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/copilot-cc",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-06T07:05:16Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-githubclaw",
       "name": "GitHubClaw",
       "description": "Repository GitHubClaw",
@@ -233,7 +284,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-06-06T14:30:36Z",
+          "updatedAt": "2026-06-07T14:30:44Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -434,27 +485,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-translate-agent",
-      "name": "translate-agent",
-      "description": "Repository translate-agent",
-      "repo": "Jackwio/translate-agent",
-      "stacks": [
-        "macos-menubar"
-      ],
-      "topics": [
-        "macos-menubar"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-31T04:11:38Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-dev-tool",
       "name": "dev-tool",
       "description": "Repository dev-tool",
@@ -611,36 +641,6 @@
         "updatedAt": "2026-05-27T14:04:14Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
-      "stacks": [
-        "note"
-      ],
-      "topics": [
-        "note"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-24T11:56:18Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-smart-receipt",
@@ -2763,5 +2763,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-06-07T05:32:23.508Z"
+  "syncedAt": "2026-06-08T05:34:56.061Z"
 }
