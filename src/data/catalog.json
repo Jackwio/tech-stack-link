@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-09T20:43:45Z"
+        "updatedAt": "2026-06-10T20:56:38Z"
       },
       "issues": [
         {
@@ -74,50 +74,39 @@
       "description": "Repository code2sql",
       "repo": "Jackwio/code2sql",
       "stacks": [
-        "visual-studio-extension"
+        "python"
       ],
-      "topics": [
-        "visual-studio-extension"
-      ],
+      "topics": [],
       "tags": [],
       "links": [],
       "repoUrl": "https://github.com/Jackwio/code2sql",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-09T13:28:09Z"
+        "updatedAt": "2026-06-10T15:17:47Z"
       },
       "issues": []
     },
     {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
+      "id": "jackwio-code2sql2",
+      "name": "code2sql2",
+      "description": "Repository code2sql2",
+      "repo": "Jackwio/code2sql2",
       "stacks": [
-        "note"
+        "visual-studio-extension"
       ],
       "topics": [
-        "note"
+        "visual-studio-extension"
       ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoUrl": "https://github.com/Jackwio/code2sql2",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-09T12:45:02Z"
+        "updatedAt": "2026-06-10T13:30:50Z"
       },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Deploy",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
-        }
-      ]
+      "issues": []
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -134,7 +123,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-09T05:22:43Z"
+        "updatedAt": "2026-06-10T05:31:26Z"
       },
       "issues": [
         {
@@ -180,6 +169,36 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-09T12:45:02Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
         }
       ]
     },
@@ -305,7 +324,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-06-09T14:36:57Z",
+          "updatedAt": "2026-06-10T14:31:14Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2742,8 +2761,8 @@
       "label": "visual-studio-extension",
       "items": [
         {
-          "name": "code2sql",
-          "url": "https://github.com/Jackwio/code2sql",
+          "name": "code2sql2",
+          "url": "https://github.com/Jackwio/code2sql2",
           "issues": []
         }
       ]
@@ -2794,5 +2813,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-06-10T05:31:19.711Z"
+  "syncedAt": "2026-06-11T05:35:01.798Z"
 }
