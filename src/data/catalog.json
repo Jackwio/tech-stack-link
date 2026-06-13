@@ -1,6 +1,153 @@
 {
   "projects": [
     {
+      "id": "jackwio-code2sql-csharp",
+      "name": "code2sql-csharp",
+      "description": "Repository code2sql-csharp",
+      "repo": "Jackwio/code2sql-csharp",
+      "stacks": [
+        "visual-studio-extension"
+      ],
+      "topics": [
+        "visual-studio-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/code2sql-csharp",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-13T05:27:42Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-git-vscode-extension",
+      "name": "git-vscode-extension",
+      "description": "Repository git-vscode-extension",
+      "repo": "Jackwio/git-vscode-extension",
+      "stacks": [
+        "vscode-extension",
+        "extend-extension"
+      ],
+      "topics": [
+        "vscode-extension",
+        "extend-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/git-vscode-extension",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-13T05:03:31Z"
+      },
+      "issues": [
+        {
+          "number": 7,
+          "title": "Gemini 模型可以讓使用者自行選擇，選項為所有可用的模型",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-14T14:38:40Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/7"
+        },
+        {
+          "number": 8,
+          "title": "Gemini API key 可以在 setting 頁面設置",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-14T14:38:35Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/8"
+        },
+        {
+          "number": 4,
+          "title": "git reset --hard HEAD~1 followed by git push origin main --force 將 main 改成動態抓取當前分支",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-14T13:46:09Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/4"
+        },
+        {
+          "number": 5,
+          "title": "git reset --hard HEAD~1 不能把目前 unstaged 或 staged 的檔案改變，只能對 Remote commit 進行刪除",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-14T13:45:57Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/5"
+        },
+        {
+          "number": 6,
+          "title": "ai commit 只要把 staged 檔案進行 AI commit 就好",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-14T13:42:59Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/6"
+        },
+        {
+          "number": 2,
+          "title": "確認 mac os 可以成功執行",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T09:01:40Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T05:54:48Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "Git Extension 增加額外功能",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-07T05:08:06Z",
+          "url": "https://github.com/Jackwio/git-vscode-extension/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-13T03:29:02Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-githubclaw",
       "name": "GitHubClaw",
       "description": "Repository GitHubClaw",
@@ -15,7 +162,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-12T01:06:31Z"
+        "updatedAt": "2026-06-13T01:04:33Z"
       },
       "issues": [
         {
@@ -23,7 +170,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-06-11T14:33:21Z",
+          "updatedAt": "2026-06-12T14:31:03Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -175,7 +322,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-11T20:52:01Z"
+        "updatedAt": "2026-06-12T20:47:27Z"
       },
       "issues": [
         {
@@ -229,6 +376,25 @@
       ]
     },
     {
+      "id": "jackwio-script-bind",
+      "name": "script-bind",
+      "description": "Repository script-bind",
+      "repo": "Jackwio/script-bind",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/script-bind",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-12T16:43:55Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-analyze-page",
       "name": "analyze-page",
       "description": "Repository analyze-page",
@@ -247,7 +413,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-11T15:22:38Z"
+        "updatedAt": "2026-06-12T15:23:13Z"
       },
       "issues": [
         {
@@ -269,42 +435,21 @@
       ]
     },
     {
-      "id": "jackwio-code2sql",
-      "name": "code2sql",
-      "description": "Repository code2sql",
-      "repo": "Jackwio/code2sql",
+      "id": "jackwio-snap-note",
+      "name": "snap-note",
+      "description": "Repository snap-note",
+      "repo": "Jackwio/snap-note",
       "stacks": [
-        "vscode-extension"
-      ],
-      "topics": [
-        "vscode-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/code2sql",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-11T14:37:34Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-copilot-cc",
-      "name": "copilot-cc",
-      "description": "Repository copilot-cc",
-      "repo": "Jackwio/copilot-cc",
-      "stacks": [
-        "typescript"
+        "swift"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/copilot-cc",
+      "repoUrl": "https://github.com/Jackwio/snap-note",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-11T12:07:25Z"
+        "updatedAt": "2026-06-12T12:28:12Z"
       },
       "issues": []
     },
@@ -323,7 +468,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-11T05:35:09Z"
+        "updatedAt": "2026-06-12T05:34:33Z"
       },
       "issues": [
         {
@@ -373,23 +518,42 @@
       ]
     },
     {
-      "id": "jackwio-code2sql2",
-      "name": "code2sql2",
-      "description": "Repository code2sql2",
-      "repo": "Jackwio/code2sql2",
+      "id": "jackwio-code2sql",
+      "name": "code2sql",
+      "description": "Repository code2sql",
+      "repo": "Jackwio/code2sql",
       "stacks": [
-        "visual-studio-extension"
+        "vscode-extension"
       ],
       "topics": [
-        "visual-studio-extension"
+        "vscode-extension"
       ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/code2sql2",
+      "repoUrl": "https://github.com/Jackwio/code2sql",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-10T13:30:50Z"
+        "updatedAt": "2026-06-11T14:37:34Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-copilot-cc",
+      "name": "copilot-cc",
+      "description": "Repository copilot-cc",
+      "repo": "Jackwio/copilot-cc",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/copilot-cc",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-11T12:07:25Z"
       },
       "issues": []
     },
@@ -594,36 +758,6 @@
         "updatedAt": "2026-05-31T04:10:15Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-30T03:04:49Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-will-git",
@@ -1492,102 +1626,6 @@
         "updatedAt": "2026-03-17T13:09:11Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-git-vscode-extension",
-      "name": "git-vscode-extension",
-      "description": "Repository git-vscode-extension",
-      "repo": "Jackwio/git-vscode-extension",
-      "stacks": [
-        "vscode-extension",
-        "extend-extension"
-      ],
-      "topics": [
-        "vscode-extension",
-        "extend-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/git-vscode-extension",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-03-14T15:18:55Z"
-      },
-      "issues": [
-        {
-          "number": 7,
-          "title": "Gemini 模型可以讓使用者自行選擇，選項為所有可用的模型",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-14T14:38:40Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/7"
-        },
-        {
-          "number": 8,
-          "title": "Gemini API key 可以在 setting 頁面設置",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-14T14:38:35Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/8"
-        },
-        {
-          "number": 4,
-          "title": "git reset --hard HEAD~1 followed by git push origin main --force 將 main 改成動態抓取當前分支",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-14T13:46:09Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/4"
-        },
-        {
-          "number": 5,
-          "title": "git reset --hard HEAD~1 不能把目前 unstaged 或 staged 的檔案改變，只能對 Remote commit 進行刪除",
-          "state": "OPEN",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-14T13:45:57Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/5"
-        },
-        {
-          "number": 6,
-          "title": "ai commit 只要把 staged 檔案進行 AI commit 就好",
-          "state": "OPEN",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-14T13:42:59Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/6"
-        },
-        {
-          "number": 2,
-          "title": "確認 mac os 可以成功執行",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-07T09:01:40Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-07T05:54:48Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "Git Extension 增加額外功能",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-07T05:08:06Z",
-          "url": "https://github.com/Jackwio/git-vscode-extension/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-diff-lens",
@@ -2763,8 +2801,8 @@
       "label": "visual-studio-extension",
       "items": [
         {
-          "name": "code2sql2",
-          "url": "https://github.com/Jackwio/code2sql2",
+          "name": "code2sql-csharp",
+          "url": "https://github.com/Jackwio/code2sql-csharp",
           "issues": []
         }
       ]
@@ -2773,6 +2811,11 @@
       "label": "vscode-extension",
       "items": [
         {
+          "name": "git-vscode-extension",
+          "url": "https://github.com/Jackwio/git-vscode-extension",
+          "issues": []
+        },
+        {
           "name": "code2sql",
           "url": "https://github.com/Jackwio/code2sql",
           "issues": []
@@ -2780,11 +2823,6 @@
         {
           "name": "script-panel",
           "url": "https://github.com/Jackwio/script-panel",
-          "issues": []
-        },
-        {
-          "name": "git-vscode-extension",
-          "url": "https://github.com/Jackwio/git-vscode-extension",
           "issues": []
         }
       ]
@@ -2820,5 +2858,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-06-12T05:34:26.617Z"
+  "syncedAt": "2026-06-13T05:31:30.259Z"
 }
