@@ -1,23 +1,89 @@
 {
   "projects": [
     {
-      "id": "jackwio-code2sql-csharp",
-      "name": "code2sql-csharp",
-      "description": "Repository code2sql-csharp",
-      "repo": "Jackwio/code2sql-csharp",
+      "id": "jackwio-willclaw",
+      "name": "WillClaw",
+      "description": "WillLinClaw — managed by GitHubClaw",
+      "repo": "Jackwio/WillClaw",
       "stacks": [
-        "visual-studio-extension"
+        "javascript"
       ],
-      "topics": [
-        "visual-studio-extension"
-      ],
+      "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/code2sql-csharp",
+      "repoUrl": "https://github.com/Jackwio/WillClaw",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-13T05:27:42Z"
+        "updatedAt": "2026-06-13T20:31:28Z"
+      },
+      "issues": [
+        {
+          "number": 3,
+          "title": "每日 Trending Repo 分析",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-04-03T02:13:44Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "新知識詢問",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-29T09:01:21Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/2"
+        },
+        {
+          "number": 5,
+          "title": "日本東京旅遊景點查找",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:15:18Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "建立 Custom Skill",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:11:38Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/4"
+        },
+        {
+          "number": 1,
+          "title": "WillLinClaw",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-25T12:44:45Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-treefleet",
+      "name": "TreeFleet",
+      "description": "Repository TreeFleet",
+      "repo": "Jackwio/TreeFleet",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/TreeFleet",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-13T16:48:25Z"
       },
       "issues": []
     },
@@ -40,7 +106,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-13T05:03:31Z"
+        "updatedAt": "2026-06-13T16:43:17Z"
       },
       "issues": [
         {
@@ -118,6 +184,110 @@
       ]
     },
     {
+      "id": "jackwio-code2sql-csharp",
+      "name": "code2sql-csharp",
+      "description": "Repository code2sql-csharp",
+      "repo": "Jackwio/code2sql-csharp",
+      "stacks": [
+        "visual-studio-extension"
+      ],
+      "topics": [
+        "visual-studio-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/code2sql-csharp",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-13T08:39:27Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-jackwio",
+      "name": "jackwio",
+      "description": "Repository jackwio",
+      "repo": "Jackwio/jackwio",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/jackwio",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-13T06:46:47Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-tech-stack-link",
+      "name": "tech-stack-link",
+      "description": "Repository tech-stack-link",
+      "repo": "Jackwio/tech-stack-link",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-13T05:31:36Z"
+      },
+      "issues": [
+        {
+          "number": 4,
+          "title": "專案技術整理",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:47Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
+        },
+        {
+          "number": 5,
+          "title": "將 Github Gist 分類",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:38Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
+        },
+        {
+          "number": 2,
+          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T08:33:29Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-07T08:33:21Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-02-26T19:05:19Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-oh-my-skills",
       "name": "oh-my-skills",
       "description": "Repository oh-my-skills",
@@ -170,7 +340,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-06-12T14:31:03Z",
+          "updatedAt": "2026-06-13T14:30:54Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -308,74 +478,6 @@
       ]
     },
     {
-      "id": "jackwio-willclaw",
-      "name": "WillClaw",
-      "description": "WillLinClaw — managed by GitHubClaw",
-      "repo": "Jackwio/WillClaw",
-      "stacks": [
-        "javascript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/WillClaw",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-12T20:47:27Z"
-      },
-      "issues": [
-        {
-          "number": 3,
-          "title": "每日 Trending Repo 分析",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-04-03T02:13:44Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "新知識詢問",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-29T09:01:21Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/2"
-        },
-        {
-          "number": 5,
-          "title": "日本東京旅遊景點查找",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-25T13:15:18Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/5"
-        },
-        {
-          "number": 4,
-          "title": "建立 Custom Skill",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-25T13:11:38Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/4"
-        },
-        {
-          "number": 1,
-          "title": "WillLinClaw",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-25T12:44:45Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-script-bind",
       "name": "script-bind",
       "description": "Repository script-bind",
@@ -452,70 +554,6 @@
         "updatedAt": "2026-06-12T12:28:12Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-tech-stack-link",
-      "name": "tech-stack-link",
-      "description": "Repository tech-stack-link",
-      "repo": "Jackwio/tech-stack-link",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-12T05:34:33Z"
-      },
-      "issues": [
-        {
-          "number": 4,
-          "title": "專案技術整理",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:47Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
-        },
-        {
-          "number": 5,
-          "title": "將 Github Gist 分類",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:38Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
-        },
-        {
-          "number": 2,
-          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-          "state": "CLOSED",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-07T08:33:29Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-07T08:33:21Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-02-26T19:05:19Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-code2sql",
@@ -1125,25 +1163,6 @@
           "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/2"
         }
       ]
-    },
-    {
-      "id": "jackwio-jackwio",
-      "name": "jackwio",
-      "description": "Repository jackwio",
-      "repo": "Jackwio/jackwio",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/jackwio",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-03T13:45:57Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-oh-my-terraform",
@@ -2858,5 +2877,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-06-13T05:31:30.259Z"
+  "syncedAt": "2026-06-14T05:34:03.062Z"
 }
