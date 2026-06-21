@@ -21,9 +21,98 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-20T01:55:51Z"
+        "updatedAt": "2026-06-21T05:18:18Z"
       },
       "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-prompt",
+      "name": "oh-my-prompt",
+      "description": "Repository oh-my-prompt",
+      "repo": "Jackwio/oh-my-prompt",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-21T03:06:35Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-21T03:00:44Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-analyze-page",
+      "name": "analyze-page",
+      "description": "Repository analyze-page",
+      "repo": "Jackwio/analyze-page",
+      "stacks": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "topics": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/analyze-page",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-21T02:48:04Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "將 Chrome extension 發佈到 GitHub Release",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-06-08T13:31:44Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "支援選取文字進行針對性提問",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-10T14:18:57Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/3"
+        }
+      ]
     },
     {
       "id": "jackwio-willclaw",
@@ -40,7 +129,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-19T20:34:33Z"
+        "updatedAt": "2026-06-20T20:31:22Z"
       },
       "issues": [
         {
@@ -110,7 +199,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-19T13:43:47Z"
+        "updatedAt": "2026-06-20T13:31:45Z"
       },
       "issues": [
         {
@@ -138,7 +227,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-19T05:43:29Z"
+        "updatedAt": "2026-06-20T05:30:05Z"
       },
       "issues": [
         {
@@ -184,97 +273,6 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-translate-agent-rust",
-      "name": "translate-agent-rust",
-      "description": "Repository translate-agent-rust",
-      "repo": "Jackwio/translate-agent-rust",
-      "stacks": [
-        "window-system-tray"
-      ],
-      "topics": [
-        "window-system-tray"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-rust",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-19T03:51:55Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-19T03:50:58Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-analyze-page",
-      "name": "analyze-page",
-      "description": "Repository analyze-page",
-      "repo": "Jackwio/analyze-page",
-      "stacks": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "topics": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/analyze-page",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-17T14:10:37Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "將 Chrome extension 發佈到 GitHub Release",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-06-08T13:31:44Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "支援選取文字進行針對性提問",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-10T14:18:57Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/3"
         }
       ]
     },
@@ -500,7 +498,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-06-19T14:36:43Z",
+          "updatedAt": "2026-06-20T14:36:39Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -712,27 +710,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-06-11T12:07:25Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-translate-agent",
-      "name": "translate-agent",
-      "description": "Repository translate-agent",
-      "repo": "Jackwio/translate-agent",
-      "stacks": [
-        "macos-menubar"
-      ],
-      "topics": [
-        "macos-menubar"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-07T12:14:12Z"
       },
       "issues": []
     },
@@ -1287,25 +1264,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-05-03T03:56:33Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-prompt",
-      "name": "oh-my-prompt",
-      "description": "Repository oh-my-prompt",
-      "repo": "Jackwio/oh-my-prompt",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-03T03:03:56Z"
       },
       "issues": []
     },
@@ -2836,16 +2794,6 @@
       ]
     },
     {
-      "label": "macos-menubar",
-      "items": [
-        {
-          "name": "translate-agent",
-          "url": "https://github.com/Jackwio/translate-agent",
-          "issues": []
-        }
-      ]
-    },
-    {
       "label": "menubar-app",
       "items": [
         {
@@ -2979,11 +2927,6 @@
       "label": "window-system-tray",
       "items": [
         {
-          "name": "translate-agent-rust",
-          "url": "https://github.com/Jackwio/translate-agent-rust",
-          "issues": []
-        },
-        {
           "name": "translate-agent-dotnet",
           "url": "https://github.com/Jackwio/translate-agent-dotnet",
           "issues": []
@@ -3001,5 +2944,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-06-20T05:29:58.845Z"
+  "syncedAt": "2026-06-21T05:36:54.728Z"
 }
