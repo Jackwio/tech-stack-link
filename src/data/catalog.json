@@ -1,120 +1,6 @@
 {
   "projects": [
     {
-      "id": "jackwio-translate-agent-anywhere",
-      "name": "translate-agent-anywhere",
-      "description": "Repository translate-agent-anywhere",
-      "repo": "Jackwio/translate-agent-anywhere",
-      "stacks": [
-        "iced",
-        "menubar-app",
-        "window-tray"
-      ],
-      "topics": [
-        "iced",
-        "menubar-app",
-        "window-tray"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-21T05:18:18Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-prompt",
-      "name": "oh-my-prompt",
-      "description": "Repository oh-my-prompt",
-      "repo": "Jackwio/oh-my-prompt",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-21T03:06:35Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-21T03:00:44Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-analyze-page",
-      "name": "analyze-page",
-      "description": "Repository analyze-page",
-      "repo": "Jackwio/analyze-page",
-      "stacks": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "topics": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/analyze-page",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-21T02:48:04Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "將 Chrome extension 發佈到 GitHub Release",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-06-08T13:31:44Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "支援選取文字進行針對性提問",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-10T14:18:57Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/3"
-        }
-      ]
-    },
-    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -129,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-20T20:31:22Z"
+        "updatedAt": "2026-06-21T20:34:48Z"
       },
       "issues": [
         {
@@ -183,34 +69,99 @@
       ]
     },
     {
-      "id": "jackwio-develop-note",
-      "name": "develop-note",
-      "description": "Repository develop-note",
-      "repo": "Jackwio/develop-note",
+      "id": "jackwio-dev-tool-anywhere",
+      "name": "dev-tool-anywhere",
+      "description": "Repository dev-tool-anywhere",
+      "repo": "Jackwio/dev-tool-anywhere",
       "stacks": [
-        "note"
+        "iced"
       ],
       "topics": [
-        "note"
+        "iced"
       ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoUrl": "https://github.com/Jackwio/dev-tool-anywhere",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-20T13:31:45Z"
+        "updatedAt": "2026-06-21T13:55:47Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-translate-agent-anywhere",
+      "name": "translate-agent-anywhere",
+      "description": "Repository translate-agent-anywhere",
+      "repo": "Jackwio/translate-agent-anywhere",
+      "stacks": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "topics": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-21T12:22:36Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-21T10:59:30Z"
       },
       "issues": [
         {
           "number": 1,
-          "title": "Deploy",
+          "title": "Skills 建立 Prompt",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-03-01T04:54:04Z",
-          "url": "https://github.com/Jackwio/develop-note/issues/1"
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-oh-my-terraform",
+      "name": "oh-my-terraform",
+      "description": "Repository oh-my-terraform",
+      "repo": "Jackwio/oh-my-terraform",
+      "stacks": [
+        "hcl"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-terraform",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-21T08:56:57Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -227,7 +178,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-20T05:30:05Z"
+        "updatedAt": "2026-06-21T05:37:01Z"
       },
       "issues": [
         {
@@ -273,6 +224,95 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-oh-my-prompt",
+      "name": "oh-my-prompt",
+      "description": "Repository oh-my-prompt",
+      "repo": "Jackwio/oh-my-prompt",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-21T03:06:35Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-analyze-page",
+      "name": "analyze-page",
+      "description": "Repository analyze-page",
+      "repo": "Jackwio/analyze-page",
+      "stacks": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "topics": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/analyze-page",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-21T02:48:04Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "將 Chrome extension 發佈到 GitHub Release",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-06-08T13:31:44Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "支援選取文字進行針對性提問",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-10T14:18:57Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/3"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-develop-note",
+      "name": "develop-note",
+      "description": "Repository develop-note",
+      "repo": "Jackwio/develop-note",
+      "stacks": [
+        "note"
+      ],
+      "topics": [
+        "note"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/develop-note",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-20T13:31:45Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Deploy",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-01T04:54:04Z",
+          "url": "https://github.com/Jackwio/develop-note/issues/1"
         }
       ]
     },
@@ -498,7 +538,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-06-20T14:36:39Z",
+          "updatedAt": "2026-06-21T14:30:45Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -1209,25 +1249,6 @@
           "url": "https://github.com/Jackwio/nanobanana-in-vscode/issues/2"
         }
       ]
-    },
-    {
-      "id": "jackwio-oh-my-terraform",
-      "name": "oh-my-terraform",
-      "description": "Repository oh-my-terraform",
-      "repo": "Jackwio/oh-my-terraform",
-      "stacks": [
-        "hcl"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-terraform",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-05-03T06:32:21Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-all-in-one",
@@ -2767,6 +2788,11 @@
       "label": "iced",
       "items": [
         {
+          "name": "dev-tool-anywhere",
+          "url": "https://github.com/Jackwio/dev-tool-anywhere",
+          "issues": []
+        },
+        {
           "name": "translate-agent-anywhere",
           "url": "https://github.com/Jackwio/translate-agent-anywhere",
           "issues": []
@@ -2944,5 +2970,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-06-21T05:36:54.728Z"
+  "syncedAt": "2026-06-22T05:49:18.976Z"
 }
