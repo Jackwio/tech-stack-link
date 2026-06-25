@@ -1,6 +1,36 @@
 {
   "projects": [
     {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-24T14:02:17Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -15,7 +45,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-23T05:21:10Z"
+        "updatedAt": "2026-06-24T05:20:12Z"
       },
       "issues": [
         {
@@ -217,36 +247,6 @@
         "updatedAt": "2026-06-21T13:55:47Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-21T10:59:30Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-oh-my-terraform",
@@ -538,7 +538,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-06-23T22:45:53Z",
+          "updatedAt": "2026-06-24T14:30:16Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2970,5 +2970,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-06-24T05:20:05.918Z"
+  "syncedAt": "2026-06-25T05:20:55.029Z"
 }
