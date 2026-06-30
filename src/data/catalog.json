@@ -1,31 +1,6 @@
 {
   "projects": [
     {
-      "id": "jackwio-translate-agent-anywhere",
-      "name": "translate-agent-anywhere",
-      "description": "Repository translate-agent-anywhere",
-      "repo": "Jackwio/translate-agent-anywhere",
-      "stacks": [
-        "iced",
-        "menubar-app",
-        "window-tray"
-      ],
-      "topics": [
-        "iced",
-        "menubar-app",
-        "window-tray"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-28T13:16:42Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-awesome-mbp",
       "name": "awesome-MBP",
       "description": "Repository awesome-MBP",
@@ -40,26 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-28T08:01:04Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-prompt",
-      "name": "oh-my-prompt",
-      "description": "Repository oh-my-prompt",
-      "repo": "Jackwio/oh-my-prompt",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-28T06:44:40Z"
+        "updatedAt": "2026-06-29T12:33:55Z"
       },
       "issues": []
     },
@@ -78,7 +34,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-06-28T05:30:40Z"
+        "updatedAt": "2026-06-29T05:35:16Z"
       },
       "issues": [
         {
@@ -126,6 +82,50 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-translate-agent-anywhere",
+      "name": "translate-agent-anywhere",
+      "description": "Repository translate-agent-anywhere",
+      "repo": "Jackwio/translate-agent-anywhere",
+      "stacks": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "topics": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-28T13:16:42Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-prompt",
+      "name": "oh-my-prompt",
+      "description": "Repository oh-my-prompt",
+      "repo": "Jackwio/oh-my-prompt",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-06-28T06:44:40Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-oh-my-skills",
@@ -576,7 +576,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-06-28T14:30:15Z",
+          "updatedAt": "2026-06-29T14:30:14Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2989,5 +2989,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-06-29T05:35:09.546Z"
+  "syncedAt": "2026-06-30T05:23:10.927Z"
 }
