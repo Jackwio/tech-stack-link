@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-02T20:30:49Z"
+        "updatedAt": "2026-07-03T21:04:59Z"
       },
       "issues": [
         {
@@ -69,29 +69,34 @@
       ]
     },
     {
-      "id": "jackwio-translate-agent-anywhere",
-      "name": "translate-agent-anywhere",
-      "description": "Repository translate-agent-anywhere",
-      "repo": "Jackwio/translate-agent-anywhere",
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
       "stacks": [
-        "iced",
-        "menubar-app",
-        "window-tray"
+        "skills"
       ],
       "topics": [
-        "iced",
-        "menubar-app",
-        "window-tray"
+        "skills"
       ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-02T15:04:40Z"
+        "updatedAt": "2026-07-03T15:03:00Z"
       },
-      "issues": []
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -108,7 +113,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-02T05:18:54Z"
+        "updatedAt": "2026-07-03T06:56:57Z"
       },
       "issues": [
         {
@@ -158,6 +163,31 @@
       ]
     },
     {
+      "id": "jackwio-translate-agent-anywhere",
+      "name": "translate-agent-anywhere",
+      "description": "Repository translate-agent-anywhere",
+      "repo": "Jackwio/translate-agent-anywhere",
+      "stacks": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "topics": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-02T15:04:40Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-analyze-page",
       "name": "analyze-page",
       "description": "Repository analyze-page",
@@ -194,36 +224,6 @@
           "labels": [],
           "updatedAt": "2026-04-10T14:18:57Z",
           "url": "https://github.com/Jackwio/analyze-page/issues/3"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-30T13:56:24Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
     },
@@ -576,7 +576,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-07-02T14:37:06Z",
+          "updatedAt": "2026-07-03T14:31:01Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2989,5 +2989,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-07-03T06:56:50.459Z"
+  "syncedAt": "2026-07-04T06:42:07.097Z"
 }
