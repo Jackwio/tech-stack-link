@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-05T20:58:53Z"
+        "updatedAt": "2026-07-06T21:28:09Z"
       },
       "issues": [
         {
@@ -69,23 +69,74 @@
       ]
     },
     {
-      "id": "jackwio-skills-manager",
-      "name": "skills-manager",
-      "description": "Repository skills-manager",
-      "repo": "Jackwio/skills-manager",
+      "id": "jackwio-repo-star-tracker",
+      "name": "repo-star-tracker",
+      "description": "Repository repo-star-tracker",
+      "repo": "Jackwio/repo-star-tracker",
       "stacks": [
-        "rust"
+        "discord-bot"
       ],
-      "topics": [],
+      "topics": [
+        "discord-bot"
+      ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/skills-manager",
+      "repoUrl": "https://github.com/Jackwio/repo-star-tracker",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-05T14:20:43Z"
+        "updatedAt": "2026-07-06T14:46:27Z"
       },
-      "issues": []
+      "issues": [
+        {
+          "number": 5,
+          "title": "Deploy",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-03T14:33:10Z",
+          "url": "https://github.com/Jackwio/repo-star-tracker/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-27T04:14:27Z",
+          "url": "https://github.com/Jackwio/repo-star-tracker/issues/4"
+        },
+        {
+          "number": 1,
+          "title": "Discord 相關 ENV Varible 設定",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-26T14:04:18Z",
+          "url": "https://github.com/Jackwio/repo-star-tracker/issues/1"
+        },
+        {
+          "number": 3,
+          "title": "修改 Discord 伺服器頭像",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-26T14:00:13Z",
+          "url": "https://github.com/Jackwio/repo-star-tracker/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "Discord Message 美化",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-02-23T04:09:36Z",
+          "url": "https://github.com/Jackwio/repo-star-tracker/issues/2"
+        }
+      ]
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -102,7 +153,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-05T07:19:27Z"
+        "updatedAt": "2026-07-06T08:14:28Z"
       },
       "issues": [
         {
@@ -150,6 +201,25 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-skills-manager",
+      "name": "skills-manager",
+      "description": "Repository skills-manager",
+      "repo": "Jackwio/skills-manager",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/skills-manager",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-05T14:20:43Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-oh-my-skills",
@@ -595,7 +665,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-07-05T14:31:09Z",
+          "updatedAt": "2026-07-06T14:37:22Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2297,76 +2367,6 @@
       ]
     },
     {
-      "id": "jackwio-repo-star-tracker",
-      "name": "repo-star-tracker",
-      "description": "Repository repo-star-tracker",
-      "repo": "Jackwio/repo-star-tracker",
-      "stacks": [
-        "discord-bot"
-      ],
-      "topics": [
-        "discord-bot"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/repo-star-tracker",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-02-27T04:45:45Z"
-      },
-      "issues": [
-        {
-          "number": 5,
-          "title": "Deploy",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-03T14:33:10Z",
-          "url": "https://github.com/Jackwio/repo-star-tracker/issues/5"
-        },
-        {
-          "number": 4,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-27T04:14:27Z",
-          "url": "https://github.com/Jackwio/repo-star-tracker/issues/4"
-        },
-        {
-          "number": 1,
-          "title": "Discord 相關 ENV Varible 設定",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-26T14:04:18Z",
-          "url": "https://github.com/Jackwio/repo-star-tracker/issues/1"
-        },
-        {
-          "number": 3,
-          "title": "修改 Discord 伺服器頭像",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-26T14:00:13Z",
-          "url": "https://github.com/Jackwio/repo-star-tracker/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "Discord Message 美化",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-02-23T04:09:36Z",
-          "url": "https://github.com/Jackwio/repo-star-tracker/issues/2"
-        }
-      ]
-    },
-    {
       "id": "jackwio-lock-box",
       "name": "lock-box",
       "description": "Repository lock-box",
@@ -2781,6 +2781,11 @@
       "label": "discord-bot",
       "items": [
         {
+          "name": "repo-star-tracker",
+          "url": "https://github.com/Jackwio/repo-star-tracker",
+          "issues": []
+        },
+        {
           "name": "auto-collect-knowledge",
           "url": "https://github.com/Jackwio/auto-collect-knowledge",
           "issues": [
@@ -2793,11 +2798,6 @@
         {
           "name": "track-repo-commit",
           "url": "https://github.com/Jackwio/track-repo-commit",
-          "issues": []
-        },
-        {
-          "name": "repo-star-tracker",
-          "url": "https://github.com/Jackwio/repo-star-tracker",
           "issues": []
         }
       ]
@@ -3008,5 +3008,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-07-06T08:14:22.487Z"
+  "syncedAt": "2026-07-07T07:32:41.941Z"
 }
