@@ -1,53 +1,42 @@
 {
   "projects": [
     {
-      "id": "jackwio-copilot-profile-switcher",
-      "name": "Copilot-Profile-Switcher",
-      "description": "Repository Copilot-Profile-Switcher",
-      "repo": "Jackwio/Copilot-Profile-Switcher",
+      "id": "jackwio-antigravity-cli-statusline",
+      "name": "antigravity-cli-statusline",
+      "description": "Repository antigravity-cli-statusline",
+      "repo": "Jackwio/antigravity-cli-statusline",
       "stacks": [
-        "unknown"
+        "javascript"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/Copilot-Profile-Switcher",
+      "repoUrl": "https://github.com/Jackwio/antigravity-cli-statusline",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-11T05:42:02Z"
+        "updatedAt": "2026-07-12T03:11:18Z"
       },
       "issues": []
     },
     {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
+      "id": "jackwio-copilot-cli-statusline",
+      "name": "copilot-cli-statusline",
+      "description": "Repository copilot-cli-statusline",
+      "repo": "Jackwio/copilot-cli-statusline",
       "stacks": [
-        "skills"
+        "javascript"
       ],
-      "topics": [
-        "skills"
-      ],
+      "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoUrl": "https://github.com/Jackwio/copilot-cli-statusline",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-11T02:55:54Z"
+        "updatedAt": "2026-07-12T03:06:46Z"
       },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
+      "issues": []
     },
     {
       "id": "jackwio-willclaw",
@@ -64,7 +53,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-10T21:06:00Z"
+        "updatedAt": "2026-07-11T20:45:23Z"
       },
       "issues": [
         {
@@ -118,63 +107,78 @@
       ]
     },
     {
-      "id": "jackwio-copilot-cli-statusline",
-      "name": "copilot-cli-statusline",
-      "description": "Repository copilot-cli-statusline",
-      "repo": "Jackwio/copilot-cli-statusline",
+      "id": "jackwio-copilot-profile-switcher",
+      "name": "Copilot-Profile-Switcher",
+      "description": "Copilot AI Provider 快速切換",
+      "repo": "Jackwio/Copilot-Profile-Switcher",
       "stacks": [
-        "powershell"
+        "rust"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/copilot-cli-statusline",
+      "repoUrl": "https://github.com/Jackwio/Copilot-Profile-Switcher",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-10T16:33:45Z"
+        "updatedAt": "2026-07-11T17:39:05Z"
       },
       "issues": []
     },
     {
-      "id": "jackwio-analyze-page",
-      "name": "analyze-page",
-      "description": "Repository analyze-page",
-      "repo": "Jackwio/analyze-page",
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
       "stacks": [
-        "copilot-sdk",
-        "chrome-extension"
+        "skills"
       ],
       "topics": [
-        "copilot-sdk",
-        "chrome-extension"
+        "skills"
       ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/analyze-page",
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-10T14:25:49Z"
+        "updatedAt": "2026-07-11T14:34:01Z"
       },
       "issues": [
         {
-          "number": 2,
-          "title": "將 Chrome extension 發佈到 GitHub Release",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-06-08T13:31:44Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "支援選取文字進行針對性提問",
+          "number": 1,
+          "title": "Skills 建立 Prompt",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-10T14:18:57Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/3"
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-translate-agent-anywhere",
+      "name": "translate-agent-anywhere",
+      "description": "Repository translate-agent-anywhere",
+      "repo": "Jackwio/translate-agent-anywhere",
+      "stacks": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "topics": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-11T14:31:54Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -191,7 +195,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-10T07:29:49Z"
+        "updatedAt": "2026-07-11T06:08:27Z"
       },
       "issues": [
         {
@@ -241,6 +245,46 @@
       ]
     },
     {
+      "id": "jackwio-analyze-page",
+      "name": "analyze-page",
+      "description": "Repository analyze-page",
+      "repo": "Jackwio/analyze-page",
+      "stacks": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "topics": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/analyze-page",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-10T14:25:49Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "將 Chrome extension 發佈到 GitHub Release",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-06-08T13:31:44Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "支援選取文字進行針對性提問",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-10T14:18:57Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/3"
+        }
+      ]
+    },
+    {
       "id": "jackwio-githubclaw",
       "name": "GitHubClaw",
       "description": "Repository GitHubClaw",
@@ -263,7 +307,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-07-10T14:37:17Z",
+          "updatedAt": "2026-07-11T14:31:18Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -486,31 +530,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-07-05T14:20:43Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-translate-agent-anywhere",
-      "name": "translate-agent-anywhere",
-      "description": "Repository translate-agent-anywhere",
-      "repo": "Jackwio/translate-agent-anywhere",
-      "stacks": [
-        "iced",
-        "menubar-app",
-        "window-tray"
-      ],
-      "topics": [
-        "iced",
-        "menubar-app",
-        "window-tray"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-02T15:04:40Z"
       },
       "issues": []
     },
@@ -3046,5 +3065,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-07-11T06:08:21.149Z"
+  "syncedAt": "2026-07-12T06:28:07.941Z"
 }
