@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-12T20:45:33Z"
+        "updatedAt": "2026-07-13T20:55:42Z"
       },
       "issues": [
         {
@@ -69,40 +69,25 @@
       ]
     },
     {
-      "id": "jackwio-joblet",
-      "name": "Joblet",
-      "description": "Repository Joblet",
-      "repo": "Jackwio/Joblet",
+      "id": "jackwio-mtgit",
+      "name": "mtgit",
+      "description": "Repository mtgit",
+      "repo": "Jackwio/mtgit",
       "stacks": [
-        "rust"
+        "git-worktrees",
+        "cli-tool"
       ],
-      "topics": [],
+      "topics": [
+        "git-worktrees",
+        "cli-tool"
+      ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/Joblet",
+      "repoUrl": "https://github.com/Jackwio/mtgit",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-12T14:29:23Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-prompt",
-      "name": "oh-my-prompt",
-      "description": "Repository oh-my-prompt",
-      "repo": "Jackwio/oh-my-prompt",
-      "stacks": [
-        "makefile"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-12T08:35:41Z"
+        "updatedAt": "2026-07-13T15:07:10Z"
       },
       "issues": []
     },
@@ -121,7 +106,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-12T06:28:15Z"
+        "updatedAt": "2026-07-13T06:47:58Z"
       },
       "issues": [
         {
@@ -169,6 +154,44 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-joblet",
+      "name": "Joblet",
+      "description": "Repository Joblet",
+      "repo": "Jackwio/Joblet",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/Joblet",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-12T14:29:23Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-prompt",
+      "name": "oh-my-prompt",
+      "description": "Repository oh-my-prompt",
+      "repo": "Jackwio/oh-my-prompt",
+      "stacks": [
+        "makefile"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-prompt",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-12T08:35:41Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-antigravity-cli-statusline",
@@ -345,7 +368,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-07-12T14:31:27Z",
+          "updatedAt": "2026-07-13T14:31:08Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -697,29 +720,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-06-16T14:35:07Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-mtgit",
-      "name": "mtgit",
-      "description": "Repository mtgit",
-      "repo": "Jackwio/mtgit",
-      "stacks": [
-        "git-worktrees",
-        "cli-tool"
-      ],
-      "topics": [
-        "git-worktrees",
-        "cli-tool"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/mtgit",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-15T13:51:09Z"
       },
       "issues": []
     },
@@ -3084,5 +3084,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-07-13T06:47:51.278Z"
+  "syncedAt": "2026-07-14T06:05:47.917Z"
 }
