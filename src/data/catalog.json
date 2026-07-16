@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-14T20:59:01Z"
+        "updatedAt": "2026-07-15T20:58:49Z"
       },
       "issues": [
         {
@@ -69,44 +69,27 @@
       ]
     },
     {
-      "id": "jackwio-will-git",
-      "name": "will-git",
-      "description": "Repository will-git",
-      "repo": "Jackwio/will-git",
+      "id": "jackwio-mtgit",
+      "name": "mtgit",
+      "description": "Repository mtgit",
+      "repo": "Jackwio/mtgit",
       "stacks": [
-        "cli",
-        "copilot-sdk"
+        "git-worktrees",
+        "cli-tool"
       ],
       "topics": [
-        "cli",
-        "copilot-sdk"
+        "git-worktrees",
+        "cli-tool"
       ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/will-git",
+      "repoUrl": "https://github.com/Jackwio/mtgit",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-14T14:53:30Z"
+        "updatedAt": "2026-07-15T14:58:35Z"
       },
-      "issues": [
-        {
-          "number": 2,
-          "title": "指定模型參數",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-21T13:40:20Z",
-          "url": "https://github.com/Jackwio/will-git/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T17:47:35Z",
-          "url": "https://github.com/Jackwio/will-git/issues/1"
-        }
-      ]
+      "issues": []
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -123,7 +106,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-14T06:05:54Z"
+        "updatedAt": "2026-07-15T06:09:40Z"
       },
       "issues": [
         {
@@ -173,27 +156,44 @@
       ]
     },
     {
-      "id": "jackwio-mtgit",
-      "name": "mtgit",
-      "description": "Repository mtgit",
-      "repo": "Jackwio/mtgit",
+      "id": "jackwio-will-git",
+      "name": "will-git",
+      "description": "Repository will-git",
+      "repo": "Jackwio/will-git",
       "stacks": [
-        "git-worktrees",
-        "cli-tool"
+        "cli",
+        "copilot-sdk"
       ],
       "topics": [
-        "git-worktrees",
-        "cli-tool"
+        "cli",
+        "copilot-sdk"
       ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/mtgit",
+      "repoUrl": "https://github.com/Jackwio/will-git",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-13T15:07:10Z"
+        "updatedAt": "2026-07-14T14:53:30Z"
       },
-      "issues": []
+      "issues": [
+        {
+          "number": 2,
+          "title": "指定模型參數",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-21T13:40:20Z",
+          "url": "https://github.com/Jackwio/will-git/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-18T17:47:35Z",
+          "url": "https://github.com/Jackwio/will-git/issues/1"
+        }
+      ]
     },
     {
       "id": "jackwio-joblet",
@@ -408,7 +408,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-07-14T14:30:48Z",
+          "updatedAt": "2026-07-15T14:30:45Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3084,5 +3084,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-07-15T06:09:34.191Z"
+  "syncedAt": "2026-07-16T06:12:06.004Z"
 }
