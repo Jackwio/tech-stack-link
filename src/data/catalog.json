@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-16T20:56:10Z"
+        "updatedAt": "2026-07-17T20:53:44Z"
       },
       "issues": [
         {
@@ -69,6 +69,65 @@
       ]
     },
     {
+      "id": "jackwio-analyze-page",
+      "name": "analyze-page",
+      "description": "Repository analyze-page",
+      "repo": "Jackwio/analyze-page",
+      "stacks": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "topics": [
+        "copilot-sdk",
+        "chrome-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/analyze-page",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-17T16:34:43Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "將 Chrome extension 發佈到 GitHub Release",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-06-08T13:31:44Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "支援選取文字進行針對性提問",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-10T14:18:57Z",
+          "url": "https://github.com/Jackwio/analyze-page/issues/3"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-joblet",
+      "name": "Joblet",
+      "description": "Repository Joblet",
+      "repo": "Jackwio/Joblet",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/Joblet",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-17T16:17:28Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-will-git",
       "name": "will-git",
       "description": "Repository will-git",
@@ -87,7 +146,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-16T14:15:32Z"
+        "updatedAt": "2026-07-17T11:50:15Z"
       },
       "issues": [
         {
@@ -123,7 +182,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-16T06:12:16Z"
+        "updatedAt": "2026-07-17T06:10:31Z"
       },
       "issues": [
         {
@@ -192,25 +251,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-07-15T14:58:35Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-joblet",
-      "name": "Joblet",
-      "description": "Repository Joblet",
-      "repo": "Jackwio/Joblet",
-      "stacks": [
-        "rust"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/Joblet",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-12T14:29:23Z"
       },
       "issues": []
     },
@@ -346,46 +386,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-analyze-page",
-      "name": "analyze-page",
-      "description": "Repository analyze-page",
-      "repo": "Jackwio/analyze-page",
-      "stacks": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "topics": [
-        "copilot-sdk",
-        "chrome-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/analyze-page",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-10T14:25:49Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "將 Chrome extension 發佈到 GitHub Release",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-06-08T13:31:44Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "支援選取文字進行針對性提問",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-10T14:18:57Z",
-          "url": "https://github.com/Jackwio/analyze-page/issues/3"
-        }
-      ]
-    },
-    {
       "id": "jackwio-githubclaw",
       "name": "GitHubClaw",
       "description": "Repository GitHubClaw",
@@ -408,7 +408,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-07-16T14:31:26Z",
+          "updatedAt": "2026-07-17T14:31:13Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -2832,13 +2832,13 @@
       "label": "copilot-sdk",
       "items": [
         {
-          "name": "will-git",
-          "url": "https://github.com/Jackwio/will-git",
+          "name": "analyze-page",
+          "url": "https://github.com/Jackwio/analyze-page",
           "issues": []
         },
         {
-          "name": "analyze-page",
-          "url": "https://github.com/Jackwio/analyze-page",
+          "name": "will-git",
+          "url": "https://github.com/Jackwio/will-git",
           "issues": []
         }
       ]
@@ -3084,5 +3084,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-07-17T06:10:22.996Z"
+  "syncedAt": "2026-07-18T05:59:42.757Z"
 }
