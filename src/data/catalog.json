@@ -1,27 +1,6 @@
 {
   "projects": [
     {
-      "id": "jackwio-project-manager",
-      "name": "project-manager",
-      "description": "Repository project-manager",
-      "repo": "Jackwio/project-manager",
-      "stacks": [
-        "visual-studio-extension"
-      ],
-      "topics": [
-        "visual-studio-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/project-manager",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-26T03:54:44Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -36,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-25T20:51:09Z"
+        "updatedAt": "2026-07-26T20:56:34Z"
       },
       "issues": [
         {
@@ -90,6 +69,57 @@
       ]
     },
     {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-26T08:27:09Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-project-manager",
+      "name": "project-manager",
+      "description": "Repository project-manager",
+      "repo": "Jackwio/project-manager",
+      "stacks": [
+        "visual-studio-extension"
+      ],
+      "topics": [
+        "visual-studio-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/project-manager",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-26T08:27:08Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -104,7 +134,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-25T06:11:40Z"
+        "updatedAt": "2026-07-26T06:32:18Z"
       },
       "issues": [
         {
@@ -176,7 +206,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-07-25T14:30:39Z",
+          "updatedAt": "2026-07-26T14:31:00Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -350,36 +380,6 @@
           "labels": [],
           "updatedAt": "2026-04-18T17:47:35Z",
           "url": "https://github.com/Jackwio/will-git/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-19T06:07:39Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
     },
@@ -3110,5 +3110,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-07-26T06:32:10.286Z"
+  "syncedAt": "2026-07-27T06:56:59.455Z"
 }
