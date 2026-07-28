@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-26T20:56:34Z"
+        "updatedAt": "2026-07-27T21:09:10Z"
       },
       "issues": [
         {
@@ -69,6 +69,25 @@
       ]
     },
     {
+      "id": "jackwio-schedule-manager",
+      "name": "schedule-manager",
+      "description": "Repository schedule-manager",
+      "repo": "Jackwio/schedule-manager",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/schedule-manager",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-27T14:33:55Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-oh-my-skills",
       "name": "oh-my-skills",
       "description": "Repository oh-my-skills",
@@ -85,7 +104,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-26T08:27:09Z"
+        "updatedAt": "2026-07-27T14:08:52Z"
       },
       "issues": [
         {
@@ -97,27 +116,6 @@
           "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-project-manager",
-      "name": "project-manager",
-      "description": "Repository project-manager",
-      "repo": "Jackwio/project-manager",
-      "stacks": [
-        "visual-studio-extension"
-      ],
-      "topics": [
-        "visual-studio-extension"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/project-manager",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-26T08:27:08Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-tech-stack-link",
@@ -134,7 +132,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-26T06:32:18Z"
+        "updatedAt": "2026-07-27T06:57:55Z"
       },
       "issues": [
         {
@@ -184,6 +182,27 @@
       ]
     },
     {
+      "id": "jackwio-project-manager",
+      "name": "project-manager",
+      "description": "Repository project-manager",
+      "repo": "Jackwio/project-manager",
+      "stacks": [
+        "visual-studio-extension"
+      ],
+      "topics": [
+        "visual-studio-extension"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/project-manager",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-26T08:27:08Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-githubclaw",
       "name": "GitHubClaw",
       "description": "Repository GitHubClaw",
@@ -206,7 +225,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-07-26T14:31:00Z",
+          "updatedAt": "2026-07-27T14:37:03Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3110,5 +3129,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-07-27T06:56:59.455Z"
+  "syncedAt": "2026-07-28T06:20:47.710Z"
 }
