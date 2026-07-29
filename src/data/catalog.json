@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-27T21:09:10Z"
+        "updatedAt": "2026-07-28T21:08:03Z"
       },
       "issues": [
         {
@@ -69,25 +69,6 @@
       ]
     },
     {
-      "id": "jackwio-schedule-manager",
-      "name": "schedule-manager",
-      "description": "Repository schedule-manager",
-      "repo": "Jackwio/schedule-manager",
-      "stacks": [
-        "rust"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/schedule-manager",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-27T14:33:55Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-oh-my-skills",
       "name": "oh-my-skills",
       "description": "Repository oh-my-skills",
@@ -104,7 +85,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-27T14:08:52Z"
+        "updatedAt": "2026-07-28T13:09:03Z"
       },
       "issues": [
         {
@@ -132,7 +113,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-07-27T06:57:55Z"
+        "updatedAt": "2026-07-28T06:21:08Z"
       },
       "issues": [
         {
@@ -182,6 +163,25 @@
       ]
     },
     {
+      "id": "jackwio-schedule-manager",
+      "name": "schedule-manager",
+      "description": "Repository schedule-manager",
+      "repo": "Jackwio/schedule-manager",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/schedule-manager",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-07-27T14:33:55Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-project-manager",
       "name": "project-manager",
       "description": "Repository project-manager",
@@ -225,7 +225,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-07-27T14:37:03Z",
+          "updatedAt": "2026-07-28T14:31:02Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3129,5 +3129,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-07-28T06:20:47.710Z"
+  "syncedAt": "2026-07-29T06:26:01.101Z"
 }
