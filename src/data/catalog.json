@@ -1,25 +1,6 @@
 {
   "projects": [
     {
-      "id": "jackwio-schedule-manager",
-      "name": "schedule-manager",
-      "description": "Repository schedule-manager",
-      "repo": "Jackwio/schedule-manager",
-      "stacks": [
-        "rust"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/schedule-manager",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-02T04:43:05Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -34,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-08-01T20:51:02Z"
+        "updatedAt": "2026-08-02T20:54:32Z"
       },
       "issues": [
         {
@@ -84,6 +65,227 @@
           "labels": [],
           "updatedAt": "2026-03-25T12:44:45Z",
           "url": "https://github.com/Jackwio/WillClaw/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-repo-star-tracker",
+      "name": "repo-star-tracker",
+      "description": "Repository repo-star-tracker",
+      "repo": "Jackwio/repo-star-tracker",
+      "stacks": [
+        "discord-bot"
+      ],
+      "topics": [
+        "discord-bot"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/repo-star-tracker",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-02T14:01:46Z"
+      },
+      "issues": [
+        {
+          "number": 5,
+          "title": "Deploy",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-03T14:33:10Z",
+          "url": "https://github.com/Jackwio/repo-star-tracker/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-27T04:14:27Z",
+          "url": "https://github.com/Jackwio/repo-star-tracker/issues/4"
+        },
+        {
+          "number": 1,
+          "title": "Discord 相關 ENV Varible 設定",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-26T14:04:18Z",
+          "url": "https://github.com/Jackwio/repo-star-tracker/issues/1"
+        },
+        {
+          "number": 3,
+          "title": "修改 Discord 伺服器頭像",
+          "state": "OPEN",
+          "labels": [
+            "documentation"
+          ],
+          "updatedAt": "2026-02-26T14:00:13Z",
+          "url": "https://github.com/Jackwio/repo-star-tracker/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "Discord Message 美化",
+          "state": "OPEN",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-02-23T04:09:36Z",
+          "url": "https://github.com/Jackwio/repo-star-tracker/issues/2"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-schedule-manager",
+      "name": "schedule-manager",
+      "description": "Repository schedule-manager",
+      "repo": "Jackwio/schedule-manager",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/schedule-manager",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-02T13:57:20Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-02T13:37:21Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-joblet",
+      "name": "Joblet",
+      "description": "Repository Joblet",
+      "repo": "Jackwio/Joblet",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/Joblet",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-02T11:52:57Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-gitea-deploy",
+      "name": "gitea-deploy",
+      "description": "Repository gitea-deploy",
+      "repo": "Jackwio/gitea-deploy",
+      "stacks": [
+        "makefile"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/gitea-deploy",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-02T09:32:40Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-tech-stack-link",
+      "name": "tech-stack-link",
+      "description": "Repository tech-stack-link",
+      "repo": "Jackwio/tech-stack-link",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-02T06:28:34Z"
+      },
+      "issues": [
+        {
+          "number": 4,
+          "title": "專案技術整理",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:47Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
+        },
+        {
+          "number": 5,
+          "title": "將 Github Gist 分類",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:38Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
+        },
+        {
+          "number": 2,
+          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T08:33:29Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-07T08:33:21Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-02-26T19:05:19Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
     },
@@ -149,70 +351,6 @@
       ]
     },
     {
-      "id": "jackwio-tech-stack-link",
-      "name": "tech-stack-link",
-      "description": "Repository tech-stack-link",
-      "repo": "Jackwio/tech-stack-link",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-01T06:23:20Z"
-      },
-      "issues": [
-        {
-          "number": 4,
-          "title": "專案技術整理",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:47Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
-        },
-        {
-          "number": 5,
-          "title": "將 Github Gist 分類",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:38Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
-        },
-        {
-          "number": 2,
-          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-          "state": "CLOSED",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-07T08:33:29Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-07T08:33:21Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-02-26T19:05:19Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-copilot-cli-statusline",
       "name": "copilot-cli-statusline",
       "description": "Repository copilot-cli-statusline",
@@ -230,36 +368,6 @@
         "updatedAt": "2026-08-01T03:50:17Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-28T13:09:03Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-githubclaw",
@@ -284,7 +392,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-08-01T14:30:47Z",
+          "updatedAt": "2026-08-02T14:30:47Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -462,25 +570,6 @@
       ]
     },
     {
-      "id": "jackwio-joblet",
-      "name": "Joblet",
-      "description": "Repository Joblet",
-      "repo": "Jackwio/Joblet",
-      "stacks": [
-        "rust"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/Joblet",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-17T16:17:28Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-mtgit",
       "name": "mtgit",
       "description": "Repository mtgit",
@@ -584,76 +673,6 @@
         "updatedAt": "2026-07-11T14:31:54Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-repo-star-tracker",
-      "name": "repo-star-tracker",
-      "description": "Repository repo-star-tracker",
-      "repo": "Jackwio/repo-star-tracker",
-      "stacks": [
-        "discord-bot"
-      ],
-      "topics": [
-        "discord-bot"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/repo-star-tracker",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-07T12:31:48Z"
-      },
-      "issues": [
-        {
-          "number": 5,
-          "title": "Deploy",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-03T14:33:10Z",
-          "url": "https://github.com/Jackwio/repo-star-tracker/issues/5"
-        },
-        {
-          "number": 4,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-27T04:14:27Z",
-          "url": "https://github.com/Jackwio/repo-star-tracker/issues/4"
-        },
-        {
-          "number": 1,
-          "title": "Discord 相關 ENV Varible 設定",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-26T14:04:18Z",
-          "url": "https://github.com/Jackwio/repo-star-tracker/issues/1"
-        },
-        {
-          "number": 3,
-          "title": "修改 Discord 伺服器頭像",
-          "state": "OPEN",
-          "labels": [
-            "documentation"
-          ],
-          "updatedAt": "2026-02-26T14:00:13Z",
-          "url": "https://github.com/Jackwio/repo-star-tracker/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "Discord Message 美化",
-          "state": "OPEN",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-02-23T04:09:36Z",
-          "url": "https://github.com/Jackwio/repo-star-tracker/issues/2"
-        }
-      ]
     },
     {
       "id": "jackwio-skills-manager",
@@ -3129,5 +3148,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-08-02T06:28:00.780Z"
+  "syncedAt": "2026-08-03T06:54:19.593Z"
 }
