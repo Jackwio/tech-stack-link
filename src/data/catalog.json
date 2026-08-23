@@ -1,6 +1,44 @@
 {
   "projects": [
     {
+      "id": "jackwio-power-schedule",
+      "name": "power-schedule",
+      "description": "Repository power-schedule",
+      "repo": "Jackwio/power-schedule",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/power-schedule",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-23T03:03:13Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-23T02:39:09Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -15,7 +53,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-08-21T20:24:50Z"
+        "updatedAt": "2026-08-22T20:20:35Z"
       },
       "issues": [
         {
@@ -69,6 +107,44 @@
       ]
     },
     {
+      "id": "jackwio-linqpad-script",
+      "name": "linqpad-script",
+      "description": "Repository linqpad-script",
+      "repo": "Jackwio/linqpad-script",
+      "stacks": [
+        "c#"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/linqpad-script",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-22T17:32:51Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-repo-test",
+      "name": "repo-test",
+      "description": "用 Docker 部署及測試相關 Github 上的 SourceCode",
+      "repo": "Jackwio/repo-test",
+      "stacks": [
+        "makefile"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/repo-test",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-22T08:07:25Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -83,7 +159,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-08-21T04:31:49Z"
+        "updatedAt": "2026-08-22T04:25:42Z"
       },
       "issues": [
         {
@@ -189,7 +265,16 @@
         "forks": 0,
         "updatedAt": "2026-08-17T14:20:03Z"
       },
-      "issues": []
+      "issues": [
+        {
+          "number": 1,
+          "title": "Test",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-08-22T09:29:16Z",
+          "url": "https://github.com/Jackwio/Joblet/issues/1"
+        }
+      ]
     },
     {
       "id": "jackwio-oh-my-skills",
@@ -220,25 +305,6 @@
           "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-linqpad-script",
-      "name": "linqpad-script",
-      "description": "Repository linqpad-script",
-      "repo": "Jackwio/linqpad-script",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/linqpad-script",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-15T15:54:13Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-repo-star-tracker",
@@ -432,7 +498,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-08-21T14:30:40Z",
+          "updatedAt": "2026-08-22T14:30:41Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -730,25 +796,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-07-05T14:20:43Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-awesome-mbp",
-      "name": "awesome-MBP",
-      "description": "Repository awesome-MBP",
-      "repo": "Jackwio/awesome-MBP",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-06-29T12:33:55Z"
       },
       "issues": []
     },
@@ -3167,5 +3214,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-08-22T04:25:32.284Z"
+  "syncedAt": "2026-08-23T04:30:21.303Z"
 }
