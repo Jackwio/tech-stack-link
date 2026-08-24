@@ -1,44 +1,6 @@
 {
   "projects": [
     {
-      "id": "jackwio-power-schedule",
-      "name": "power-schedule",
-      "description": "Repository power-schedule",
-      "repo": "Jackwio/power-schedule",
-      "stacks": [
-        "rust"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/power-schedule",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-23T03:03:13Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-awesome-mbp",
-      "name": "awesome-MBP",
-      "description": "Repository awesome-MBP",
-      "repo": "Jackwio/awesome-MBP",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-23T02:39:09Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -53,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-08-22T20:20:35Z"
+        "updatedAt": "2026-08-23T20:20:23Z"
       },
       "issues": [
         {
@@ -107,6 +69,131 @@
       ]
     },
     {
+      "id": "jackwio-macos-app-management",
+      "name": "macos-app-management",
+      "description": "用來管理自己開發的 MacOS App",
+      "repo": "Jackwio/macos-app-management",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/macos-app-management",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-23T14:25:49Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-23T14:22:17Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-power-schedule",
+      "name": "power-schedule",
+      "description": "Mac 電源排程與節能管理設定",
+      "repo": "Jackwio/power-schedule",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/power-schedule",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-23T11:41:15Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-schedule-manager",
+      "name": "schedule-manager",
+      "description": "Mac LaunchAgent (launchd) 排程管理",
+      "repo": "Jackwio/schedule-manager",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/schedule-manager",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-23T09:10:05Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-my-resume",
+      "name": "my-resume",
+      "description": "Repository my-resume",
+      "repo": "Jackwio/my-resume",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/my-resume",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-23T09:09:21Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-23T08:41:42Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-linqpad-script",
       "name": "linqpad-script",
       "description": "Repository linqpad-script",
@@ -121,26 +208,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-08-22T17:32:51Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-repo-test",
-      "name": "repo-test",
-      "description": "用 Docker 部署及測試相關 Github 上的 SourceCode",
-      "repo": "Jackwio/repo-test",
-      "stacks": [
-        "makefile"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/repo-test",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-22T08:07:25Z"
+        "updatedAt": "2026-08-23T07:17:57Z"
       },
       "issues": []
     },
@@ -159,7 +227,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-08-22T04:25:42Z"
+        "updatedAt": "2026-08-23T04:31:34Z"
       },
       "issues": [
         {
@@ -207,6 +275,25 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-repo-test",
+      "name": "repo-test",
+      "description": "用 Docker 部署及測試相關 Github 上的 SourceCode",
+      "repo": "Jackwio/repo-test",
+      "stacks": [
+        "makefile"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/repo-test",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-22T08:07:25Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-will-git",
@@ -273,36 +360,6 @@
           "labels": [],
           "updatedAt": "2026-08-22T09:29:16Z",
           "url": "https://github.com/Jackwio/Joblet/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-17T12:59:08Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
     },
@@ -398,25 +455,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-schedule-manager",
-      "name": "schedule-manager",
-      "description": "Repository schedule-manager",
-      "repo": "Jackwio/schedule-manager",
-      "stacks": [
-        "rust"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/schedule-manager",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-02T13:57:20Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-gitea-deploy",
       "name": "gitea-deploy",
       "description": "Repository gitea-deploy",
@@ -498,7 +536,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-08-22T14:30:41Z",
+          "updatedAt": "2026-08-23T14:30:37Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3214,5 +3252,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-08-23T04:30:21.303Z"
+  "syncedAt": "2026-08-24T04:38:21.213Z"
 }
