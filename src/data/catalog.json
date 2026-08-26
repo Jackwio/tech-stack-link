@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id": "jackwio-gitea-deploy",
+      "name": "gitea-deploy",
+      "description": "Repository gitea-deploy",
+      "repo": "Jackwio/gitea-deploy",
+      "stacks": [
+        "makefile"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/gitea-deploy",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-25T14:51:38Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-will-git",
       "name": "will-git",
       "description": "Repository will-git",
@@ -19,7 +38,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-08-24T13:33:30Z"
+        "updatedAt": "2026-08-25T14:20:16Z"
       },
       "issues": [
         {
@@ -37,6 +56,70 @@
           "labels": [],
           "updatedAt": "2026-04-18T17:47:35Z",
           "url": "https://github.com/Jackwio/will-git/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-tech-stack-link",
+      "name": "tech-stack-link",
+      "description": "Repository tech-stack-link",
+      "repo": "Jackwio/tech-stack-link",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-25T04:32:28Z"
+      },
+      "issues": [
+        {
+          "number": 4,
+          "title": "專案技術整理",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:47Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
+        },
+        {
+          "number": 5,
+          "title": "將 Github Gist 分類",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:38Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
+        },
+        {
+          "number": 2,
+          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T08:33:29Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-07T08:33:21Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-02-26T19:05:19Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
     },
@@ -88,70 +171,6 @@
         "updatedAt": "2026-08-24T12:41:09Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-tech-stack-link",
-      "name": "tech-stack-link",
-      "description": "Repository tech-stack-link",
-      "repo": "Jackwio/tech-stack-link",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-24T04:38:50Z"
-      },
-      "issues": [
-        {
-          "number": 4,
-          "title": "專案技術整理",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:47Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
-        },
-        {
-          "number": 5,
-          "title": "將 Github Gist 分類",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:38Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
-        },
-        {
-          "number": 2,
-          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-          "state": "CLOSED",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-07T08:33:29Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-07T08:33:21Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-02-26T19:05:19Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-willclaw",
@@ -455,25 +474,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-gitea-deploy",
-      "name": "gitea-deploy",
-      "description": "Repository gitea-deploy",
-      "repo": "Jackwio/gitea-deploy",
-      "stacks": [
-        "makefile"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/gitea-deploy",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-02T09:32:40Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-project-manager",
       "name": "project-manager",
       "description": "Repository project-manager",
@@ -536,7 +536,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-08-24T14:30:13Z",
+          "updatedAt": "2026-08-25T14:30:15Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3252,5 +3252,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-08-25T04:32:18.307Z"
+  "syncedAt": "2026-08-26T04:33:16.946Z"
 }
