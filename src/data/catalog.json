@@ -1,46 +1,6 @@
 {
   "projects": [
     {
-      "id": "jackwio-will-git",
-      "name": "will-git",
-      "description": "Repository will-git",
-      "repo": "Jackwio/will-git",
-      "stacks": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "topics": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/will-git",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-26T14:35:26Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "指定模型參數",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-21T13:40:20Z",
-          "url": "https://github.com/Jackwio/will-git/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T17:47:35Z",
-          "url": "https://github.com/Jackwio/will-git/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -55,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-08-26T04:34:38Z"
+        "updatedAt": "2026-08-27T15:07:00Z"
       },
       "issues": [
         {
@@ -101,6 +61,46 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-will-git",
+      "name": "will-git",
+      "description": "Repository will-git",
+      "repo": "Jackwio/will-git",
+      "stacks": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "topics": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/will-git",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-26T14:35:26Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "指定模型參數",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-21T13:40:20Z",
+          "url": "https://github.com/Jackwio/will-git/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-18T17:47:35Z",
+          "url": "https://github.com/Jackwio/will-git/issues/1"
         }
       ]
     },
@@ -536,7 +536,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-08-27T14:36:14Z",
+          "updatedAt": "2026-08-28T14:30:14Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3252,5 +3252,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-08-27T14:55:01.356Z"
+  "syncedAt": "2026-08-28T15:50:29.065Z"
 }
