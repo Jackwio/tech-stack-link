@@ -1,6 +1,44 @@
 {
   "projects": [
     {
+      "id": "jackwio-linqpad-script",
+      "name": "linqpad-script",
+      "description": "Repository linqpad-script",
+      "repo": "Jackwio/linqpad-script",
+      "stacks": [
+        "c#"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/linqpad-script",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-29T14:25:26Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-hooks",
+      "name": "Hooks",
+      "description": "Repository Hooks",
+      "repo": "Jackwio/Hooks",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/Hooks",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-08-29T12:53:31Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -15,7 +53,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-08-28T15:53:29Z"
+        "updatedAt": "2026-08-29T10:39:14Z"
       },
       "issues": [
         {
@@ -317,25 +355,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-linqpad-script",
-      "name": "linqpad-script",
-      "description": "Repository linqpad-script",
-      "repo": "Jackwio/linqpad-script",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/linqpad-script",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-23T07:17:57Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-repo-test",
       "name": "repo-test",
       "description": "用 Docker 部署及測試相關 Github 上的 SourceCode",
@@ -536,7 +555,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-08-28T14:30:14Z",
+          "updatedAt": "2026-08-29T14:30:12Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3252,5 +3271,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-08-29T10:39:03.220Z"
+  "syncedAt": "2026-08-30T09:39:01.570Z"
 }
