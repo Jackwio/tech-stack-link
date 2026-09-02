@@ -1,6 +1,74 @@
 {
   "projects": [
     {
+      "id": "jackwio-willclaw",
+      "name": "WillClaw",
+      "description": "WillLinClaw — managed by GitHubClaw",
+      "repo": "Jackwio/WillClaw",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/WillClaw",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-01T22:23:29Z"
+      },
+      "issues": [
+        {
+          "number": 3,
+          "title": "每日 Trending Repo 分析",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-04-03T02:13:44Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "新知識詢問",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-29T09:01:21Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/2"
+        },
+        {
+          "number": 5,
+          "title": "日本東京旅遊景點查找",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:15:18Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/5"
+        },
+        {
+          "number": 4,
+          "title": "建立 Custom Skill",
+          "state": "OPEN",
+          "labels": [
+            "chat-session"
+          ],
+          "updatedAt": "2026-03-25T13:11:38Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/4"
+        },
+        {
+          "number": 1,
+          "title": "WillLinClaw",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-03-25T12:44:45Z",
+          "url": "https://github.com/Jackwio/WillClaw/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -15,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-08-31T10:31:03Z"
+        "updatedAt": "2026-09-01T09:13:20Z"
       },
       "issues": [
         {
@@ -209,74 +277,6 @@
         "updatedAt": "2026-08-24T12:41:09Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-willclaw",
-      "name": "WillClaw",
-      "description": "WillLinClaw — managed by GitHubClaw",
-      "repo": "Jackwio/WillClaw",
-      "stacks": [
-        "javascript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/WillClaw",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-23T20:20:23Z"
-      },
-      "issues": [
-        {
-          "number": 3,
-          "title": "每日 Trending Repo 分析",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-04-03T02:13:44Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/3"
-        },
-        {
-          "number": 2,
-          "title": "新知識詢問",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-29T09:01:21Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/2"
-        },
-        {
-          "number": 5,
-          "title": "日本東京旅遊景點查找",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-25T13:15:18Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/5"
-        },
-        {
-          "number": 4,
-          "title": "建立 Custom Skill",
-          "state": "OPEN",
-          "labels": [
-            "chat-session"
-          ],
-          "updatedAt": "2026-03-25T13:11:38Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/4"
-        },
-        {
-          "number": 1,
-          "title": "WillLinClaw",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-03-25T12:44:45Z",
-          "url": "https://github.com/Jackwio/WillClaw/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-macos-app-management",
@@ -555,7 +555,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-08-31T14:30:15Z",
+          "updatedAt": "2026-09-01T14:36:46Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3271,5 +3271,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-09-01T09:04:22.853Z"
+  "syncedAt": "2026-09-02T08:18:15.963Z"
 }
