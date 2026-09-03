@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-01T22:23:29Z"
+        "updatedAt": "2026-09-02T22:23:09Z"
       },
       "issues": [
         {
@@ -69,6 +69,84 @@
       ]
     },
     {
+      "id": "jackwio-power-schedule",
+      "name": "power-schedule",
+      "description": "Mac 電源排程與節能管理設定",
+      "repo": "Jackwio/power-schedule",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/power-schedule",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-02T13:37:42Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-will-git",
+      "name": "will-git",
+      "description": "Repository will-git",
+      "repo": "Jackwio/will-git",
+      "stacks": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "topics": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/will-git",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-02T12:32:55Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "指定模型參數",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-21T13:40:20Z",
+          "url": "https://github.com/Jackwio/will-git/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-18T17:47:35Z",
+          "url": "https://github.com/Jackwio/will-git/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-macos-app-management",
+      "name": "macos-app-management",
+      "description": "用來管理自己開發的 MacOS App",
+      "repo": "Jackwio/macos-app-management",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/macos-app-management",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-02T11:42:04Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -83,7 +161,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-01T09:13:20Z"
+        "updatedAt": "2026-09-02T08:23:11Z"
       },
       "issues": [
         {
@@ -171,46 +249,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-will-git",
-      "name": "will-git",
-      "description": "Repository will-git",
-      "repo": "Jackwio/will-git",
-      "stacks": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "topics": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/will-git",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-26T14:35:26Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "指定模型參數",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-21T13:40:20Z",
-          "url": "https://github.com/Jackwio/will-git/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T17:47:35Z",
-          "url": "https://github.com/Jackwio/will-git/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-gitea-deploy",
       "name": "gitea-deploy",
       "description": "Repository gitea-deploy",
@@ -275,44 +313,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-08-24T12:41:09Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-macos-app-management",
-      "name": "macos-app-management",
-      "description": "用來管理自己開發的 MacOS App",
-      "repo": "Jackwio/macos-app-management",
-      "stacks": [
-        "rust"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/macos-app-management",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-23T14:25:49Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-power-schedule",
-      "name": "power-schedule",
-      "description": "Mac 電源排程與節能管理設定",
-      "repo": "Jackwio/power-schedule",
-      "stacks": [
-        "rust"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/power-schedule",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-23T11:41:15Z"
       },
       "issues": []
     },
@@ -555,7 +555,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-09-01T14:36:46Z",
+          "updatedAt": "2026-09-02T14:30:40Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3271,5 +3271,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-09-02T08:18:15.963Z"
+  "syncedAt": "2026-09-03T08:27:35.964Z"
 }
