@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-06T21:57:25Z"
+        "updatedAt": "2026-09-07T22:31:09Z"
       },
       "issues": [
         {
@@ -69,25 +69,6 @@
       ]
     },
     {
-      "id": "jackwio-sql-script",
-      "name": "sql-script",
-      "description": "Repository sql-script",
-      "repo": "Jackwio/sql-script",
-      "stacks": [
-        "makefile"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/sql-script",
-      "repoMeta": {
-        "stars": 1,
-        "forks": 0,
-        "updatedAt": "2026-09-06T08:54:33Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -102,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-06T08:16:44Z"
+        "updatedAt": "2026-09-07T08:49:43Z"
       },
       "issues": [
         {
@@ -150,6 +131,25 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-sql-script",
+      "name": "sql-script",
+      "description": "Repository sql-script",
+      "repo": "Jackwio/sql-script",
+      "stacks": [
+        "makefile"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/sql-script",
+      "repoMeta": {
+        "stars": 1,
+        "forks": 0,
+        "updatedAt": "2026-09-06T08:54:33Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-oh-my-skills",
@@ -341,7 +341,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-09-06T14:30:43Z",
+          "updatedAt": "2026-09-07T14:30:40Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3328,5 +3328,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-09-07T08:49:13.344Z"
+  "syncedAt": "2026-09-08T08:29:39.609Z"
 }
