@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-07T22:31:09Z"
+        "updatedAt": "2026-09-08T22:22:35Z"
       },
       "issues": [
         {
@@ -69,6 +69,25 @@
       ]
     },
     {
+      "id": "jackwio-linqpad-script",
+      "name": "linqpad-script",
+      "description": "Repository linqpad-script",
+      "repo": "Jackwio/linqpad-script",
+      "stacks": [
+        "c#"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/linqpad-script",
+      "repoMeta": {
+        "stars": 1,
+        "forks": 0,
+        "updatedAt": "2026-09-08T13:01:49Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -83,7 +102,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-07T08:49:43Z"
+        "updatedAt": "2026-09-08T08:31:14Z"
       },
       "issues": [
         {
@@ -197,25 +216,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-09-06T06:02:15Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-linqpad-script",
-      "name": "linqpad-script",
-      "description": "Repository linqpad-script",
-      "repo": "Jackwio/linqpad-script",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/linqpad-script",
-      "repoMeta": {
-        "stars": 1,
-        "forks": 0,
-        "updatedAt": "2026-09-06T05:37:53Z"
       },
       "issues": []
     },
@@ -341,7 +341,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-09-07T14:30:40Z",
+          "updatedAt": "2026-09-08T14:30:43Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3328,5 +3328,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-09-08T08:29:39.609Z"
+  "syncedAt": "2026-09-09T08:32:28.728Z"
 }
