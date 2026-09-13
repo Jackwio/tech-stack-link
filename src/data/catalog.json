@@ -1,6 +1,74 @@
 {
   "projects": [
     {
+      "id": "jackwio-swagger2openapi",
+      "name": "swagger2openapi",
+      "description": "Managed by Terraform",
+      "repo": "Jackwio/swagger2openapi",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/swagger2openapi",
+      "repoMeta": {
+        "stars": 1,
+        "forks": 0,
+        "updatedAt": "2026-09-13T07:03:32Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-excel2markdown",
+      "name": "excel2markdown",
+      "description": "Repository excel2markdown",
+      "repo": "Jackwio/excel2markdown",
+      "stacks": [
+        "html"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/excel2markdown",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-13T06:50:36Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-13T06:47:51Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -15,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-11T22:16:09Z"
+        "updatedAt": "2026-09-12T21:56:28Z"
       },
       "issues": [
         {
@@ -69,32 +137,80 @@
       ]
     },
     {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
+      "id": "jackwio-agy-quota",
+      "name": "agy-quota",
+      "description": "Repository agy-quota",
+      "repo": "Jackwio/agy-quota",
       "stacks": [
-        "skills"
+        "javascript"
       ],
-      "topics": [
-        "skills"
-      ],
+      "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoUrl": "https://github.com/Jackwio/agy-quota",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-11T16:41:27Z"
+        "updatedAt": "2026-09-12T16:05:52Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-12T14:28:27Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-will-git",
+      "name": "will-git",
+      "description": "Repository will-git",
+      "repo": "Jackwio/will-git",
+      "stacks": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "topics": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/will-git",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-12T12:46:45Z"
       },
       "issues": [
         {
+          "number": 2,
+          "title": "指定模型參數",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-21T13:40:20Z",
+          "url": "https://github.com/Jackwio/will-git/issues/2"
+        },
+        {
           "number": 1,
-          "title": "Skills 建立 Prompt",
+          "title": "Prompt",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+          "updatedAt": "2026-04-18T17:47:35Z",
+          "url": "https://github.com/Jackwio/will-git/issues/1"
         }
       ]
     },
@@ -113,7 +229,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-11T08:28:44Z"
+        "updatedAt": "2026-09-12T08:17:11Z"
       },
       "issues": [
         {
@@ -239,25 +355,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-swagger2openapi",
-      "name": "swagger2openapi",
-      "description": "Managed by Terraform",
-      "repo": "Jackwio/swagger2openapi",
-      "stacks": [
-        "javascript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/swagger2openapi",
-      "repoMeta": {
-        "stars": 1,
-        "forks": 0,
-        "updatedAt": "2026-09-05T13:09:08Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-swagger2openapi-extension",
       "name": "swagger2openapi-extension",
       "description": "Repository swagger2openapi-extension",
@@ -360,7 +457,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-09-11T14:31:06Z",
+          "updatedAt": "2026-09-12T14:30:46Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -517,46 +614,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-will-git",
-      "name": "will-git",
-      "description": "Repository will-git",
-      "repo": "Jackwio/will-git",
-      "stacks": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "topics": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/will-git",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-09-02T12:32:55Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "指定模型參數",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-21T13:40:20Z",
-          "url": "https://github.com/Jackwio/will-git/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T17:47:35Z",
-          "url": "https://github.com/Jackwio/will-git/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-macos-app-management",
       "name": "macos-app-management",
       "description": "用來管理自己開發的 MacOS App",
@@ -648,25 +705,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-08-23T09:10:05Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-awesome-mbp",
-      "name": "awesome-MBP",
-      "description": "Repository awesome-MBP",
-      "repo": "Jackwio/awesome-MBP",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-23T08:41:42Z"
       },
       "issues": []
     },
@@ -3347,5 +3385,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-09-12T08:17:04.359Z"
+  "syncedAt": "2026-09-13T08:41:37.529Z"
 }
