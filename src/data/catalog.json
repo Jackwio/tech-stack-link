@@ -1,6 +1,64 @@
 {
   "projects": [
     {
+      "id": "jackwio-copilot-workshop-agent-mode-mcp",
+      "name": "copilot-workshop-agent-mode-mcp",
+      "description": "Repository copilot-workshop-agent-mode-mcp",
+      "repo": "Jackwio/copilot-workshop-agent-mode-mcp",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/copilot-workshop-agent-mode-mcp",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-19T06:30:03Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Exercise: GitHub Copilot 實戰工作坊:Agent Mode × MCP × Agentic Workflows",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-09-19T06:31:39Z",
+          "url": "https://github.com/Jackwio/copilot-workshop-agent-mode-mcp/issues/1"
+        },
+        {
+          "number": 4,
+          "title": "[Enhancement] 希望有「清除所有已完成」按鈕",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-09-19T06:21:41Z",
+          "url": "https://github.com/Jackwio/copilot-workshop-agent-mode-mcp/issues/4"
+        },
+        {
+          "number": 3,
+          "title": "[Bug] 在「已完成」篩選下取消勾選,項目會突然消失",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-09-19T06:17:08Z",
+          "url": "https://github.com/Jackwio/copilot-workshop-agent-mode-mcp/issues/3"
+        },
+        {
+          "number": 2,
+          "title": "[Bug] 重新整理後,篩選條件會跳回「全部」",
+          "state": "OPEN",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-09-19T06:01:18Z",
+          "url": "https://github.com/Jackwio/copilot-workshop-agent-mode-mcp/issues/2"
+        }
+      ]
+    },
+    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -15,7 +73,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-17T22:40:53Z"
+        "updatedAt": "2026-09-18T22:19:21Z"
       },
       "issues": [
         {
@@ -69,6 +127,36 @@
       ]
     },
     {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-18T14:47:20Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -83,7 +171,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-17T09:05:39Z"
+        "updatedAt": "2026-09-18T08:40:03Z"
       },
       "issues": [
         {
@@ -155,7 +243,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-09-17T14:31:14Z",
+          "updatedAt": "2026-09-18T14:31:06Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -369,36 +457,6 @@
         "updatedAt": "2026-09-13T06:50:36Z"
       },
       "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-09-13T06:47:51Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
     },
     {
       "id": "jackwio-agy-quota",
@@ -3385,5 +3443,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-09-18T08:39:56.505Z"
+  "syncedAt": "2026-09-19T08:26:40.996Z"
 }
