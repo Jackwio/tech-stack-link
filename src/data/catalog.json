@@ -1,25 +1,6 @@
 {
   "projects": [
     {
-      "id": "jackwio-linqpad-script",
-      "name": "linqpad-script",
-      "description": "Repository linqpad-script",
-      "repo": "Jackwio/linqpad-script",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/linqpad-script",
-      "repoMeta": {
-        "stars": 1,
-        "forks": 0,
-        "updatedAt": "2026-09-20T03:43:07Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -34,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-09-19T22:07:31Z"
+        "updatedAt": "2026-09-20T22:11:58Z"
       },
       "issues": [
         {
@@ -86,6 +67,138 @@
           "url": "https://github.com/Jackwio/WillClaw/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-20T13:07:27Z"
+      },
+      "issues": [
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-20T09:00:56Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-tech-stack-link",
+      "name": "tech-stack-link",
+      "description": "Repository tech-stack-link",
+      "repo": "Jackwio/tech-stack-link",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-09-20T08:58:29Z"
+      },
+      "issues": [
+        {
+          "number": 4,
+          "title": "專案技術整理",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:47Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
+        },
+        {
+          "number": 5,
+          "title": "將 Github Gist 分類",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-03-07T08:33:38Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
+        },
+        {
+          "number": 2,
+          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
+          "state": "CLOSED",
+          "labels": [
+            "enhancement"
+          ],
+          "updatedAt": "2026-03-07T08:33:29Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
+        },
+        {
+          "number": 3,
+          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
+          "state": "CLOSED",
+          "labels": [
+            "bug"
+          ],
+          "updatedAt": "2026-03-07T08:33:21Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
+        },
+        {
+          "number": 1,
+          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-02-26T19:05:19Z",
+          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-linqpad-script",
+      "name": "linqpad-script",
+      "description": "Repository linqpad-script",
+      "repo": "Jackwio/linqpad-script",
+      "stacks": [
+        "c#"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/linqpad-script",
+      "repoMeta": {
+        "stars": 1,
+        "forks": 0,
+        "updatedAt": "2026-09-20T03:43:07Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-repo-star-tracker",
@@ -158,70 +271,6 @@
       ]
     },
     {
-      "id": "jackwio-tech-stack-link",
-      "name": "tech-stack-link",
-      "description": "Repository tech-stack-link",
-      "repo": "Jackwio/tech-stack-link",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/tech-stack-link",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-09-19T08:26:48Z"
-      },
-      "issues": [
-        {
-          "number": 4,
-          "title": "專案技術整理",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:47Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/4"
-        },
-        {
-          "number": 5,
-          "title": "將 Github Gist 分類",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-03-07T08:33:38Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/5"
-        },
-        {
-          "number": 2,
-          "title": "根據 Repo Tag 決定用到的技術，並抓取進行分類",
-          "state": "CLOSED",
-          "labels": [
-            "enhancement"
-          ],
-          "updatedAt": "2026-03-07T08:33:29Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/2"
-        },
-        {
-          "number": 3,
-          "title": "Daily Catalog Sync 只是同步資料，但不會更新資料，需要在觸發一次 Pages Manual Sync Deploy",
-          "state": "CLOSED",
-          "labels": [
-            "bug"
-          ],
-          "updatedAt": "2026-03-07T08:33:21Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/3"
-        },
-        {
-          "number": 1,
-          "title": "寫一個 Github Pages 快速連結技術架構和 Project",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-02-26T19:05:19Z",
-          "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-copilot-workshop-agent-mode-mcp",
       "name": "copilot-workshop-agent-mode-mcp",
       "description": "Repository copilot-workshop-agent-mode-mcp",
@@ -280,36 +329,6 @@
       ]
     },
     {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-09-18T14:47:20Z"
-      },
-      "issues": [
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-githubclaw",
       "name": "GitHubClaw",
       "description": "Repository GitHubClaw",
@@ -332,7 +351,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-09-19T14:31:07Z",
+          "updatedAt": "2026-09-20T14:31:28Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -468,25 +487,6 @@
           "url": "https://github.com/Jackwio/GitHubClaw/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-awesome-mbp",
-      "name": "awesome-MBP",
-      "description": "Repository awesome-MBP",
-      "repo": "Jackwio/awesome-MBP",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-09-13T12:39:20Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-code2sql-csharp",
@@ -3443,5 +3443,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-09-20T08:58:23.502Z"
+  "syncedAt": "2026-09-21T09:30:02.499Z"
 }
