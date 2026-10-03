@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-01T23:41:20Z"
+        "updatedAt": "2026-10-02T23:33:28Z"
       },
       "issues": [
         {
@@ -69,6 +69,25 @@
       ]
     },
     {
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-02T14:59:50Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -83,7 +102,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-01T10:38:55Z"
+        "updatedAt": "2026-10-02T10:14:16Z"
       },
       "issues": [
         {
@@ -155,7 +174,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-10-01T14:31:10Z",
+          "updatedAt": "2026-10-02T14:31:24Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -348,25 +367,6 @@
           "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-awesome-mbp",
-      "name": "awesome-MBP",
-      "description": "Repository awesome-MBP",
-      "repo": "Jackwio/awesome-MBP",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-09-25T08:19:21Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-repo-star-tracker",
@@ -3451,5 +3451,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-10-02T10:14:09.741Z"
+  "syncedAt": "2026-10-03T09:35:13.272Z"
 }
