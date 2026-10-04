@@ -1,6 +1,31 @@
 {
   "projects": [
     {
+      "id": "jackwio-translate-agent-anywhere",
+      "name": "translate-agent-anywhere",
+      "description": "Repository translate-agent-anywhere",
+      "repo": "Jackwio/translate-agent-anywhere",
+      "stacks": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "topics": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-04T08:17:21Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -15,7 +40,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-02T23:33:28Z"
+        "updatedAt": "2026-10-03T22:41:47Z"
       },
       "issues": [
         {
@@ -69,21 +94,21 @@
       ]
     },
     {
-      "id": "jackwio-awesome-mbp",
-      "name": "awesome-MBP",
-      "description": "Repository awesome-MBP",
-      "repo": "Jackwio/awesome-MBP",
+      "id": "jackwio-notes",
+      "name": "Notes",
+      "description": "Repository Notes",
+      "repo": "Jackwio/Notes",
       "stacks": [
         "unknown"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoUrl": "https://github.com/Jackwio/Notes",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-02T14:59:50Z"
+        "updatedAt": "2026-10-03T14:12:26Z"
       },
       "issues": []
     },
@@ -102,7 +127,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-02T10:14:16Z"
+        "updatedAt": "2026-10-03T09:35:20Z"
       },
       "issues": [
         {
@@ -152,6 +177,25 @@
       ]
     },
     {
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-02T14:59:50Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-githubclaw",
       "name": "GitHubClaw",
       "description": "Repository GitHubClaw",
@@ -174,7 +218,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-10-02T14:31:24Z",
+          "updatedAt": "2026-10-03T14:31:34Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -1029,31 +1073,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-07-11T17:39:05Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-translate-agent-anywhere",
-      "name": "translate-agent-anywhere",
-      "description": "Repository translate-agent-anywhere",
-      "repo": "Jackwio/translate-agent-anywhere",
-      "stacks": [
-        "iced",
-        "menubar-app",
-        "window-tray"
-      ],
-      "topics": [
-        "iced",
-        "menubar-app",
-        "window-tray"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-07-11T14:31:54Z"
       },
       "issues": []
     },
@@ -3451,5 +3470,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-10-03T09:35:13.272Z"
+  "syncedAt": "2026-10-04T10:22:25.202Z"
 }
