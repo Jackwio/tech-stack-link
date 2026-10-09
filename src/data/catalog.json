@@ -1,6 +1,31 @@
 {
   "projects": [
     {
+      "id": "jackwio-translate-agent-anywhere",
+      "name": "translate-agent-anywhere",
+      "description": "Repository translate-agent-anywhere",
+      "repo": "Jackwio/translate-agent-anywhere",
+      "stacks": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "topics": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-09T08:16:28Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -15,7 +40,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-08T00:00:57Z"
+        "updatedAt": "2026-10-09T00:08:30Z"
       },
       "issues": [
         {
@@ -83,7 +108,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-07T10:46:20Z"
+        "updatedAt": "2026-10-08T11:05:27Z"
       },
       "issues": [
         {
@@ -131,31 +156,6 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-translate-agent-anywhere",
-      "name": "translate-agent-anywhere",
-      "description": "Repository translate-agent-anywhere",
-      "repo": "Jackwio/translate-agent-anywhere",
-      "stacks": [
-        "iced",
-        "menubar-app",
-        "window-tray"
-      ],
-      "topics": [
-        "iced",
-        "menubar-app",
-        "window-tray"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-10-04T08:17:21Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-notes",
@@ -218,7 +218,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-10-07T14:31:32Z",
+          "updatedAt": "2026-10-08T14:31:27Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3470,5 +3470,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-10-08T11:05:20.594Z"
+  "syncedAt": "2026-10-09T11:04:20.211Z"
 }
