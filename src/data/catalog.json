@@ -1,29 +1,61 @@
 {
   "projects": [
     {
-      "id": "jackwio-translate-agent-anywhere",
-      "name": "translate-agent-anywhere",
-      "description": "Repository translate-agent-anywhere",
-      "repo": "Jackwio/translate-agent-anywhere",
+      "id": "jackwio-notes",
+      "name": "Notes",
+      "description": "Repository Notes",
+      "repo": "Jackwio/Notes",
       "stacks": [
-        "iced",
-        "menubar-app",
-        "window-tray"
+        "html"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/Notes",
+      "repoMeta": {
+        "stars": 1,
+        "forks": 0,
+        "updatedAt": "2026-10-10T03:19:40Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
       ],
       "topics": [
-        "iced",
-        "menubar-app",
-        "window-tray"
+        "skills"
       ],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-09T08:16:28Z"
+        "updatedAt": "2026-10-10T03:10:00Z"
       },
-      "issues": []
+      "issues": [
+        {
+          "number": 4,
+          "title": "Server IP 對調, DNS 不動",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-09-25T08:20:00Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/4"
+        },
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
+        }
+      ]
     },
     {
       "id": "jackwio-willclaw",
@@ -40,7 +72,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-09T00:08:30Z"
+        "updatedAt": "2026-10-09T23:49:14Z"
       },
       "issues": [
         {
@@ -94,6 +126,128 @@
       ]
     },
     {
+      "id": "jackwio-gitea-deploy",
+      "name": "gitea-deploy",
+      "description": "Repository gitea-deploy",
+      "repo": "Jackwio/gitea-deploy",
+      "stacks": [
+        "makefile"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/gitea-deploy",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-09T14:23:45Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-will-git",
+      "name": "will-git",
+      "description": "Repository will-git",
+      "repo": "Jackwio/will-git",
+      "stacks": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "topics": [
+        "cli",
+        "copilot-sdk"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/will-git",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-09T14:21:24Z"
+      },
+      "issues": [
+        {
+          "number": 2,
+          "title": "指定模型參數",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-04-21T13:40:20Z",
+          "url": "https://github.com/Jackwio/will-git/issues/2"
+        },
+        {
+          "number": 1,
+          "title": "Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-18T17:47:35Z",
+          "url": "https://github.com/Jackwio/will-git/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-sql-script",
+      "name": "sql-script",
+      "description": "Repository sql-script",
+      "repo": "Jackwio/sql-script",
+      "stacks": [
+        "tsql"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/sql-script",
+      "repoMeta": {
+        "stars": 1,
+        "forks": 0,
+        "updatedAt": "2026-10-09T14:21:13Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-translate-agent-anywhere",
+      "name": "translate-agent-anywhere",
+      "description": "Repository translate-agent-anywhere",
+      "repo": "Jackwio/translate-agent-anywhere",
+      "stacks": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "topics": [
+        "iced",
+        "menubar-app",
+        "window-tray"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/translate-agent-anywhere",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-09T14:06:37Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-linqpad-script",
+      "name": "linqpad-script",
+      "description": "Repository linqpad-script",
+      "repo": "Jackwio/linqpad-script",
+      "stacks": [
+        "c#"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/linqpad-script",
+      "repoMeta": {
+        "stars": 1,
+        "forks": 0,
+        "updatedAt": "2026-10-09T13:42:14Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -108,7 +262,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-08T11:05:27Z"
+        "updatedAt": "2026-10-09T11:04:28Z"
       },
       "issues": [
         {
@@ -158,25 +312,6 @@
       ]
     },
     {
-      "id": "jackwio-notes",
-      "name": "Notes",
-      "description": "Repository Notes",
-      "repo": "Jackwio/Notes",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/Notes",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-10-03T14:12:26Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-awesome-mbp",
       "name": "awesome-MBP",
       "description": "Repository awesome-MBP",
@@ -218,7 +353,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-10-08T14:31:27Z",
+          "updatedAt": "2026-10-09T14:31:19Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -352,63 +487,6 @@
           "labels": [],
           "updatedAt": "2026-04-01T13:16:56Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/1"
-        }
-      ]
-    },
-    {
-      "id": "jackwio-linqpad-script",
-      "name": "linqpad-script",
-      "description": "Repository linqpad-script",
-      "repo": "Jackwio/linqpad-script",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/linqpad-script",
-      "repoMeta": {
-        "stars": 1,
-        "forks": 0,
-        "updatedAt": "2026-09-29T12:36:55Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-09-25T08:34:11Z"
-      },
-      "issues": [
-        {
-          "number": 4,
-          "title": "Server IP 對調, DNS 不動",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-09-25T08:20:00Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/4"
-        },
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
     },
@@ -619,46 +697,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-will-git",
-      "name": "will-git",
-      "description": "Repository will-git",
-      "repo": "Jackwio/will-git",
-      "stacks": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "topics": [
-        "cli",
-        "copilot-sdk"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/will-git",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-09-12T12:46:45Z"
-      },
-      "issues": [
-        {
-          "number": 2,
-          "title": "指定模型參數",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-04-21T13:40:20Z",
-          "url": "https://github.com/Jackwio/will-git/issues/2"
-        },
-        {
-          "number": 1,
-          "title": "Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-18T17:47:35Z",
-          "url": "https://github.com/Jackwio/will-git/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-mkdocs-template",
       "name": "MkDocs-Template",
       "description": "Repository MkDocs-Template",
@@ -674,25 +712,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-09-09T13:59:53Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-sql-script",
-      "name": "sql-script",
-      "description": "Repository sql-script",
-      "repo": "Jackwio/sql-script",
-      "stacks": [
-        "makefile"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/sql-script",
-      "repoMeta": {
-        "stars": 1,
-        "forks": 0,
-        "updatedAt": "2026-09-06T08:54:33Z"
       },
       "issues": []
     },
@@ -849,25 +868,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-08-29T12:53:31Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-gitea-deploy",
-      "name": "gitea-deploy",
-      "description": "Repository gitea-deploy",
-      "repo": "Jackwio/gitea-deploy",
-      "stacks": [
-        "makefile"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/gitea-deploy",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-25T14:51:38Z"
       },
       "issues": []
     },
@@ -3470,5 +3470,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-10-09T11:04:20.211Z"
+  "syncedAt": "2026-10-10T10:21:45.715Z"
 }
