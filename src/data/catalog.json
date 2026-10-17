@@ -1,6 +1,44 @@
 {
   "projects": [
     {
+      "id": "jackwio-browser-agent",
+      "name": "browser-agent",
+      "description": "Repository browser-agent",
+      "repo": "Jackwio/browser-agent",
+      "stacks": [
+        "javascript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/browser-agent",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-17T07:24:16Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-linqpad-script",
+      "name": "linqpad-script",
+      "description": "Repository linqpad-script",
+      "repo": "Jackwio/linqpad-script",
+      "stacks": [
+        "c#"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/linqpad-script",
+      "repoMeta": {
+        "stars": 1,
+        "forks": 0,
+        "updatedAt": "2026-10-17T05:54:42Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -15,7 +53,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-15T22:53:49Z"
+        "updatedAt": "2026-10-16T22:32:56Z"
       },
       "issues": [
         {
@@ -83,7 +121,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-15T08:45:11Z"
+        "updatedAt": "2026-10-16T08:40:33Z"
       },
       "issues": [
         {
@@ -371,25 +409,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-linqpad-script",
-      "name": "linqpad-script",
-      "description": "Repository linqpad-script",
-      "repo": "Jackwio/linqpad-script",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/linqpad-script",
-      "repoMeta": {
-        "stars": 1,
-        "forks": 0,
-        "updatedAt": "2026-10-09T13:42:14Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-githubclaw",
       "name": "GitHubClaw",
       "description": "Repository GitHubClaw",
@@ -412,7 +431,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-10-15T14:31:38Z",
+          "updatedAt": "2026-10-16T14:31:07Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3489,5 +3508,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-10-16T08:40:26.458Z"
+  "syncedAt": "2026-10-17T08:11:17.182Z"
 }
