@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-19T23:19:12Z"
+        "updatedAt": "2026-10-20T22:56:11Z"
       },
       "issues": [
         {
@@ -69,44 +69,6 @@
       ]
     },
     {
-      "id": "jackwio-oh-my-skills",
-      "name": "oh-my-skills",
-      "description": "Repository oh-my-skills",
-      "repo": "Jackwio/oh-my-skills",
-      "stacks": [
-        "skills"
-      ],
-      "topics": [
-        "skills"
-      ],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-10-19T12:05:10Z"
-      },
-      "issues": [
-        {
-          "number": 4,
-          "title": "Server IP 對調, DNS 不動",
-          "state": "CLOSED",
-          "labels": [],
-          "updatedAt": "2026-09-25T08:20:00Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/4"
-        },
-        {
-          "number": 1,
-          "title": "Skills 建立 Prompt",
-          "state": "OPEN",
-          "labels": [],
-          "updatedAt": "2026-04-05T02:41:08Z",
-          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
-        }
-      ]
-    },
-    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -121,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-19T09:30:18Z"
+        "updatedAt": "2026-10-20T09:03:23Z"
       },
       "issues": [
         {
@@ -167,6 +129,44 @@
           "labels": [],
           "updatedAt": "2026-02-26T19:05:19Z",
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
+        }
+      ]
+    },
+    {
+      "id": "jackwio-oh-my-skills",
+      "name": "oh-my-skills",
+      "description": "Repository oh-my-skills",
+      "repo": "Jackwio/oh-my-skills",
+      "stacks": [
+        "skills"
+      ],
+      "topics": [
+        "skills"
+      ],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/oh-my-skills",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-19T12:05:10Z"
+      },
+      "issues": [
+        {
+          "number": 4,
+          "title": "Server IP 對調, DNS 不動",
+          "state": "CLOSED",
+          "labels": [],
+          "updatedAt": "2026-09-25T08:20:00Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/4"
+        },
+        {
+          "number": 1,
+          "title": "Skills 建立 Prompt",
+          "state": "OPEN",
+          "labels": [],
+          "updatedAt": "2026-04-05T02:41:08Z",
+          "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
     },
@@ -454,7 +454,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-10-19T14:31:04Z",
+          "updatedAt": "2026-10-20T14:31:09Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3508,5 +3508,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-10-20T09:03:12.659Z"
+  "syncedAt": "2026-10-21T09:02:38.116Z"
 }
