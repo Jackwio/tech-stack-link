@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-23T08:22:01Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -15,7 +34,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-21T23:01:25Z"
+        "updatedAt": "2026-10-22T22:57:53Z"
       },
       "issues": [
         {
@@ -83,7 +102,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-21T09:02:45Z"
+        "updatedAt": "2026-10-22T09:05:19Z"
       },
       "issues": [
         {
@@ -247,25 +266,6 @@
         "stars": 1,
         "forks": 0,
         "updatedAt": "2026-10-17T05:54:42Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-awesome-mbp",
-      "name": "awesome-MBP",
-      "description": "Repository awesome-MBP",
-      "repo": "Jackwio/awesome-MBP",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-10-13T14:38:16Z"
       },
       "issues": []
     },
@@ -454,7 +454,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-10-21T14:49:23Z",
+          "updatedAt": "2026-10-22T14:36:00Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3508,5 +3508,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-10-22T09:05:12.168Z"
+  "syncedAt": "2026-10-23T08:59:56.101Z"
 }
