@@ -1,21 +1,21 @@
 {
   "projects": [
     {
-      "id": "jackwio-awesome-mbp",
-      "name": "awesome-MBP",
-      "description": "Repository awesome-MBP",
-      "repo": "Jackwio/awesome-MBP",
+      "id": "jackwio-browser-agent",
+      "name": "browser-agent",
+      "description": "Repository browser-agent",
+      "repo": "Jackwio/browser-agent",
       "stacks": [
-        "unknown"
+        "typescript"
       ],
       "topics": [],
       "tags": [],
       "links": [],
-      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoUrl": "https://github.com/Jackwio/browser-agent",
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-23T08:22:01Z"
+        "updatedAt": "2026-10-24T07:00:38Z"
       },
       "issues": []
     },
@@ -34,7 +34,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-22T22:57:53Z"
+        "updatedAt": "2026-10-23T22:54:21Z"
       },
       "issues": [
         {
@@ -102,7 +102,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-22T09:05:19Z"
+        "updatedAt": "2026-10-23T09:00:03Z"
       },
       "issues": [
         {
@@ -152,6 +152,25 @@
       ]
     },
     {
+      "id": "jackwio-awesome-mbp",
+      "name": "awesome-MBP",
+      "description": "Repository awesome-MBP",
+      "repo": "Jackwio/awesome-MBP",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/awesome-MBP",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-23T08:22:01Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-oh-my-skills",
       "name": "oh-my-skills",
       "description": "Repository oh-my-skills",
@@ -188,25 +207,6 @@
           "url": "https://github.com/Jackwio/oh-my-skills/issues/1"
         }
       ]
-    },
-    {
-      "id": "jackwio-browser-agent",
-      "name": "browser-agent",
-      "description": "Repository browser-agent",
-      "repo": "Jackwio/browser-agent",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/browser-agent",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-10-18T06:27:28Z"
-      },
-      "issues": []
     },
     {
       "id": "jackwio-mtgit",
@@ -454,7 +454,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-10-22T14:36:00Z",
+          "updatedAt": "2026-10-23T14:31:34Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3508,5 +3508,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-10-23T08:59:56.101Z"
+  "syncedAt": "2026-10-24T08:33:39.836Z"
 }
