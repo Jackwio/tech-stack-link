@@ -1,25 +1,6 @@
 {
   "projects": [
     {
-      "id": "jackwio-browser-agent",
-      "name": "browser-agent",
-      "description": "Repository browser-agent",
-      "repo": "Jackwio/browser-agent",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/browser-agent",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-10-24T07:00:38Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-willclaw",
       "name": "WillClaw",
       "description": "WillLinClaw — managed by GitHubClaw",
@@ -34,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-23T22:54:21Z"
+        "updatedAt": "2026-10-24T22:14:46Z"
       },
       "issues": [
         {
@@ -102,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-23T09:00:03Z"
+        "updatedAt": "2026-10-24T08:33:46Z"
       },
       "issues": [
         {
@@ -150,6 +131,25 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-browser-agent",
+      "name": "browser-agent",
+      "description": "Repository browser-agent",
+      "repo": "Jackwio/browser-agent",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/browser-agent",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-24T07:00:38Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-awesome-mbp",
@@ -454,7 +454,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-10-23T14:31:34Z",
+          "updatedAt": "2026-10-24T14:31:29Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3508,5 +3508,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-10-24T08:33:39.836Z"
+  "syncedAt": "2026-10-25T08:52:27.957Z"
 }
