@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-25T22:18:12Z"
+        "updatedAt": "2026-10-26T23:34:43Z"
       },
       "issues": [
         {
@@ -69,25 +69,6 @@
       ]
     },
     {
-      "id": "jackwio-file-encrypt",
-      "name": "file-encrypt",
-      "description": "Repository file-encrypt",
-      "repo": "Jackwio/file-encrypt",
-      "stacks": [
-        "rust"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/file-encrypt",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-10-25T13:47:35Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -102,7 +83,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-10-25T08:52:34Z"
+        "updatedAt": "2026-10-26T09:34:03Z"
       },
       "issues": [
         {
@@ -150,6 +131,25 @@
           "url": "https://github.com/Jackwio/tech-stack-link/issues/1"
         }
       ]
+    },
+    {
+      "id": "jackwio-file-encrypt",
+      "name": "file-encrypt",
+      "description": "Repository file-encrypt",
+      "repo": "Jackwio/file-encrypt",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/file-encrypt",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-10-25T13:47:35Z"
+      },
+      "issues": []
     },
     {
       "id": "jackwio-browser-agent",
@@ -473,7 +473,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-10-25T14:31:35Z",
+          "updatedAt": "2026-10-26T14:31:49Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3527,5 +3527,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-10-26T09:33:56.289Z"
+  "syncedAt": "2026-10-27T09:30:51.467Z"
 }
