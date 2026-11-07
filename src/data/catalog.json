@@ -15,7 +15,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-11-06T00:45:06Z"
+        "updatedAt": "2026-11-06T23:57:28Z"
       },
       "issues": [
         {
@@ -69,6 +69,63 @@
       ]
     },
     {
+      "id": "jackwio-linqpad-script",
+      "name": "linqpad-script",
+      "description": "Repository linqpad-script",
+      "repo": "Jackwio/linqpad-script",
+      "stacks": [
+        "c#"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/linqpad-script",
+      "repoMeta": {
+        "stars": 1,
+        "forks": 0,
+        "updatedAt": "2026-11-06T15:15:30Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-browser-agent",
+      "name": "browser-agent",
+      "description": "Repository browser-agent",
+      "repo": "Jackwio/browser-agent",
+      "stacks": [
+        "typescript"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/browser-agent",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-11-06T14:20:07Z"
+      },
+      "issues": []
+    },
+    {
+      "id": "jackwio-regex-for-grepwin",
+      "name": "regex-for-grepwin",
+      "description": "Repository regex-for-grepwin",
+      "repo": "Jackwio/regex-for-grepwin",
+      "stacks": [
+        "html"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/regex-for-grepwin",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-11-06T13:36:32Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -83,7 +140,7 @@
       "repoMeta": {
         "stars": 0,
         "forks": 0,
-        "updatedAt": "2026-11-05T11:45:53Z"
+        "updatedAt": "2026-11-06T11:43:50Z"
       },
       "issues": [
         {
@@ -190,25 +247,6 @@
       "issues": []
     },
     {
-      "id": "jackwio-linqpad-script",
-      "name": "linqpad-script",
-      "description": "Repository linqpad-script",
-      "repo": "Jackwio/linqpad-script",
-      "stacks": [
-        "c#"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/linqpad-script",
-      "repoMeta": {
-        "stars": 1,
-        "forks": 0,
-        "updatedAt": "2026-10-31T15:10:28Z"
-      },
-      "issues": []
-    },
-    {
       "id": "jackwio-sync-to-cloud",
       "name": "sync-to-cloud",
       "description": "Repository sync-to-cloud",
@@ -243,25 +281,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-10-25T13:47:35Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-browser-agent",
-      "name": "browser-agent",
-      "description": "Repository browser-agent",
-      "repo": "Jackwio/browser-agent",
-      "stacks": [
-        "typescript"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/browser-agent",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-10-24T07:00:38Z"
       },
       "issues": []
     },
@@ -511,7 +530,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-11-05T14:31:35Z",
+          "updatedAt": "2026-11-06T14:30:54Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3565,5 +3584,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-11-06T11:43:41.530Z"
+  "syncedAt": "2026-11-07T10:50:26.015Z"
 }
