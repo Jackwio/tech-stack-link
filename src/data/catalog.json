@@ -530,7 +530,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-11-20T14:31:06Z",
+          "updatedAt": "2026-11-21T14:30:46Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -1007,25 +1007,6 @@
         "stars": 0,
         "forks": 0,
         "updatedAt": "2026-09-02T11:42:04Z"
-      },
-      "issues": []
-    },
-    {
-      "id": "jackwio-hooks",
-      "name": "Hooks",
-      "description": "Repository Hooks",
-      "repo": "Jackwio/Hooks",
-      "stacks": [
-        "unknown"
-      ],
-      "topics": [],
-      "tags": [],
-      "links": [],
-      "repoUrl": "https://github.com/Jackwio/Hooks",
-      "repoMeta": {
-        "stars": 0,
-        "forks": 0,
-        "updatedAt": "2026-08-29T12:53:31Z"
       },
       "issues": []
     },
@@ -3584,5 +3565,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-11-21T11:58:19.036Z"
+  "syncedAt": "2026-11-22T12:11:44.802Z"
 }
