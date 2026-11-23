@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id": "jackwio-wnotify",
+      "name": "wnotify",
+      "description": "Repository wnotify",
+      "repo": "Jackwio/wnotify",
+      "stacks": [
+        "rust"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/wnotify",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-11-22T13:15:59Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-tech-stack-link",
       "name": "tech-stack-link",
       "description": "Repository tech-stack-link",
@@ -530,7 +549,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-11-21T14:30:46Z",
+          "updatedAt": "2026-11-22T14:31:05Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3565,5 +3584,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-11-22T12:11:44.802Z"
+  "syncedAt": "2026-11-23T13:56:07.882Z"
 }
