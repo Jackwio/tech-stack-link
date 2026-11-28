@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id": "jackwio-food-map",
+      "name": "food-map",
+      "description": "Repository food-map",
+      "repo": "Jackwio/food-map",
+      "stacks": [
+        "unknown"
+      ],
+      "topics": [],
+      "tags": [],
+      "links": [],
+      "repoUrl": "https://github.com/Jackwio/food-map",
+      "repoMeta": {
+        "stars": 0,
+        "forks": 0,
+        "updatedAt": "2026-11-28T10:03:58Z"
+      },
+      "issues": []
+    },
+    {
       "id": "jackwio-wnotify",
       "name": "wnotify",
       "description": "Repository wnotify",
@@ -549,7 +568,7 @@
           "title": "GitHub Trending Repo",
           "state": "OPEN",
           "labels": [],
-          "updatedAt": "2026-11-26T14:30:42Z",
+          "updatedAt": "2026-11-27T14:30:45Z",
           "url": "https://github.com/Jackwio/GitHubClaw/issues/7"
         },
         {
@@ -3584,5 +3603,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-11-27T13:23:25.170Z"
+  "syncedAt": "2026-11-28T12:38:21.717Z"
 }
